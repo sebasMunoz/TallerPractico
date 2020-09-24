@@ -1,4 +1,4 @@
-﻿Log file open, 09/24/20 09:24:27
+﻿Log file open, 09/24/20 18:21:43
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: TallerPractico
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1487514639) SRandInit(-1487514639).
+LogInit: Display: RandInit(-1250243722) SRandInit(-1250243722).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.316322
+LogStats: Stats thread started at 0.320423
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -196,714 +196,583 @@ LogInit: Base directory: D:/EpicGames/Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2020.09.24-14.24.30:236][  0]LogInit: Selected Device Profile: [Windows]
-[2020.09.24-14.24.30:236][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.09.24-14.24.30:248][  0]LogInit: Computer: SEBASTIANMUÑOZV
-[2020.09.24-14.24.30:249][  0]LogInit: User: Sebastian
-[2020.09.24-14.24.30:249][  0]LogInit: CPU Page size=4096, Cores=6
-[2020.09.24-14.24.30:249][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.09.24-14.24.30:249][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2020.09.24-14.24.30:249][  0]LogMemory: Platform Memory Stats for Windows
-[2020.09.24-14.24.30:249][  0]LogMemory: Process Physical Memory: 275.67 MB used, 275.67 MB peak
-[2020.09.24-14.24.30:249][  0]LogMemory: Process Virtual Memory: 270.28 MB used, 270.28 MB peak
-[2020.09.24-14.24.30:249][  0]LogMemory: Physical Memory: 5607.50 MB used,  10718.84 MB free, 16326.34 MB total
-[2020.09.24-14.24.30:249][  0]LogMemory: Virtual Memory: 4769.38 MB used,  10718.84 MB free, 134217728.00 MB total
-[2020.09.24-14.24.30:801][  0]LogInit: Overriding language with editor language configuration option (en).
-[2020.09.24-14.24.30:801][  0]LogInit: Overriding locale with editor locale configuration option (en).
-[2020.09.24-14.24.31:108][  0]LogInit: Setting process to per monitor DPI aware
-[2020.09.24-14.24.31:524][  0]LogD3D11RHI: D3D11 adapters:
-[2020.09.24-14.24.31:615][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060 SUPER' (Feature Level 11_0)
-[2020.09.24-14.24.31:615][  0]LogD3D11RHI:       8031/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2020.09.24-14.24.31:618][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.09.24-14.24.31:618][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.09.24-14.24.31:618][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.09.24-14.24.31:623][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.09.24-14.24.31:623][  0]LogD3D11RHI:     GPU DeviceId: 0x1f06 (for the marketing name, search the web for "GPU Device Id")
-[2020.09.24-14.24.31:623][  0]LogWindows: EnumDisplayDevices:
-[2020.09.24-14.24.31:623][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2060 SUPER' (P:1 D:1)
-[2020.09.24-14.24.31:623][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2060 SUPER' (P:0 D:1)
-[2020.09.24-14.24.31:623][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2060 SUPER' (P:0 D:0)
-[2020.09.24-14.24.31:623][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060 SUPER' (P:0 D:0)
-[2020.09.24-14.24.31:623][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2020.09.24-14.24.31:623][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060 SUPER
-[2020.09.24-14.24.31:623][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2020.09.24-14.24.31:623][  0]LogD3D11RHI:      Driver Date: Unknown
-[2020.09.24-14.24.31:623][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
-[2020.09.24-14.24.31:678][  0]LogD3D11RHI: Async texture creation enabled
-[2020.09.24-14.24.31:689][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.09.24-14.24.31:692][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Intermediate/Shaders/WorkingDirectory/15032/).
-[2020.09.24-14.24.31:692][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Sebastian/AppData/Local/Temp/UnrealShaderWorkingDir/51C1425946B5D25176829C94818DBD54/'.
-[2020.09.24-14.24.31:692][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.09.24-14.24.32:790][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2020.09.24-14.24.32:935][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2020.09.24-14.24.33:081][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2020.09.24-14.24.33:231][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2020.09.24-14.24.33:376][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2020.09.24-14.24.33:521][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2020.09.24-14.24.33:666][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2020.09.24-14.24.33:810][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2020.09.24-14.24.33:951][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2020.09.24-14.24.34:097][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2020.09.24-14.24.34:243][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2020.09.24-14.24.34:388][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2020.09.24-14.24.34:533][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2020.09.24-14.24.34:679][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2020.09.24-14.24.34:970][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2020.09.24-14.24.34:970][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2020.09.24-14.24.35:115][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.09.24-14.24.35:253][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2020.09.24-14.24.35:484][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2020.09.24-14.24.35:562][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2020.09.24-14.24.35:708][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2020.09.24-14.24.35:857][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2020.09.24-14.24.36:002][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2020.09.24-14.24.36:148][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2020.09.24-14.24.36:149][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.09.24-14.24.37:661][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.09.24-14.24.37:729][  0]LogDerivedDataCache: Loaded boot cache 0.07s 78MB C:/Users/Sebastian/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2020.09.24-14.24.37:729][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Sebastian/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2020.09.24-14.24.37:729][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.09.24-14.24.37:729][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.09.24-14.24.37:729][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.09.24-14.24.37:729][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.09.24-14.24.37:741][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.09.24-14.24.37:755][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Sebastian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.09.24-14.24.37:770][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.09.24-14.24.37:771][  0]LogSlate: Using Freetype 2.6.0
-[2020.09.24-14.24.37:772][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.09.24-14.24.37:772][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.09.24-14.24.38:158][  0]LogInit: Selected Device Profile: [Windows]
-[2020.09.24-14.24.38:957][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2020.09.24-14.24.39:098][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2020.09.24-14.24.39:098][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.09.24-14.24.39:098][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2020.09.24-14.24.39:098][  0]LogMeshReduction: No automatic mesh merging module available
-[2020.09.24-14.24.39:098][  0]LogMeshMerging: No automatic mesh merging module available
-[2020.09.24-14.24.39:128][  0]LogNetVersion: TallerPractico , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 120631222)
-[2020.09.24-14.24.39:382][  0]LogAssetRegistry: FAssetRegistry took 0.0258 seconds to start up
-[2020.09.24-14.24.40:009][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.039792 seconds
-[2020.09.24-14.24.40:013][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2020.09.24-14.24.40:013][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
-[2020.09.24-14.24.40:013][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.09.24-14.24.40:199][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2020.09.24-14.24.46:128][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.09.24-14.24.46:223][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.09.24-14.24.47:999][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2020.09.24-14.24.49:100][  0]SourceControl: Source control is disabled
-[2020.09.24-14.24.49:100][  0]SourceControl: Source control is disabled
-[2020.09.24-14.24.49:256][  0]SourceControl: Source control is disabled
-[2020.09.24-14.24.49:411][  0]SourceControl: Source control is disabled
-[2020.09.24-14.24.51:766][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.09.24-14.24.52:544][  0]LogOcInput: OculusInput pre-init called
-[2020.09.24-14.24.53:337][  0]LogEngine: Initializing Engine...
-[2020.09.24-14.24.53:340][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.09.24-14.24.53:528][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2020.09.24-14.24.53:528][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2020.09.24-14.24.53:951][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.09.24-14.24.53:971][  0]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2020.09.24-14.24.53:999][  0]LogInit: FAudioDevice initialized.
-[2020.09.24-14.24.54:115][  0]LogDerivedDataCache: Saved boot cache 0.12s 78MB C:/Users/Sebastian/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2020.09.24-14.24.54:132][  0]LogInit: Texture streaming: Enabled
-[2020.09.24-14.24.54:477][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.09.24-14.24.54:903][  0]LogInit: Transaction tracking system initialized
-[2020.09.24-14.24.55:958][  0]BlueprintLog: New page: Editor Load
-[2020.09.24-14.24.58:934][  0]LocalizationService: Localization service is disabled
-[2020.09.24-14.25.01:303][  0]LogConsoleResponse: Display: 
-[2020.09.24-14.25.01:543][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.09.24-14.25.01:543][  0]LogCook: Display: Mobile HDR setting 1
-[2020.09.24-14.25.01:543][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2020.09.24-14.25.01:713][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/' took 0.01s
-[2020.09.24-14.25.05:135][  0]SourceControl: Source control is disabled
-[2020.09.24-14.25.05:136][  0]Cmd: MAP LOAD FILE="C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.09.24-14.25.05:136][  0]LightingResults: New page: Lighting Build
-[2020.09.24-14.25.05:274][  0]MapCheck: New page: Map Check
-[2020.09.24-14.25.05:275][  0]LightingResults: New page: Lighting Build
-[2020.09.24-14.25.06:364][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2020.09.24-14.25.06:453][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.09.24-14.25.06:481][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.09.24-14.25.06:563][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 82.678ms to complete.
-[2020.09.24-14.25.06:563][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.427
-[2020.09.24-14.25.06:972][  0]LogCollectionManager: Loaded 0 collections in 0.000891 seconds
-[2020.09.24-14.25.07:204][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/Collections/' took 0.01s
-[2020.09.24-14.25.07:204][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/Developers/Sebastian/Collections/' took 0.01s
-[2020.09.24-14.25.07:204][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/Collections/' took 0.01s
-[2020.09.24-14.25.07:204][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2020.09.24-14.25.07:212][  0]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 2363 classes and 519 folders.
-[2020.09.24-14.25.07:474][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.09.24-14.25.08:440][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2020.09.24-14.25.08:629][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2020.09.24-14.25.08:867][  0]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.09.24-14.25.08:878][  0]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.09.24-14.25.08:907][  0]LogSlate: Took 0.015095 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.09.24-14.25.09:257][  0]LogRenderer: Reallocating scene render targets to support 1208x600 Format 10 NumSamples 1 (Frame:1).
-[2020.09.24-14.25.09:607][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2020.09.24-14.25.09:607][  0]LogLoad: (Engine Initialization) Total time: 43.41 seconds
-[2020.09.24-14.25.09:607][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.09.24-14.25.09:607][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2020.09.24-14.25.09:631][  0]LogAssetRegistry: Asset discovery search completed in 30.2712 seconds
-[2020.09.24-14.25.09:632][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2020.09.24-14.25.09:632][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
-[2020.09.24-14.25.09:645][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.09.24-14.25.09:769][  0]LogSlate: Took 0.014740 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2020.09.24-14.27.43:643][724]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2020.09.24-14.27.44:267][724]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
-[2020.09.24-14.27.44:953][724]LogSlate: Took 0.000199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.09.24-14.27.45:337][724]LogSlate: Took 0.020813 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2020.09.24-14.27.45:931][725]LogSlate: Took 0.013141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2020.09.24-14.30.07:330][898]BlueprintLog: New page: Compile RBulletBP
-[2020.09.24-14.30.09:993][187]LogTemp: Repeating last play command: Selected Viewport
-[2020.09.24-14.30.10:035][187]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2020.09.24-14.30.10:047][187]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.09.24-14.30.10:078][187]PIE: New page: PIE session: FirstPersonExampleMap (Sep 24, 2020, 4:30:10 AM)
-[2020.09.24-14.30.10:078][187]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2020.09.24-14.30.10:121][187]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042223s)
-[2020.09.24-14.30.10:122][187]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2020.09.24-14.30.10:122][187]LogPlayLevel: PIE: World Init took: (0.001424s)
-[2020.09.24-14.30.10:123][187]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.044100s)
-[2020.09.24-14.30.10:177][187]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2020.09.24-14.30.10:194][187]LogInit: FAudioDevice initialized.
-[2020.09.24-14.30.10:248][187]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2020.09.24-14.30.10:278][187]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.09.24-09.30.10
-[2020.09.24-14.30.10:278][187]LogWorld: Bringing up level for play took: 0.018434
-[2020.09.24-14.30.10:507][187]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 11 classes and 0 folders.
-[2020.09.24-14.30.10:520][187]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_0.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.30.10:520][187]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_0.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.30.10:521][187]PIE: Warning: ConeRBP_C_0.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
-[2020.09.24-14.30.10:521][187]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_0.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.30.10:521][187]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_0.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.30.10:521][187]PIE: Warning: ConeYBP_C_0.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
-[2020.09.24-14.30.10:521][187]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.027
-[2020.09.24-14.30.10:521][187]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2020.09.24-14.30.13:405][518]LogBlueprintUserMessages: [RBulletBP_C_0] bai
-[2020.09.24-14.30.14:238][618]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_1.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.30.14:238][618]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_1.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.30.14:238][618]PIE: Warning: ConeRBP_C_1.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
-[2020.09.24-14.30.14:238][618]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_1.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.30.14:238][618]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_1.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.30.14:238][618]PIE: Warning: ConeYBP_C_1.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
-[2020.09.24-14.30.18:239][ 98]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_2.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.30.18:239][ 98]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_2.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.30.18:239][ 98]PIE: Warning: ConeRBP_C_2.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
-[2020.09.24-14.30.18:239][ 98]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_2.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.30.18:239][ 98]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_2.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.30.18:239][ 98]PIE: Warning: ConeYBP_C_2.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
-[2020.09.24-14.30.19:489][248]LogBlueprintUserMessages: [RBulletBP_C_3] bai
-[2020.09.24-14.30.19:581][259]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2020.09.24-14.30.19:616][259]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2020.09.24-14.30.41:123][811]LogSlate: Took 0.017297 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
-[2020.09.24-14.30.45:739][361]BlueprintLog: New page: Compile RBulletBP
-[2020.09.24-14.31.03:918][505]BlueprintLog: New page: Compile RBulletBP
-[2020.09.24-14.31.11:472][384]LogTemp: Repeating last play command: Selected Viewport
-[2020.09.24-14.31.11:481][384]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2020.09.24-14.31.11:482][384]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.09.24-14.31.11:482][384]PIE: New page: PIE session: FirstPersonExampleMap (Sep 24, 2020, 4:31:11 AM)
-[2020.09.24-14.31.11:482][384]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2020.09.24-14.31.11:495][384]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013517s)
-[2020.09.24-14.31.11:497][384]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2020.09.24-14.31.11:497][384]LogPlayLevel: PIE: World Init took: (0.001524s)
-[2020.09.24-14.31.11:497][384]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.015345s)
-[2020.09.24-14.31.11:527][384]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2020.09.24-14.31.11:544][384]LogInit: FAudioDevice initialized.
-[2020.09.24-14.31.11:590][384]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2020.09.24-14.31.11:596][384]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.09.24-09.31.11
-[2020.09.24-14.31.11:597][384]LogWorld: Bringing up level for play took: 0.004009
-[2020.09.24-14.31.11:599][384]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_0.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.31.11:599][384]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_0.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.31.11:599][384]PIE: Warning: ConeRBP_C_0.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
-[2020.09.24-14.31.11:600][384]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_0.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.31.11:600][384]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_0.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.31.11:600][384]PIE: Warning: ConeYBP_C_0.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
-[2020.09.24-14.31.11:600][384]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.051
-[2020.09.24-14.31.11:601][384]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2020.09.24-14.31.14:681][750]LogBlueprintUserMessages: [RBulletBP_C_1] bai
-[2020.09.24-14.31.15:464][844]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_1.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.31.15:464][844]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_1.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.31.15:464][844]PIE: Warning: ConeRBP_C_1.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
-[2020.09.24-14.31.15:464][844]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_1.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.31.15:464][844]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_1.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.31.15:464][844]PIE: Warning: ConeYBP_C_1.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
-[2020.09.24-14.31.16:198][932]LogBlueprintUserMessages: [RBulletBP_C_2] bai
-[2020.09.24-14.31.17:764][120]LogBlueprintUserMessages: [RBulletBP_C_3] bai
-[2020.09.24-14.31.19:464][324]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_2.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.31.19:464][324]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_2.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.31.19:464][324]PIE: Warning: ConeRBP_C_2.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
-[2020.09.24-14.31.19:464][324]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_2.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.31.19:464][324]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_2.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.31.19:464][324]PIE: Warning: ConeYBP_C_2.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
-[2020.09.24-14.31.19:939][381]LogBlueprintUserMessages: [RBulletBP_C_4] bai
-[2020.09.24-14.31.21:239][537]LogBlueprintUserMessages: [RBulletBP_C_5] bai
-[2020.09.24-14.31.22:740][717]LogBlueprintUserMessages: [RBulletBP_C_6] bai
-[2020.09.24-14.31.23:465][804]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_3.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.31.23:465][804]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_3.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.31.23:465][804]PIE: Warning: ConeRBP_C_3.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
-[2020.09.24-14.31.23:465][804]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_3.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.31.23:465][804]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_3.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.31.23:465][804]PIE: Warning: ConeYBP_C_3.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
-[2020.09.24-14.31.26:014][110]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2020.09.24-14.31.26:049][110]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2020.09.24-14.31.55:600][610]BlueprintLog: New page: Compile YBulletBP
-[2020.09.24-14.33.08:423][290]BlueprintLog: New page: Compile RBulletBP
-[2020.09.24-14.33.10:250][481]BlueprintLog: New page: Compile YBulletBP
-[2020.09.24-14.35.47:254][285]BlueprintLog: New page: Compile RBulletBP
-[2020.09.24-14.35.48:641][332]LogSavePackage: Save=38.71ms
-[2020.09.24-14.35.48:641][332]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/RBulletBP1AE5D67941CB4C63108930B0700C37EA.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/RBulletBP.uasset'
-[2020.09.24-14.35.48:646][332]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/RBulletBP.uasset
-[2020.09.24-14.36.04:720][258]BlueprintLog: New page: Compile YBulletBP
-[2020.09.24-14.36.16:577][651]BlueprintLog: New page: Compile RBulletBP
-[2020.09.24-14.36.28:156][ 12]BlueprintLog: New page: Compile YBulletBP
-[2020.09.24-14.36.29:077][ 87]LogSavePackage: Save=27.29ms
-[2020.09.24-14.36.29:077][ 87]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/YBulletBPC994A41F470FEC625C2A388E2135AC31.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/YBulletBP.uasset'
-[2020.09.24-14.36.29:081][ 87]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/YBulletBP.uasset
-[2020.09.24-14.36.29:987][195]BlueprintLog: New page: Compile RBulletBP
-[2020.09.24-14.36.30:617][236]LogSavePackage: Save=26.55ms
-[2020.09.24-14.36.30:617][236]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/RBulletBP08A64989488705A5A2C8ACB708CB1ADF.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/RBulletBP.uasset'
-[2020.09.24-14.36.30:621][236]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/RBulletBP.uasset
-[2020.09.24-14.36.31:938][365]LogSavePackage: Save=167.37ms
-[2020.09.24-14.36.31:938][365]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/FirstPersonExampleMapDA3E51534EBD03697D18CBA8CD72F69B.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2020.09.24-14.36.31:943][365]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
-[2020.09.24-14.36.32:800][365]LogSavePackage: Save=708.04ms
-[2020.09.24-14.36.32:800][365]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/FirstPersonExampleMap_BuiltData4C15068E444F9FFF89F2FEBE63619814.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2020.09.24-14.36.32:807][365]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
-[2020.09.24-14.36.35:062][621]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2020.09.24-14.37.18:025][766]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2020.09.24-14.38.35:724][ 32]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint)
-[2020.09.24-14.38.38:750][380]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint2)
-[2020.09.24-14.38.43:420][893]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint3)
-[2020.09.24-14.39.21:348][187]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint2)
-[2020.09.24-14.39.24:135][496]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint3)
-[2020.09.24-14.39.28:913][ 26]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint4)
-[2020.09.24-14.39.30:067][155]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
-[2020.09.24-14.39.31:608][328]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint4)
-[2020.09.24-14.39.35:775][823]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint2)
-[2020.09.24-14.39.41:482][458]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint4)
-[2020.09.24-14.39.48:376][208]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint)
-[2020.09.24-14.39.58:316][377]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint)
-[2020.09.24-14.41.01:466][827]BlueprintLog: New page: Compile FirstPersonExampleMap
-[2020.09.24-14.41.37:870][175]BlueprintLog: New page: Compile FirstPersonExampleMap
-[2020.09.24-14.41.38:894][253]LogSavePackage: Save=150.17ms
-[2020.09.24-14.41.38:894][253]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/FirstPersonExampleMapEB8CE2B848DA7B5441DDD89E3662A0BF.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2020.09.24-14.41.38:899][253]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
-[2020.09.24-14.41.38:912][253]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.295
-[2020.09.24-14.41.40:899][490]LogTemp: Repeating last play command: Selected Viewport
-[2020.09.24-14.41.40:909][490]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2020.09.24-14.41.40:909][490]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.09.24-14.41.40:909][490]PIE: New page: PIE session: FirstPersonExampleMap (Sep 24, 2020, 4:41:40 AM)
-[2020.09.24-14.41.40:909][490]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2020.09.24-14.41.40:922][490]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013231s)
-[2020.09.24-14.41.40:924][490]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2020.09.24-14.41.40:924][490]LogPlayLevel: PIE: World Init took: (0.001591s)
-[2020.09.24-14.41.40:924][490]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.015159s)
-[2020.09.24-14.41.40:957][490]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2020.09.24-14.41.40:976][490]LogInit: FAudioDevice initialized.
-[2020.09.24-14.41.41:004][490]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2020.09.24-14.41.41:006][490]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.09.24-09.41.41
-[2020.09.24-14.41.41:006][490]LogWorld: Bringing up level for play took: 0.001351
-[2020.09.24-14.41.41:007][490]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_0.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.41.41:007][490]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_0.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.41.41:007][490]PIE: Warning: ConeRBP_C_0.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
-[2020.09.24-14.41.41:007][490]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_0.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.41.41:008][490]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_0.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.41.41:008][490]PIE: Warning: ConeYBP_C_0.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
-[2020.09.24-14.41.41:008][490]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.46
-[2020.09.24-14.41.41:008][490]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2020.09.24-14.41.43:772][818]PIE: Warning: ConeRBP_C_0.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddForceAtLocation. 
-[2020.09.24-14.41.44:897][953]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_1.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.41.44:897][953]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_1.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.41.44:898][953]PIE: Warning: ConeRBP_C_1.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
-[2020.09.24-14.41.44:898][953]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_1.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.41.44:898][953]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_1.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.41.44:898][953]PIE: Warning: ConeYBP_C_1.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
-[2020.09.24-14.41.48:897][433]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_2.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.41.48:897][433]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_2.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.41.48:897][433]PIE: Warning: ConeRBP_C_2.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
-[2020.09.24-14.41.48:898][433]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_2.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.41.48:898][433]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_2.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.41.48:898][433]PIE: Warning: ConeYBP_C_2.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
-[2020.09.24-14.41.52:898][913]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_3.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.41.52:898][913]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_3.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.41.52:898][913]PIE: Warning: ConeRBP_C_3.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
-[2020.09.24-14.41.52:898][913]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_3.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.41.52:898][913]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_3.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.41.52:898][913]PIE: Warning: ConeYBP_C_3.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
-[2020.09.24-14.41.56:898][393]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_4.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.41.56:899][393]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_4.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.41.56:899][393]PIE: Warning: ConeRBP_C_4.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
-[2020.09.24-14.41.56:899][393]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_4.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.41.56:899][393]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_4.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.41.56:899][393]PIE: Warning: ConeYBP_C_4.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
-[2020.09.24-14.42.00:899][873]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_5.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.42.00:899][873]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_5.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.42.00:899][873]PIE: Warning: ConeRBP_C_5.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
-[2020.09.24-14.42.00:899][873]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_5.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.42.00:899][873]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_5.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.42.00:899][873]PIE: Warning: ConeYBP_C_5.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
-[2020.09.24-14.42.04:898][353]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_6.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.42.04:899][353]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_6.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.42.04:899][353]PIE: Warning: ConeRBP_C_6.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
-[2020.09.24-14.42.04:899][353]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_6.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.42.04:899][353]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_6.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.42.04:899][353]PIE: Warning: ConeYBP_C_6.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
-[2020.09.24-14.42.08:899][833]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_7.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.42.08:899][833]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_7.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.42.08:899][833]PIE: Warning: ConeRBP_C_7.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
-[2020.09.24-14.42.08:900][833]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_7.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.42.08:900][833]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_7.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.42.08:900][833]PIE: Warning: ConeYBP_C_7.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
-[2020.09.24-14.42.12:899][313]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_8.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.42.12:899][313]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_8.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.42.12:900][313]PIE: Warning: ConeRBP_C_8.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
-[2020.09.24-14.42.12:900][313]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_8.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.42.12:900][313]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_8.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.42.12:900][313]PIE: Warning: ConeYBP_C_8.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
-[2020.09.24-14.42.16:904][792]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_9.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.42.16:904][792]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_9.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.42.16:904][792]PIE: Warning: ConeRBP_C_9.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
-[2020.09.24-14.42.16:904][792]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_9.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.42.16:904][792]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_9.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.42.16:904][792]PIE: Warning: ConeYBP_C_9.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
-[2020.09.24-14.42.20:905][272]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_10.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.42.20:905][272]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_10.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.42.20:905][272]PIE: Warning: ConeRBP_C_10.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
-[2020.09.24-14.42.20:905][272]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_10.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.42.20:905][272]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_10.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.42.20:905][272]PIE: Warning: ConeYBP_C_10.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
-[2020.09.24-14.42.24:905][752]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_11.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.42.24:905][752]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_11.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.42.24:905][752]PIE: Warning: ConeRBP_C_11.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
-[2020.09.24-14.42.24:905][752]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_11.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.42.24:905][752]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_11.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
-[2020.09.24-14.42.24:906][752]PIE: Warning: ConeYBP_C_11.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
-[2020.09.24-14.42.27:838][104]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2020.09.24-14.42.27:875][104]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2020.09.24-14.42.30:069][338]LogSavePackage: Save=143.94ms
-[2020.09.24-14.42.30:069][338]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/FirstPersonExampleMap38D0AE2943E36D80ECA3279341912858.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2020.09.24-14.42.30:074][338]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
-[2020.09.24-14.42.30:526][338]LogSavePackage: Save=416.23ms
-[2020.09.24-14.42.30:526][338]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/FirstPersonExampleMap_BuiltDataF485EA4D425E2080E6D38F823D7FEFE8.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2020.09.24-14.42.30:530][338]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
-[2020.09.24-14.42.36:656][ 72]BlueprintLog: New page: Compile FirstPersonExampleMap
-[2020.09.24-14.42.37:572][139]LogSavePackage: Save=145.41ms
-[2020.09.24-14.42.37:572][139]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/FirstPersonExampleMapE86598F445EB48E43D60F4AD03874F46.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2020.09.24-14.42.37:578][139]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
-[2020.09.24-14.42.37:590][139]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.279
-[2020.09.24-14.52.37:652][751]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.018
-[2020.09.24-14.52.37:655][751]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/YBulletBP] ([1] browsable assets)...
-[2020.09.24-14.52.37:655][751]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/YBulletBP]
-[2020.09.24-14.52.37:690][751]LogSavePackage: Save=21.31ms
-[2020.09.24-14.52.37:690][751]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/YBulletBP_Auto1454339664AA45775C9AF01A25D8F8BC3.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/Autosaves/Game/FirstPersonBP/Blueprints/YBulletBP_Auto1.uasset'
-[2020.09.24-14.52.37:692][751]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/Autosaves/Game/FirstPersonBP/Blueprints/YBulletBP_Auto1.uasset
-[2020.09.24-14.52.37:693][751]LogFileHelpers: Auto-saving content packages took 0.039
-[2020.09.24-14.53.04:423][791]BlueprintLog: New page: Compile YBulletBP
-[2020.09.24-14.53.20:093][526]BlueprintLog: New page: Compile RBulletBP
-[2020.09.24-14.59.36:918][ 86]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2020.09.24-14.59.39:609][403]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2020.09.24-14.59.41:644][639]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2020.09.24-14.59.46:404][194]LogSavePackage: Save=28.10ms
-[2020.09.24-14.59.46:404][194]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/YBulletBP92C4633F42C20995169E37A223530546.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/YBulletBP.uasset'
-[2020.09.24-14.59.46:408][194]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/YBulletBP.uasset
-[2020.09.24-14.59.47:143][282]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2020.09.24-15.01.13:280][371]LogSavePackage: Save=144.28ms
-[2020.09.24-15.01.13:280][371]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/FirstPersonExampleMap0F0AD7C1414CFCC1E8BC1A9D3F5F8290.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2020.09.24-15.01.13:285][371]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
-[2020.09.24-15.01.13:747][371]LogSavePackage: Save=426.08ms
-[2020.09.24-15.01.13:747][371]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/FirstPersonExampleMap_BuiltData4531265940569A72F37AE9B5ED7DF213.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2020.09.24-15.01.13:750][371]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
-[2020.09.24-15.01.19:780][510]LogSavePackage: Save=27.03ms
-[2020.09.24-15.01.19:780][510]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/RBulletBP93D082DC47633C6C04C714B90A3CC613.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/RBulletBP.uasset'
-[2020.09.24-15.01.19:785][510]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/RBulletBP.uasset
-[2020.09.24-15.01.20:663][511]Cmd: QUIT_EDITOR
-[2020.09.24-15.01.21:108][511]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.09.24-15.01.21:117][511]LogExit: Preparing to exit.
-[2020.09.24-15.01.21:376][511]LogExit: Editor shut down
-[2020.09.24-15.01.21:381][511]LogExit: Transaction tracking system shut down
-[2020.09.24-15.01.21:532][511]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2020.09.24-15.01.21:532][511]LogDirectoryWatcher: A directory notification for 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/' was aborted.
-[2020.09.24-15.01.21:532][511]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2020.09.24-15.01.21:532][511]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
-[2020.09.24-15.01.21:532][511]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2020.09.24-15.01.21:532][511]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2020.09.24-15.01.21:532][511]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2020.09.24-15.01.21:610][511]LogExit: Object subsystem successfully closed.
-[2020.09.24-15.01.21:627][511]LogD3D11RHI: Shutdown
-[2020.09.24-15.01.21:627][511]LogD3D11RHI: CleanupD3DDevice
-[2020.09.24-15.01.21:629][511]LogD3D11RHI: ~FD3D11DynamicRHI
-[2020.09.24-15.01.21:656][511]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (552)
-[2020.09.24-15.01.21:656][511]LogModuleManager: Shutting down and abandoning module BlueprintGraph (550)
-[2020.09.24-15.01.21:656][511]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
-[2020.09.24-15.01.21:656][511]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
-[2020.09.24-15.01.21:656][511]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
-[2020.09.24-15.01.21:669][511]LogDirectoryWatcher: A directory notification for 'D:/EpicGames/Games/UE_4.18/FeaturePacks/' was aborted.
-[2020.09.24-15.01.21:683][511]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
-[2020.09.24-15.01.21:683][511]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
-[2020.09.24-15.01.21:683][511]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
-[2020.09.24-15.01.21:684][511]LogDirectoryWatcher: A directory notification for 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/Collections/' was aborted.
-[2020.09.24-15.01.21:684][511]LogDirectoryWatcher: A directory notification for 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/Developers/Sebastian/Collections/' was aborted.
-[2020.09.24-15.01.21:684][511]LogDirectoryWatcher: A directory notification for 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/Collections/' was aborted.
-[2020.09.24-15.01.21:684][511]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
-[2020.09.24-15.01.21:684][511]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
-[2020.09.24-15.01.21:684][511]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
-[2020.09.24-15.01.21:685][511]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
-[2020.09.24-15.01.21:685][511]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
-[2020.09.24-15.01.21:685][511]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
-[2020.09.24-15.01.21:685][511]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
-[2020.09.24-15.01.21:685][511]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
-[2020.09.24-15.01.21:685][511]LogModuleManager: Shutting down and abandoning module BspMode (520)
-[2020.09.24-15.01.21:685][511]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
-[2020.09.24-15.01.21:685][511]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
-[2020.09.24-15.01.21:685][511]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
-[2020.09.24-15.01.21:685][511]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
-[2020.09.24-15.01.21:685][511]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
-[2020.09.24-15.01.21:685][511]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
-[2020.09.24-15.01.21:685][511]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
-[2020.09.24-15.01.21:686][511]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
-[2020.09.24-15.01.21:686][511]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
-[2020.09.24-15.01.21:686][511]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
-[2020.09.24-15.01.21:686][511]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
-[2020.09.24-15.01.21:686][511]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
-[2020.09.24-15.01.21:686][511]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
-[2020.09.24-15.01.21:686][511]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
-[2020.09.24-15.01.21:686][511]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
-[2020.09.24-15.01.21:686][511]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
-[2020.09.24-15.01.21:686][511]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
-[2020.09.24-15.01.21:686][511]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
-[2020.09.24-15.01.21:686][511]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
-[2020.09.24-15.01.21:686][511]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
-[2020.09.24-15.01.21:686][511]LogModuleManager: Shutting down and abandoning module SessionServices (478)
-[2020.09.24-15.01.21:686][511]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
-[2020.09.24-15.01.21:686][511]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
-[2020.09.24-15.01.21:686][511]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
-[2020.09.24-15.01.21:686][511]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
-[2020.09.24-15.01.21:686][511]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
-[2020.09.24-15.01.21:686][511]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
-[2020.09.24-15.01.21:686][511]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
-[2020.09.24-15.01.21:686][511]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
-[2020.09.24-15.01.21:686][511]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
-[2020.09.24-15.01.21:686][511]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
-[2020.09.24-15.01.21:686][511]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
-[2020.09.24-15.01.22:366][511]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
-[2020.09.24-15.01.22:366][511]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
-[2020.09.24-15.01.22:366][511]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
-[2020.09.24-15.01.22:366][511]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
-[2020.09.24-15.01.22:366][511]LogModuleManager: Shutting down and abandoning module MergeActors (446)
-[2020.09.24-15.01.22:366][511]LogModuleManager: Shutting down and abandoning module SizeMap (444)
-[2020.09.24-15.01.22:366][511]LogModuleManager: Shutting down and abandoning module TreeMap (442)
-[2020.09.24-15.01.22:366][511]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
-[2020.09.24-15.01.22:367][511]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
-[2020.09.24-15.01.22:367][511]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
-[2020.09.24-15.01.22:367][511]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
-[2020.09.24-15.01.22:367][511]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
-[2020.09.24-15.01.22:367][511]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
-[2020.09.24-15.01.22:367][511]LogModuleManager: Shutting down and abandoning module XmlParser (428)
-[2020.09.24-15.01.22:367][511]LogModuleManager: Shutting down and abandoning module Blutility (426)
-[2020.09.24-15.01.22:367][511]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
-[2020.09.24-15.01.22:367][511]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
-[2020.09.24-15.01.22:368][511]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
-[2020.09.24-15.01.22:368][511]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
-[2020.09.24-15.01.22:368][511]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
-[2020.09.24-15.01.22:368][511]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
-[2020.09.24-15.01.22:368][511]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
-[2020.09.24-15.01.22:368][511]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
-[2020.09.24-15.01.22:368][511]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
-[2020.09.24-15.01.22:424][511]LogModuleManager: Shutting down and abandoning module AutomationController (406)
-[2020.09.24-15.01.22:424][511]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
-[2020.09.24-15.01.22:424][511]LogModuleManager: Shutting down and abandoning module Layers (402)
-[2020.09.24-15.01.22:424][511]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
-[2020.09.24-15.01.22:424][511]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
-[2020.09.24-15.01.22:424][511]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
-[2020.09.24-15.01.22:424][511]LogModuleManager: Shutting down and abandoning module Persona (394)
-[2020.09.24-15.01.22:424][511]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
-[2020.09.24-15.01.22:424][511]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
-[2020.09.24-15.01.22:424][511]LogModuleManager: Shutting down and abandoning module Kismet (388)
-[2020.09.24-15.01.22:433][511]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
-[2020.09.24-15.01.22:433][511]LogModuleManager: Shutting down and abandoning module Toolbox (384)
-[2020.09.24-15.01.22:433][511]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
-[2020.09.24-15.01.22:433][511]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
-[2020.09.24-15.01.22:433][511]LogModuleManager: Shutting down and abandoning module OutputLog (378)
-[2020.09.24-15.01.22:433][511]LogModuleManager: Shutting down and abandoning module GammaUI (376)
-[2020.09.24-15.01.22:433][511]LogModuleManager: Shutting down and abandoning module Documentation (374)
-[2020.09.24-15.01.22:434][511]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
-[2020.09.24-15.01.22:434][511]LogModuleManager: Shutting down and abandoning module MovieScene (370)
-[2020.09.24-15.01.22:434][511]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
-[2020.09.24-15.01.22:434][511]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
-[2020.09.24-15.01.22:434][511]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
-[2020.09.24-15.01.22:434][511]LogModuleManager: Shutting down and abandoning module PortalServices (362)
-[2020.09.24-15.01.22:434][511]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
-[2020.09.24-15.01.22:434][511]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
-[2020.09.24-15.01.22:434][511]LogModuleManager: Shutting down and abandoning module AIModule (356)
-[2020.09.24-15.01.22:434][511]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
-[2020.09.24-15.01.22:434][511]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
-[2020.09.24-15.01.22:434][511]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
-[2020.09.24-15.01.22:434][511]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
-[2020.09.24-15.01.22:475][511]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
-[2020.09.24-15.01.22:475][511]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
-[2020.09.24-15.01.22:475][511]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
-[2020.09.24-15.01.22:475][511]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
-[2020.09.24-15.01.22:475][511]LogModuleManager: Shutting down and abandoning module OculusInput (338)
-[2020.09.24-15.01.22:475][511]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
-[2020.09.24-15.01.22:475][511]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
-[2020.09.24-15.01.22:475][511]LogModuleManager: Shutting down and abandoning module CableComponent (332)
-[2020.09.24-15.01.22:475][511]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
-[2020.09.24-15.01.22:475][511]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
-[2020.09.24-15.01.22:475][511]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
-[2020.09.24-15.01.22:475][511]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
-[2020.09.24-15.01.22:475][511]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
-[2020.09.24-15.01.22:475][511]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
-[2020.09.24-15.01.22:475][511]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
-[2020.09.24-15.01.22:475][511]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
-[2020.09.24-15.01.22:475][511]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
-[2020.09.24-15.01.22:475][511]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
-[2020.09.24-15.01.22:475][511]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
-[2020.09.24-15.01.22:475][511]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
-[2020.09.24-15.01.22:475][511]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
-[2020.09.24-15.01.22:475][511]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
-[2020.09.24-15.01.22:475][511]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
-[2020.09.24-15.01.22:475][511]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
-[2020.09.24-15.01.22:475][511]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
-[2020.09.24-15.01.22:475][511]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
-[2020.09.24-15.01.22:475][511]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
-[2020.09.24-15.01.22:475][511]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
-[2020.09.24-15.01.22:475][511]LogModuleManager: Shutting down and abandoning module SourceControl (289)
-[2020.09.24-15.01.22:475][511]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
-[2020.09.24-15.01.22:475][511]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
-[2020.09.24-15.01.22:475][511]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
-[2020.09.24-15.01.22:475][511]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
-[2020.09.24-15.01.22:475][511]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
-[2020.09.24-15.01.22:475][511]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
-[2020.09.24-15.01.22:476][511]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
-[2020.09.24-15.01.22:476][511]LogModuleManager: Shutting down and abandoning module MainFrame (274)
-[2020.09.24-15.01.22:476][511]LogModuleManager: Shutting down and abandoning module HotReload (273)
-[2020.09.24-15.01.22:477][511]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
-[2020.09.24-15.01.22:477][511]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
-[2020.09.24-15.01.22:477][511]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
-[2020.09.24-15.01.22:477][511]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
-[2020.09.24-15.01.22:477][511]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
-[2020.09.24-15.01.22:477][511]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
-[2020.09.24-15.01.22:477][511]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
-[2020.09.24-15.01.22:477][511]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
-[2020.09.24-15.01.22:578][511]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
-[2020.09.24-15.01.22:679][511]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
-[2020.09.24-15.01.22:679][511]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
-[2020.09.24-15.01.22:679][511]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
-[2020.09.24-15.01.22:679][511]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
-[2020.09.24-15.01.22:679][511]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
-[2020.09.24-15.01.22:679][511]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
-[2020.09.24-15.01.22:680][511]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
-[2020.09.24-15.01.22:680][511]LogModuleManager: Shutting down and abandoning module Paper2D (236)
-[2020.09.24-15.01.22:680][511]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
-[2020.09.24-15.01.22:680][511]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
-[2020.09.24-15.01.22:683][511]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
-[2020.09.24-15.01.22:683][511]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
-[2020.09.24-15.01.22:683][511]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
-[2020.09.24-15.01.22:683][511]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
-[2020.09.24-15.01.22:683][511]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
-[2020.09.24-15.01.22:683][511]LogModuleManager: Shutting down and abandoning module Media (221)
-[2020.09.24-15.01.22:689][511]LogModuleManager: Shutting down and abandoning module Overlay (218)
-[2020.09.24-15.01.22:689][511]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
-[2020.09.24-15.01.22:689][511]LogModuleManager: Shutting down and abandoning module VREditor (214)
-[2020.09.24-15.01.22:689][511]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
-[2020.09.24-15.01.22:689][511]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
-[2020.09.24-15.01.22:689][511]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
-[2020.09.24-15.01.22:689][511]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
-[2020.09.24-15.01.22:689][511]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
-[2020.09.24-15.01.22:689][511]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
-[2020.09.24-15.01.22:689][511]LogModuleManager: Shutting down and abandoning module UMG (200)
-[2020.09.24-15.01.22:689][511]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
-[2020.09.24-15.01.22:689][511]LogModuleManager: Shutting down and abandoning module Sequencer (198)
-[2020.09.24-15.01.22:689][511]LogModuleManager: Shutting down and abandoning module MessageLog (195)
-[2020.09.24-15.01.22:689][511]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
-[2020.09.24-15.01.22:689][511]LogModuleManager: Shutting down and abandoning module Slate (188)
-[2020.09.24-15.01.22:689][511]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
-[2020.09.24-15.01.22:692][511]LogModuleManager: Shutting down and abandoning module MRMesh (184)
-[2020.09.24-15.01.22:692][511]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
-[2020.09.24-15.01.22:692][511]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
-[2020.09.24-15.01.22:692][511]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
-[2020.09.24-15.01.22:692][511]LogModuleManager: Shutting down and abandoning module Networking (176)
-[2020.09.24-15.01.22:692][511]LogModuleManager: Shutting down and abandoning module Core (172)
-[2020.09.24-15.01.22:692][511]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
-[2020.09.24-15.01.22:692][511]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
-[2020.09.24-15.01.22:692][511]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2020.09.24-15.01.22:692][511]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
-[2020.09.24-15.01.22:692][511]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
-[2020.09.24-15.01.22:693][511]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
-[2020.09.24-15.01.22:693][511]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
-[2020.09.24-15.01.22:693][511]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
-[2020.09.24-15.01.22:693][511]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
-[2020.09.24-15.01.22:693][511]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
-[2020.09.24-15.01.22:693][511]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
-[2020.09.24-15.01.22:719][511]LogDerivedDataCache: Shutdown
-[2020.09.24-15.01.22:719][511]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
-[2020.09.24-15.01.22:719][511]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
-[2020.09.24-15.01.22:719][511]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
-[2020.09.24-15.01.22:719][511]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
-[2020.09.24-15.01.22:719][511]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
-[2020.09.24-15.01.22:719][511]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
-[2020.09.24-15.01.22:719][511]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
-[2020.09.24-15.01.22:719][511]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
-[2020.09.24-15.01.22:719][511]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
-[2020.09.24-15.01.22:719][511]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module Messaging (105)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module InputCore (64)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module Settings (62)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module SteamVR (58)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2020.09.24-15.01.22:720][511]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2020.09.24-15.01.22:720][511]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2020.09.24-15.01.22:720][511]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0B8E158C-4CDE-D5E3-9E01-249515ACF7F0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=861ca12a42756dbcf3f6918c60501a40%7Cebcb5f2c85894ba5a3a9ac04b9e40510%7C8bbfd533-bc65-493b-a7f3-cbfa877b35c8&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2020.09.24-15.01.22:752][511]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2020.09.24-15.01.22:754][511]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2020.09.24-15.01.22:754][511]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2020.09.24-15.01.22:754][511]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2020.09.24-15.01.22:754][511]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2020.09.24-15.01.22:754][511]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2020.09.24-15.01.22:754][511]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2020.09.24-15.01.22:754][511]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2020.09.24-15.01.22:756][511]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2020.09.24-15.01.22:756][511]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2020.09.24-15.01.22:756][511]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2020.09.24-15.01.22:756][511]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2020.09.24-15.01.22:756][511]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2020.09.24-15.01.22:756][511]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2020.09.24-15.01.22:756][511]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2020.09.24-15.01.22:756][511]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2020.09.24-15.01.22:756][511]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2020.09.24-15.01.22:756][511]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2020.09.24-15.01.22:756][511]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2020.09.24-15.01.22:767][511]LogExit: Exiting.
-[2020.09.24-15.01.22:780][511]Log file closed, 09/24/20 10:01:22
+[2020.09.24-23.21.46:220][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.24-23.21.46:220][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.09.24-23.21.46:236][  0]LogInit: Computer: SEBASTIANMUÑOZV
+[2020.09.24-23.21.46:236][  0]LogInit: User: Sebastian
+[2020.09.24-23.21.46:236][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.09.24-23.21.46:236][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.09.24-23.21.46:236][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.09.24-23.21.46:236][  0]LogMemory: Platform Memory Stats for Windows
+[2020.09.24-23.21.46:236][  0]LogMemory: Process Physical Memory: 275.94 MB used, 275.94 MB peak
+[2020.09.24-23.21.46:236][  0]LogMemory: Process Virtual Memory: 270.39 MB used, 270.39 MB peak
+[2020.09.24-23.21.46:236][  0]LogMemory: Physical Memory: 5956.48 MB used,  10369.86 MB free, 16326.34 MB total
+[2020.09.24-23.21.46:236][  0]LogMemory: Virtual Memory: 4769.38 MB used,  10369.86 MB free, 134217728.00 MB total
+[2020.09.24-23.21.46:755][  0]LogInit: Overriding language with editor language configuration option (en).
+[2020.09.24-23.21.46:755][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2020.09.24-23.21.47:068][  0]LogInit: Setting process to per monitor DPI aware
+[2020.09.24-23.21.47:489][  0]LogD3D11RHI: D3D11 adapters:
+[2020.09.24-23.21.47:574][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060 SUPER' (Feature Level 11_0)
+[2020.09.24-23.21.47:574][  0]LogD3D11RHI:       8031/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.09.24-23.21.47:577][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.09.24-23.21.47:577][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.09.24-23.21.47:577][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.09.24-23.21.47:584][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.09.24-23.21.47:584][  0]LogD3D11RHI:     GPU DeviceId: 0x1f06 (for the marketing name, search the web for "GPU Device Id")
+[2020.09.24-23.21.47:584][  0]LogWindows: EnumDisplayDevices:
+[2020.09.24-23.21.47:584][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2060 SUPER' (P:1 D:1)
+[2020.09.24-23.21.47:584][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2060 SUPER' (P:0 D:1)
+[2020.09.24-23.21.47:584][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2060 SUPER' (P:0 D:0)
+[2020.09.24-23.21.47:584][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060 SUPER' (P:0 D:0)
+[2020.09.24-23.21.47:584][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.09.24-23.21.47:585][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060 SUPER
+[2020.09.24-23.21.47:585][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.09.24-23.21.47:585][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.09.24-23.21.47:585][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
+[2020.09.24-23.21.47:642][  0]LogD3D11RHI: Async texture creation enabled
+[2020.09.24-23.21.47:653][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.09.24-23.21.47:657][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Intermediate/Shaders/WorkingDirectory/17332/).
+[2020.09.24-23.21.47:657][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Sebastian/AppData/Local/Temp/UnrealShaderWorkingDir/CB21464B492DD8E548C061A7A08EAA27/'.
+[2020.09.24-23.21.47:657][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.09.24-23.21.48:771][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2020.09.24-23.21.48:932][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2020.09.24-23.21.49:084][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2020.09.24-23.21.49:231][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2020.09.24-23.21.49:380][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2020.09.24-23.21.49:537][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2020.09.24-23.21.49:685][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.09.24-23.21.49:839][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2020.09.24-23.21.49:986][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2020.09.24-23.21.50:143][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2020.09.24-23.21.50:301][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2020.09.24-23.21.50:452][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2020.09.24-23.21.50:599][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2020.09.24-23.21.50:747][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2020.09.24-23.21.51:049][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2020.09.24-23.21.51:050][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2020.09.24-23.21.51:196][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.09.24-23.21.51:334][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2020.09.24-23.21.51:565][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.09.24-23.21.51:637][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.09.24-23.21.51:783][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2020.09.24-23.21.51:934][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.09.24-23.21.52:083][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2020.09.24-23.21.52:229][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2020.09.24-23.21.52:229][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.09.24-23.21.53:750][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.09.24-23.21.53:821][  0]LogDerivedDataCache: Loaded boot cache 0.07s 78MB C:/Users/Sebastian/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2020.09.24-23.21.53:821][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Sebastian/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2020.09.24-23.21.53:821][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.09.24-23.21.53:821][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.09.24-23.21.53:821][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.24-23.21.53:821][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.09.24-23.21.53:833][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.09.24-23.21.53:846][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Sebastian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.09.24-23.21.53:854][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.09.24-23.21.53:854][  0]LogSlate: Using Freetype 2.6.0
+[2020.09.24-23.21.53:855][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.09.24-23.21.53:855][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.09.24-23.21.54:240][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.24-23.21.55:042][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.09.24-23.21.55:182][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.09.24-23.21.55:182][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.09.24-23.21.55:182][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2020.09.24-23.21.55:182][  0]LogMeshReduction: No automatic mesh merging module available
+[2020.09.24-23.21.55:182][  0]LogMeshMerging: No automatic mesh merging module available
+[2020.09.24-23.21.55:214][  0]LogNetVersion: TallerPractico , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 120631222)
+[2020.09.24-23.21.55:471][  0]LogAssetRegistry: FAssetRegistry took 0.0254 seconds to start up
+[2020.09.24-23.21.56:119][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.042563 seconds
+[2020.09.24-23.21.56:124][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2020.09.24-23.21.56:124][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2020.09.24-23.21.56:124][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.09.24-23.21.56:312][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2020.09.24-23.22.02:239][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.09.24-23.22.02:334][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.09.24-23.22.04:144][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2020.09.24-23.22.05:263][  0]SourceControl: Source control is disabled
+[2020.09.24-23.22.05:263][  0]SourceControl: Source control is disabled
+[2020.09.24-23.22.05:426][  0]SourceControl: Source control is disabled
+[2020.09.24-23.22.05:582][  0]SourceControl: Source control is disabled
+[2020.09.24-23.22.07:913][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.09.24-23.22.08:695][  0]LogOcInput: OculusInput pre-init called
+[2020.09.24-23.22.09:489][  0]LogEngine: Initializing Engine...
+[2020.09.24-23.22.09:492][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.24-23.22.09:686][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.09.24-23.22.09:686][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.09.24-23.22.10:110][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.09.24-23.22.10:128][  0]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.24-23.22.10:153][  0]LogInit: FAudioDevice initialized.
+[2020.09.24-23.22.10:267][  0]LogDerivedDataCache: Saved boot cache 0.11s 78MB C:/Users/Sebastian/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2020.09.24-23.22.10:281][  0]LogInit: Texture streaming: Enabled
+[2020.09.24-23.22.10:642][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.09.24-23.22.11:061][  0]LogInit: Transaction tracking system initialized
+[2020.09.24-23.22.12:113][  0]BlueprintLog: New page: Editor Load
+[2020.09.24-23.22.15:076][  0]LocalizationService: Localization service is disabled
+[2020.09.24-23.22.17:444][  0]LogConsoleResponse: Display: 
+[2020.09.24-23.22.17:702][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.09.24-23.22.17:702][  0]LogCook: Display: Mobile HDR setting 1
+[2020.09.24-23.22.17:702][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2020.09.24-23.22.17:868][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/' took 0.01s
+[2020.09.24-23.22.21:252][  0]SourceControl: Source control is disabled
+[2020.09.24-23.22.21:253][  0]Cmd: MAP LOAD FILE="C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.09.24-23.22.21:253][  0]LightingResults: New page: Lighting Build
+[2020.09.24-23.22.21:389][  0]MapCheck: New page: Map Check
+[2020.09.24-23.22.21:389][  0]LightingResults: New page: Lighting Build
+[2020.09.24-23.22.22:553][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.24-23.22.22:662][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.09.24-23.22.22:689][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.09.24-23.22.22:774][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 85.168ms to complete.
+[2020.09.24-23.22.22:774][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.521
+[2020.09.24-23.22.23:229][  0]LogCollectionManager: Loaded 0 collections in 0.000810 seconds
+[2020.09.24-23.22.23:454][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/Collections/' took 0.01s
+[2020.09.24-23.22.23:454][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/Developers/Sebastian/Collections/' took 0.01s
+[2020.09.24-23.22.23:454][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/Collections/' took 0.01s
+[2020.09.24-23.22.23:454][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2020.09.24-23.22.23:462][  0]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 2363 classes and 519 folders.
+[2020.09.24-23.22.23:725][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.09.24-23.22.24:732][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.09.24-23.22.24:926][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2020.09.24-23.22.25:193][  0]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.09.24-23.22.25:203][  0]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.09.24-23.22.25:232][  0]LogSlate: Took 0.015237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.09.24-23.22.25:575][  0]LogRenderer: Reallocating scene render targets to support 1208x600 Format 10 NumSamples 1 (Frame:1).
+[2020.09.24-23.22.25:942][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2020.09.24-23.22.25:942][  0]LogLoad: (Engine Initialization) Total time: 43.77 seconds
+[2020.09.24-23.22.25:942][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.09.24-23.22.25:942][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2020.09.24-23.22.25:967][  0]LogAssetRegistry: Asset discovery search completed in 30.5173 seconds
+[2020.09.24-23.22.25:968][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.09.24-23.22.25:968][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000037 seconds (updated 0 objects)
+[2020.09.24-23.22.25:978][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.09.24-23.22.26:119][  0]LogSlate: Took 0.014989 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.09.24-23.23.21:996][ 81]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.24-23.23.22:033][ 81]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-23.23.22:054][ 81]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.24-23.23.22:097][ 81]PIE: New page: PIE session: FirstPersonExampleMap (Sep 24, 2020, 1:23:22 PM)
+[2020.09.24-23.23.22:097][ 81]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.09.24-23.23.22:155][ 81]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057846s)
+[2020.09.24-23.23.22:155][ 81]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.24-23.23.22:156][ 81]LogPlayLevel: PIE: World Init took: (0.000706s)
+[2020.09.24-23.23.22:156][ 81]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.058819s)
+[2020.09.24-23.23.22:185][ 81]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.24-23.23.22:202][ 81]LogInit: FAudioDevice initialized.
+[2020.09.24-23.23.22:259][ 81]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.09.24-23.23.22:286][ 81]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.09.24-18.23.22
+[2020.09.24-23.23.22:287][ 81]LogWorld: Bringing up level for play took: 0.018480
+[2020.09.24-23.23.22:506][ 81]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 11 classes and 0 folders.
+[2020.09.24-23.23.22:507][ 81]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_0.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.23.22:507][ 81]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_0.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.23.22:507][ 81]PIE: Warning: ConeRBP_C_0.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.23.22:507][ 81]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_0.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.23.22:507][ 81]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_0.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.23.22:507][ 81]PIE: Warning: ConeYBP_C_0.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.23.22:507][ 81]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.041
+[2020.09.24-23.23.22:508][ 81]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-23.23.25:939][456]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_1.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.23.25:939][456]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_1.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.23.25:940][456]PIE: Warning: ConeRBP_C_1.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.23.25:940][456]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_1.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.23.25:940][456]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_1.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.23.25:940][456]PIE: Warning: ConeYBP_C_1.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.23.27:892][689]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-23.23.27:925][689]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-23.23.30:782][ 15]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.09.24-23.23.31:389][ 15]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2020.09.24-23.23.32:076][ 15]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.09.24-23.23.32:493][ 15]LogSlate: Took 0.017189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.09.24-23.23.32:970][ 16]LogSlate: Took 0.011353 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.09.24-23.25.05:300][724]BlueprintLog: New page: Compile RBulletBP
+[2020.09.24-23.25.09:674][219]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.24-23.25.09:687][219]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-23.25.09:687][219]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.24-23.25.09:687][219]PIE: New page: PIE session: FirstPersonExampleMap (Sep 24, 2020, 1:25:09 PM)
+[2020.09.24-23.25.09:687][219]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.09.24-23.25.09:703][219]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016083s)
+[2020.09.24-23.25.09:704][219]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.24-23.25.09:704][219]LogPlayLevel: PIE: World Init took: (0.000821s)
+[2020.09.24-23.25.09:704][219]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.017153s)
+[2020.09.24-23.25.09:753][219]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.24-23.25.09:772][219]LogInit: FAudioDevice initialized.
+[2020.09.24-23.25.09:809][219]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.09.24-23.25.09:813][219]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.09.24-18.25.09
+[2020.09.24-23.25.09:814][219]LogWorld: Bringing up level for play took: 0.002943
+[2020.09.24-23.25.09:816][219]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_0.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.25.09:816][219]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_0.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.25.09:816][219]PIE: Warning: ConeRBP_C_0.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.25.09:816][219]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_0.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.25.09:816][219]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_0.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.25.09:816][219]PIE: Warning: ConeYBP_C_0.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.25.09:816][219]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.732
+[2020.09.24-23.25.09:817][219]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-23.25.13:675][679]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_1.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.25.13:675][679]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_1.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.25.13:675][679]PIE: Warning: ConeRBP_C_1.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.25.13:675][679]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_1.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.25.13:675][679]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_1.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.25.13:675][679]PIE: Warning: ConeYBP_C_1.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.25.17:675][159]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_2.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.25.17:675][159]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_2.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.25.17:675][159]PIE: Warning: ConeRBP_C_2.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.25.17:676][159]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_2.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.25.17:676][159]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_2.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.25.17:676][159]PIE: Warning: ConeYBP_C_2.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.25.21:676][639]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_3.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.25.21:676][639]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_3.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.25.21:676][639]PIE: Warning: ConeRBP_C_3.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.25.21:676][639]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_3.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.25.21:676][639]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_3.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.25.21:676][639]PIE: Warning: ConeYBP_C_3.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.25.23:563][864]LogBlueprintUserMessages: [RBulletBP_C_2] Puum
+[2020.09.24-23.25.24:930][ 28]LogBlueprintUserMessages: [RBulletBP_C_3] Puum
+[2020.09.24-23.25.25:683][117]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_4.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.25.25:683][117]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_4.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.25.25:683][117]PIE: Warning: ConeRBP_C_4.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.25.25:683][117]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_4.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.25.25:684][117]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_4.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.25.25:684][117]PIE: Warning: ConeYBP_C_4.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.25.26:099][167]LogBlueprintUserMessages: [RBulletBP_C_4] Puum
+[2020.09.24-23.25.27:250][305]LogBlueprintUserMessages: [RBulletBP_C_5] Puum
+[2020.09.24-23.25.29:683][597]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_5.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.25.29:683][597]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_5.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.25.29:684][597]PIE: Warning: ConeRBP_C_5.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.25.29:684][597]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_5.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.25.29:684][597]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_5.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.25.29:684][597]PIE: Warning: ConeYBP_C_5.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.25.30:517][697]LogBlueprintUserMessages: [RBulletBP_C_6] Puum
+[2020.09.24-23.25.33:159][ 14]LogBlueprintUserMessages: [RBulletBP_C_7] Puum
+[2020.09.24-23.25.33:684][ 77]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_6.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.25.33:684][ 77]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_6.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.25.33:685][ 77]PIE: Warning: ConeRBP_C_6.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.25.33:685][ 77]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_6.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.25.33:685][ 77]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_6.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.25.33:685][ 77]PIE: Warning: ConeYBP_C_6.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.25.35:025][238]LogBlueprintUserMessages: [RBulletBP_C_8] Puum
+[2020.09.24-23.25.35:942][348]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-23.25.35:982][348]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-23.27.39:498][290]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.24-23.27.39:508][290]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-23.27.39:509][290]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.24-23.27.39:509][290]PIE: New page: PIE session: FirstPersonExampleMap (Sep 24, 2020, 1:27:39 PM)
+[2020.09.24-23.27.39:509][290]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.09.24-23.27.39:533][290]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023724s)
+[2020.09.24-23.27.39:534][290]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.24-23.27.39:534][290]LogPlayLevel: PIE: World Init took: (0.001057s)
+[2020.09.24-23.27.39:534][290]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.025150s)
+[2020.09.24-23.27.39:567][290]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.24-23.27.39:584][290]LogInit: FAudioDevice initialized.
+[2020.09.24-23.27.39:621][290]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.09.24-23.27.39:624][290]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.09.24-18.27.39
+[2020.09.24-23.27.39:624][290]LogWorld: Bringing up level for play took: 0.002097
+[2020.09.24-23.27.39:626][290]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_0.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.27.39:626][290]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_0.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.27.39:626][290]PIE: Warning: ConeRBP_C_0.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.27.39:626][290]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_0.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.27.39:626][290]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_0.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.27.39:626][290]PIE: Warning: ConeYBP_C_0.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.27.39:626][290]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.078
+[2020.09.24-23.27.39:627][290]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-23.27.42:719][657]LogBlueprintUserMessages: [RBulletBP_C_0] Puum
+[2020.09.24-23.27.43:494][750]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_1.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.27.43:495][750]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_1.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.27.43:495][750]PIE: Warning: ConeRBP_C_1.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.27.43:495][750]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_1.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.27.43:495][750]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_1.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.27.43:495][750]PIE: Warning: ConeYBP_C_1.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.27.47:494][229]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_2.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.27.47:494][229]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_2.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.27.47:494][229]PIE: Warning: ConeRBP_C_2.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.27.47:495][229]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_2.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.27.47:495][229]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_2.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.27.47:495][229]PIE: Warning: ConeYBP_C_2.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.27.51:499][709]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_3.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.27.51:500][709]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_3.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.27.51:500][709]PIE: Warning: ConeRBP_C_3.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.27.51:500][709]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_3.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.27.51:500][709]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_3.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.27.51:500][709]PIE: Warning: ConeYBP_C_3.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.27.54:604][ 81]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-23.27.54:634][ 81]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-23.33.13:416][802]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.09.24-23.33.21:846][828]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.018
+[2020.09.24-23.33.21:893][828]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/RBulletBP] ([1] browsable assets)...
+[2020.09.24-23.33.21:962][828]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/RBulletBP.RBulletBP]
+[2020.09.24-23.33.21:962][828]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/RBulletBP]
+[2020.09.24-23.33.22:074][828]LogSavePackage: Save=53.11ms
+[2020.09.24-23.33.22:074][828]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/RBulletBP_Auto1DC42C57A44B0C615C73293ACD3DF1487.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/Autosaves/Game/FirstPersonBP/Blueprints/RBulletBP_Auto1.uasset'
+[2020.09.24-23.33.22:077][828]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/Autosaves/Game/FirstPersonBP/Blueprints/RBulletBP_Auto1.uasset
+[2020.09.24-23.33.22:077][828]LogFileHelpers: Auto-saving content packages took 0.230
+[2020.09.24-23.33.54:823][979]BlueprintLog: New page: Compile YBulletBP
+[2020.09.24-23.33.55:559][ 29]LogSavePackage: Save=28.48ms
+[2020.09.24-23.33.55:559][ 29]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/YBulletBPED43EFC2431E78055813A2A91849844B.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/YBulletBP.uasset'
+[2020.09.24-23.33.55:564][ 29]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/YBulletBP.uasset
+[2020.09.24-23.33.56:679][161]BlueprintLog: New page: Compile RBulletBP
+[2020.09.24-23.33.57:423][214]LogSavePackage: Save=28.31ms
+[2020.09.24-23.33.57:423][214]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/RBulletBP303B91244C0413B6485D6EB454AD9792.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/RBulletBP.uasset'
+[2020.09.24-23.33.57:428][214]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/RBulletBP.uasset
+[2020.09.24-23.34.05:185][143]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.24-23.34.05:197][143]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-23.34.05:197][143]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.24-23.34.05:197][143]PIE: New page: PIE session: FirstPersonExampleMap (Sep 24, 2020, 1:34:05 PM)
+[2020.09.24-23.34.05:197][143]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.09.24-23.34.05:213][143]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016000s)
+[2020.09.24-23.34.05:214][143]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.24-23.34.05:214][143]LogPlayLevel: PIE: World Init took: (0.000809s)
+[2020.09.24-23.34.05:214][143]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.017057s)
+[2020.09.24-23.34.05:247][143]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.24-23.34.05:264][143]LogInit: FAudioDevice initialized.
+[2020.09.24-23.34.05:299][143]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.09.24-23.34.05:301][143]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.09.24-18.34.05
+[2020.09.24-23.34.05:301][143]LogWorld: Bringing up level for play took: 0.001453
+[2020.09.24-23.34.05:302][143]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_0.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.34.05:302][143]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_0.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.34.05:302][143]PIE: Warning: ConeRBP_C_0.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.34.05:302][143]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_0.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.34.05:302][143]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_0.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.34.05:302][143]PIE: Warning: ConeYBP_C_0.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.34.05:302][143]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.754
+[2020.09.24-23.34.05:302][143]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-23.34.08:939][577]LogBlueprintUserMessages: [RBulletBP_C_1] Muro
+[2020.09.24-23.34.09:181][606]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_1.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.34.09:181][606]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_1.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.34.09:181][606]PIE: Warning: ConeRBP_C_1.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.34.09:181][606]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_1.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.34.09:181][606]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_1.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.34.09:181][606]PIE: Warning: ConeYBP_C_1.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.34.09:764][676]LogBlueprintUserMessages: [YBulletBP_C_0] Muro
+[2020.09.24-23.34.11:265][856]LogBlueprintUserMessages: [YBulletBP_C_1] Muro
+[2020.09.24-23.34.12:506][  5]LogBlueprintUserMessages: [YBulletBP_C_2] Muro
+[2020.09.24-23.34.13:181][ 86]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_2.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.34.13:181][ 86]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_2.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.34.13:182][ 86]PIE: Warning: ConeRBP_C_2.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.34.13:182][ 86]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_2.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.34.13:182][ 86]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_2.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.34.13:182][ 86]PIE: Warning: ConeYBP_C_2.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.34.13:439][117]LogBlueprintUserMessages: [RBulletBP_C_2] Muro
+[2020.09.24-23.34.14:831][284]LogBlueprintUserMessages: [RBulletBP_C_3] Muro
+[2020.09.24-23.34.15:723][391]LogBlueprintUserMessages: [YBulletBP_C_3] Muro
+[2020.09.24-23.34.17:181][566]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_3.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.34.17:181][566]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_3.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.34.17:181][566]PIE: Warning: ConeRBP_C_3.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.34.17:181][566]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_3.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.34.17:182][566]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_3.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.34.17:182][566]PIE: Warning: ConeYBP_C_3.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.34.17:365][588]LogBlueprintUserMessages: [YBulletBP_C_4] Muro
+[2020.09.24-23.34.19:103][795]LogBlueprintUserMessages: [YBulletBP_C_5] DestruirBalaA
+[2020.09.24-23.34.21:012][ 24]LogBlueprintUserMessages: [YBulletBP_C_6] DestruirBalaA
+[2020.09.24-23.34.21:186][ 45]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_4.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.34.21:186][ 45]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_4.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.34.21:186][ 45]PIE: Warning: ConeRBP_C_4.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.34.21:186][ 45]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_4.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.34.21:187][ 45]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_4.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.34.21:187][ 45]PIE: Warning: ConeYBP_C_4.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.34.22:887][249]LogBlueprintUserMessages: [RBulletBP_C_4] DestruirBalaR
+[2020.09.24-23.34.24:921][493]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-23.34.24:956][493]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-23.36.25:487][813]BlueprintLog: New page: Compile ConeYBP
+[2020.09.24-23.36.30:425][378]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.24-23.36.30:440][378]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-23.36.30:440][378]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.24-23.36.30:440][378]PIE: New page: PIE session: FirstPersonExampleMap (Sep 24, 2020, 1:36:30 PM)
+[2020.09.24-23.36.30:440][378]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.09.24-23.36.30:454][378]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014213s)
+[2020.09.24-23.36.30:455][378]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.24-23.36.30:455][378]LogPlayLevel: PIE: World Init took: (0.000758s)
+[2020.09.24-23.36.30:455][378]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.015247s)
+[2020.09.24-23.36.30:490][378]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.24-23.36.30:506][378]LogInit: FAudioDevice initialized.
+[2020.09.24-23.36.30:538][378]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.09.24-23.36.30:540][378]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.09.24-18.36.30
+[2020.09.24-23.36.30:541][378]LogWorld: Bringing up level for play took: 0.001590
+[2020.09.24-23.36.30:542][378]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_0.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.36.30:542][378]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_0.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.36.30:542][378]PIE: Warning: ConeRBP_C_0.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.36.30:542][378]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_0.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.36.30:542][378]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_0.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.36.30:542][378]PIE: Warning: ConeYBP_C_0.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.36.30:542][378]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.006
+[2020.09.24-23.36.30:543][378]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-23.36.32:449][604]LogBlueprintUserMessages: [ConeYBP_C_0] DestruirObjA
+[2020.09.24-23.36.32:449][604]LogBlueprintUserMessages: [ConeYBP_C_0] Boom
+[2020.09.24-23.36.34:424][841]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_1.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.36.34:424][841]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_1.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.36.34:424][841]PIE: Warning: ConeRBP_C_1.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.36.34:424][841]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_1.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.36.34:424][841]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_1.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.36.34:424][841]PIE: Warning: ConeYBP_C_1.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.36.37:807][247]LogBlueprintUserMessages: [ConeYBP_C_1] DestruirObjA
+[2020.09.24-23.36.37:807][247]LogBlueprintUserMessages: [ConeYBP_C_1] Boom
+[2020.09.24-23.36.38:425][321]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_2.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.36.38:425][321]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_2.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.36.38:425][321]PIE: Warning: ConeRBP_C_2.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.36.38:425][321]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_2.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.36.38:425][321]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_2.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.36.38:425][321]PIE: Warning: ConeYBP_C_2.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.36.42:425][801]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_3.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.36.42:425][801]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_3.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.36.42:425][801]PIE: Warning: ConeRBP_C_3.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.36.42:425][801]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_3.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.36.42:425][801]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_3.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.36.42:426][801]PIE: Warning: ConeYBP_C_3.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.36.46:424][281]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_4.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.36.46:425][281]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_4.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.36.46:425][281]PIE: Warning: ConeRBP_C_4.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.36.46:425][281]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_4.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.36.46:425][281]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_4.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.36.46:425][281]PIE: Warning: ConeYBP_C_4.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.36.47:758][441]LogBlueprintUserMessages: [ConeYBP_C_3] DestruirObjA
+[2020.09.24-23.36.47:758][441]LogBlueprintUserMessages: [ConeYBP_C_3] Boom
+[2020.09.24-23.36.49:583][660]LogBlueprintUserMessages: [ConeYBP_C_4] DestruirObjA
+[2020.09.24-23.36.49:583][660]LogBlueprintUserMessages: [ConeYBP_C_4] Boom
+[2020.09.24-23.36.50:425][761]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_5.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.36.50:425][761]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_5.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.36.50:425][761]PIE: Warning: ConeRBP_C_5.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.36.50:425][761]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_5.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.36.50:425][761]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_5.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.36.50:425][761]PIE: Warning: ConeYBP_C_5.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.36.53:209][ 95]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-23.36.53:247][ 95]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-23.38.20:755][554]BlueprintLog: New page: Compile ConeYBP
+[2020.09.24-23.38.21:875][654]LogSavePackage: Save=21.62ms
+[2020.09.24-23.38.21:875][654]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/ConeYBP2D5FD5F94D80E697E1E4A4B9690B9EA8.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset'
+[2020.09.24-23.38.21:880][654]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset
+[2020.09.24-23.38.24:648][985]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.24-23.38.24:662][985]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-23.38.24:662][985]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.24-23.38.24:662][985]PIE: New page: PIE session: FirstPersonExampleMap (Sep 24, 2020, 1:38:24 PM)
+[2020.09.24-23.38.24:663][985]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.09.24-23.38.24:680][985]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017219s)
+[2020.09.24-23.38.24:681][985]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.24-23.38.24:681][985]LogPlayLevel: PIE: World Init took: (0.000909s)
+[2020.09.24-23.38.24:681][985]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.018380s)
+[2020.09.24-23.38.24:714][985]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.24-23.38.24:731][985]LogInit: FAudioDevice initialized.
+[2020.09.24-23.38.24:762][985]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.09.24-23.38.24:764][985]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.09.24-18.38.24
+[2020.09.24-23.38.24:765][985]LogWorld: Bringing up level for play took: 0.001312
+[2020.09.24-23.38.24:765][985]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_0.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.38.24:765][985]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_0.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.38.24:766][985]PIE: Warning: ConeRBP_C_0.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.38.24:766][985]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_0.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.38.24:766][985]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_0.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.38.24:766][985]PIE: Warning: ConeYBP_C_0.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.38.24:766][985]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.217
+[2020.09.24-23.38.24:766][985]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-23.38.26:327][170]LogBlueprintUserMessages: [ConeYBP_C_0] DestruirObjA
+[2020.09.24-23.38.26:327][170]LogBlueprintUserMessages: [ConeYBP_C_0] DestruirBalaA
+[2020.09.24-23.38.28:644][448]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_1.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.38.28:644][448]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_1.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.38.28:644][448]PIE: Warning: ConeRBP_C_1.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.38.28:644][448]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_1.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.38.28:644][448]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_1.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.38.28:644][448]PIE: Warning: ConeYBP_C_1.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.38.32:645][928]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_2.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.38.32:645][928]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_2.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.38.32:645][928]PIE: Warning: ConeRBP_C_2.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.38.32:645][928]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_2.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.38.32:645][928]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_2.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.38.32:645][928]PIE: Warning: ConeYBP_C_2.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.38.33:120][985]LogBlueprintUserMessages: [YBulletBP_C_1] Muro
+[2020.09.24-23.38.35:569][279]LogBlueprintUserMessages: [RBulletBP_C_1] Muro
+[2020.09.24-23.38.36:637][407]LogBlueprintUserMessages: [RBulletBP_C_2] Muro
+[2020.09.24-23.38.36:645][408]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_3.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.38.36:645][408]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_3.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.38.36:645][408]PIE: Warning: ConeRBP_C_3.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.38.36:646][408]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_3.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.38.36:646][408]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_3.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.38.36:646][408]PIE: Warning: ConeYBP_C_3.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.38.39:986][809]LogBlueprintUserMessages: [RBulletBP_C_3] Muro
+[2020.09.24-23.38.40:646][888]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_4.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.38.40:646][888]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_4.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.38.40:646][888]PIE: Warning: ConeRBP_C_4.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.38.40:646][888]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_4.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.38.40:646][888]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_4.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.38.40:646][888]PIE: Warning: ConeYBP_C_4.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.38.43:846][272]LogBlueprintUserMessages: [YBulletBP_C_2] Muro
+[2020.09.24-23.38.44:646][368]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_5.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.38.44:646][368]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_5.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.38.44:646][368]PIE: Warning: ConeRBP_C_5.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.38.44:646][368]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_5.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.38.44:646][368]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_5.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.38.44:646][368]PIE: Warning: ConeYBP_C_5.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.38.48:288][805]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-23.38.48:324][805]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-23.40.26:023][471]BlueprintLog: New page: Compile ConeRBP
+[2020.09.24-23.40.26:719][519]LogSavePackage: Save=22.39ms
+[2020.09.24-23.40.26:719][519]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/ConeRBP183075EE4CE1361838B6CFB6A51F7180.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeRBP.uasset'
+[2020.09.24-23.40.26:724][519]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeRBP.uasset
+[2020.09.24-23.41.26:904][555]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.24-23.41.26:920][555]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-23.41.26:921][555]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.24-23.41.26:921][555]PIE: New page: PIE session: FirstPersonExampleMap (Sep 24, 2020, 1:41:26 PM)
+[2020.09.24-23.41.26:921][555]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.09.24-23.41.26:936][555]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015297s)
+[2020.09.24-23.41.26:937][555]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.24-23.41.26:937][555]LogPlayLevel: PIE: World Init took: (0.000846s)
+[2020.09.24-23.41.26:937][555]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016393s)
+[2020.09.24-23.41.26:971][555]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.24-23.41.26:988][555]LogInit: FAudioDevice initialized.
+[2020.09.24-23.41.27:017][555]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.09.24-23.41.27:019][555]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.09.24-18.41.27
+[2020.09.24-23.41.27:019][555]LogWorld: Bringing up level for play took: 0.001308
+[2020.09.24-23.41.27:020][555]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_0.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.41.27:020][555]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_0.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.41.27:020][555]PIE: Warning: ConeRBP_C_0.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.41.27:021][555]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_0.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.41.27:021][555]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_0.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.41.27:021][555]PIE: Warning: ConeYBP_C_0.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.41.27:021][555]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.472
+[2020.09.24-23.41.27:021][555]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-23.41.29:485][848]LogBlueprintUserMessages: [ConeRBP_C_0] DestruirObjR
+[2020.09.24-23.41.29:485][848]LogBlueprintUserMessages: [ConeRBP_C_0] DestruirBalaR
+[2020.09.24-23.41.30:902][ 18]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_1.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.41.30:902][ 18]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_1.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.41.30:902][ 18]PIE: Warning: ConeRBP_C_1.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.41.30:902][ 18]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_1.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.41.30:902][ 18]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_1.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.41.30:902][ 18]PIE: Warning: ConeYBP_C_1.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.41.31:868][134]LogBlueprintUserMessages: [ConeYBP_C_0] DestruirObjA
+[2020.09.24-23.41.31:868][134]LogBlueprintUserMessages: [ConeYBP_C_0] DestruirBalaA
+[2020.09.24-23.41.34:451][442]LogBlueprintUserMessages: [ConeRBP_C_1] DestruirObjR
+[2020.09.24-23.41.34:452][442]LogBlueprintUserMessages: [ConeRBP_C_1] DestruirBalaR
+[2020.09.24-23.41.34:910][497]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_2.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.41.34:910][497]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_2.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.41.34:910][497]PIE: Warning: ConeRBP_C_2.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.41.34:910][497]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_2.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.41.34:910][497]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_2.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.41.34:911][497]PIE: Warning: ConeYBP_C_2.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.41.35:685][590]LogBlueprintUserMessages: [ConeYBP_C_1] DestruirObjA
+[2020.09.24-23.41.35:685][590]LogBlueprintUserMessages: [ConeYBP_C_1] DestruirBalaA
+[2020.09.24-23.41.37:368][792]LogBlueprintUserMessages: [ConeYBP_C_2] DestruirObjA
+[2020.09.24-23.41.37:368][792]LogBlueprintUserMessages: [ConeYBP_C_2] DestruirBalaA
+[2020.09.24-23.41.38:693][951]LogBlueprintUserMessages: [ConeRBP_C_2] DestruirObjR
+[2020.09.24-23.41.38:694][951]LogBlueprintUserMessages: [ConeRBP_C_2] DestruirBalaR
+[2020.09.24-23.41.38:910][977]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_3.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.41.38:910][977]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_3.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.41.38:910][977]PIE: Warning: ConeRBP_C_3.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.41.38:910][977]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_3.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.41.38:910][977]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_3.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.09.24-23.41.38:910][977]PIE: Warning: ConeYBP_C_3.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.09.24-23.41.41:802][324]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-23.41.41:837][324]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-23.42.00:987][613]BlueprintLog: New page: Compile ConeRBP
+[2020.09.24-23.42.01:516][642]LogSavePackage: Save=21.66ms
+[2020.09.24-23.42.01:516][642]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/ConeRBP81270A7548D12C956AF6038E2E6D2E9D.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeRBP.uasset'
+[2020.09.24-23.42.01:519][642]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeRBP.uasset
+[2020.09.24-23.42.02:507][760]BlueprintLog: New page: Compile ConeYBP
+[2020.09.24-23.42.02:943][778]LogSavePackage: Save=21.17ms
+[2020.09.24-23.42.02:943][778]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/ConeYBP2287EF764D54256311EE439D9029EE67.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset'
+[2020.09.24-23.42.02:946][778]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset
+[2020.09.24-23.42.03:846][885]BlueprintLog: New page: Compile YBulletBP
+[2020.09.24-23.42.04:259][898]LogSavePackage: Save=28.51ms
+[2020.09.24-23.42.04:259][898]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/YBulletBP37BDB99849E7282151899D8CCC718BEF.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/YBulletBP.uasset'
+[2020.09.24-23.42.04:262][898]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/YBulletBP.uasset
+[2020.09.24-23.42.05:068][994]BlueprintLog: New page: Compile RBulletBP
+[2020.09.24-23.42.05:465][  3]LogSavePackage: Save=28.35ms
+[2020.09.24-23.42.05:465][  3]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/RBulletBP9A6F67C046D4FFEBCCC9D7ADB935FC79.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/RBulletBP.uasset'
+[2020.09.24-23.42.05:467][  3]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/RBulletBP.uasset
+[2020.09.24-23.42.08:063][280]LogSavePackage: Save=146.05ms
+[2020.09.24-23.42.08:064][280]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/FirstPersonExampleMapC703ABE349DF36F5BF11128B8EA0C85F.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2020.09.24-23.42.08:069][280]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2020.09.24-23.42.08:972][280]LogSavePackage: Save=756.67ms
+[2020.09.24-23.42.08:972][280]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/FirstPersonExampleMap_BuiltData857B39004B13DE4B9F32529EDB3E3CF1.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2020.09.24-23.42.08:975][280]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
