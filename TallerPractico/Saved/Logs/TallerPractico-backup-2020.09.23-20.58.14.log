@@ -1,0 +1,1394 @@
+﻿Log file open, 09/23/20 18:55:52
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: TallerPractico
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1317545310) SRandInit(1317545310).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.314733
+LogD3D11RHI: Aftermath initialized
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line: 
+LogInit: Base directory: D:/EpicGames/Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2020.09.23-23.55.54:630][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.23-23.55.54:630][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.09.23-23.55.54:644][  0]LogInit: Computer: SEBASTIANMUÑOZV
+[2020.09.23-23.55.54:644][  0]LogInit: User: Sebastian
+[2020.09.23-23.55.54:644][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.09.23-23.55.54:644][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.09.23-23.55.54:645][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.09.23-23.55.54:645][  0]LogMemory: Platform Memory Stats for Windows
+[2020.09.23-23.55.54:645][  0]LogMemory: Process Physical Memory: 275.08 MB used, 275.08 MB peak
+[2020.09.23-23.55.54:645][  0]LogMemory: Process Virtual Memory: 276.74 MB used, 276.74 MB peak
+[2020.09.23-23.55.54:645][  0]LogMemory: Physical Memory: 3959.91 MB used,  12366.43 MB free, 16326.34 MB total
+[2020.09.23-23.55.54:645][  0]LogMemory: Virtual Memory: 4775.45 MB used,  12366.43 MB free, 134217728.00 MB total
+[2020.09.23-23.55.55:160][  0]LogInit: Overriding language with editor language configuration option (en).
+[2020.09.23-23.55.55:160][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2020.09.23-23.55.55:458][  0]LogInit: Setting process to per monitor DPI aware
+[2020.09.23-23.55.55:860][  0]LogD3D11RHI: D3D11 adapters:
+[2020.09.23-23.55.55:949][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060 SUPER' (Feature Level 11_0)
+[2020.09.23-23.55.55:949][  0]LogD3D11RHI:       8031/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.09.23-23.55.55:952][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.09.23-23.55.55:952][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.09.23-23.55.55:952][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.09.23-23.55.55:957][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.09.23-23.55.55:957][  0]LogD3D11RHI:     GPU DeviceId: 0x1f06 (for the marketing name, search the web for "GPU Device Id")
+[2020.09.23-23.55.55:957][  0]LogWindows: EnumDisplayDevices:
+[2020.09.23-23.55.55:957][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2060 SUPER' (P:1 D:1)
+[2020.09.23-23.55.55:957][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2060 SUPER' (P:0 D:1)
+[2020.09.23-23.55.55:957][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2060 SUPER' (P:0 D:0)
+[2020.09.23-23.55.55:957][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060 SUPER' (P:0 D:0)
+[2020.09.23-23.55.55:958][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.09.23-23.55.55:958][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060 SUPER
+[2020.09.23-23.55.55:958][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.09.23-23.55.55:958][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.09.23-23.55.55:958][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
+[2020.09.23-23.55.56:026][  0]LogD3D11RHI: Async texture creation enabled
+[2020.09.23-23.55.56:039][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.09.23-23.55.56:042][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Intermediate/Shaders/WorkingDirectory/19264/).
+[2020.09.23-23.55.56:042][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Sebastian/AppData/Local/Temp/UnrealShaderWorkingDir/296123564D5285855C02B8A8673C6891/'.
+[2020.09.23-23.55.56:042][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.09.23-23.55.57:123][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2020.09.23-23.55.57:270][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2020.09.23-23.55.57:417][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2020.09.23-23.55.57:567][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2020.09.23-23.55.57:716][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2020.09.23-23.55.57:861][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2020.09.23-23.55.58:009][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.09.23-23.55.58:153][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2020.09.23-23.55.58:292][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2020.09.23-23.55.58:435][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2020.09.23-23.55.58:580][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2020.09.23-23.55.58:725][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2020.09.23-23.55.58:871][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2020.09.23-23.55.59:016][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2020.09.23-23.55.59:309][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2020.09.23-23.55.59:309][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2020.09.23-23.55.59:455][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.09.23-23.55.59:593][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2020.09.23-23.55.59:827][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.09.23-23.55.59:899][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.09.23-23.56.00:043][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2020.09.23-23.56.00:187][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.09.23-23.56.00:330][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2020.09.23-23.56.00:474][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2020.09.23-23.56.00:474][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.09.23-23.56.01:951][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.09.23-23.56.02:015][  0]LogDerivedDataCache: Loaded boot cache 0.06s 78MB C:/Users/Sebastian/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2020.09.23-23.56.02:015][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Sebastian/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2020.09.23-23.56.02:016][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.09.23-23.56.02:016][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.09.23-23.56.02:016][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.23-23.56.02:016][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.09.23-23.56.02:028][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.09.23-23.56.02:041][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Sebastian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.09.23-23.56.02:049][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.09.23-23.56.02:049][  0]LogSlate: Using Freetype 2.6.0
+[2020.09.23-23.56.02:050][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.09.23-23.56.02:050][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.09.23-23.56.02:434][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.23-23.56.03:234][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.09.23-23.56.03:373][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.09.23-23.56.03:373][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.09.23-23.56.03:373][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2020.09.23-23.56.03:373][  0]LogMeshReduction: No automatic mesh merging module available
+[2020.09.23-23.56.03:373][  0]LogMeshMerging: No automatic mesh merging module available
+[2020.09.23-23.56.03:404][  0]LogNetVersion: TallerPractico , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 120631222)
+[2020.09.23-23.56.03:656][  0]LogAssetRegistry: FAssetRegistry took 0.0259 seconds to start up
+[2020.09.23-23.56.04:270][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.033181 seconds
+[2020.09.23-23.56.04:274][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2020.09.23-23.56.04:274][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2020.09.23-23.56.04:274][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.09.23-23.56.04:461][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2020.09.23-23.56.10:374][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.09.23-23.56.10:480][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.09.23-23.56.12:264][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2020.09.23-23.56.13:352][  0]SourceControl: Source control is disabled
+[2020.09.23-23.56.13:352][  0]SourceControl: Source control is disabled
+[2020.09.23-23.56.13:505][  0]SourceControl: Source control is disabled
+[2020.09.23-23.56.13:659][  0]SourceControl: Source control is disabled
+[2020.09.23-23.56.15:961][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.09.23-23.56.16:734][  0]LogOcInput: OculusInput pre-init called
+[2020.09.23-23.56.17:527][  0]LogEngine: Initializing Engine...
+[2020.09.23-23.56.17:529][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.23-23.56.17:716][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.09.23-23.56.17:716][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.09.23-23.56.18:131][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.09.23-23.56.18:150][  0]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.23-23.56.18:175][  0]LogInit: FAudioDevice initialized.
+[2020.09.23-23.56.18:289][  0]LogDerivedDataCache: Saved boot cache 0.11s 78MB C:/Users/Sebastian/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2020.09.23-23.56.18:303][  0]LogInit: Texture streaming: Enabled
+[2020.09.23-23.56.18:648][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.09.23-23.56.19:061][  0]LogInit: Transaction tracking system initialized
+[2020.09.23-23.56.20:095][  0]BlueprintLog: New page: Editor Load
+[2020.09.23-23.56.23:017][  0]LocalizationService: Localization service is disabled
+[2020.09.23-23.56.25:341][  0]LogConsoleResponse: Display: 
+[2020.09.23-23.56.25:560][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.09.23-23.56.25:560][  0]LogCook: Display: Mobile HDR setting 1
+[2020.09.23-23.56.25:560][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2020.09.23-23.56.26:017][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/' took 0.01s
+[2020.09.23-23.56.29:090][  0]SourceControl: Source control is disabled
+[2020.09.23-23.56.29:090][  0]Cmd: MAP LOAD FILE="C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.09.23-23.56.29:090][  0]LightingResults: New page: Lighting Build
+[2020.09.23-23.56.29:228][  0]MapCheck: New page: Map Check
+[2020.09.23-23.56.29:228][  0]LightingResults: New page: Lighting Build
+[2020.09.23-23.56.29:639][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.23-23.56.29:646][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.09.23-23.56.29:659][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.09.23-23.56.29:742][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 82.511ms to complete.
+[2020.09.23-23.56.29:742][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.652
+[2020.09.23-23.56.29:919][  0]LogCollectionManager: Loaded 0 collections in 0.000805 seconds
+[2020.09.23-23.56.30:122][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/Collections/' took 0.01s
+[2020.09.23-23.56.30:122][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/Developers/Sebastian/Collections/' took 0.01s
+[2020.09.23-23.56.30:122][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/Collections/' took 0.01s
+[2020.09.23-23.56.30:122][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2020.09.23-23.56.30:129][  0]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 2363 classes and 519 folders.
+[2020.09.23-23.56.30:349][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.09.23-23.56.30:395][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.09.23-23.56.30:535][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2020.09.23-23.56.30:550][  0]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.09.23-23.56.30:552][  0]LogSlate: Took 0.000305 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.09.23-23.56.30:556][  0]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.09.23-23.56.30:632][  0]LogRenderer: Reallocating scene render targets to support 1208x600 Format 10 NumSamples 1 (Frame:1).
+[2020.09.23-23.56.30:868][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2020.09.23-23.56.30:868][  0]LogLoad: (Engine Initialization) Total time: 40.15 seconds
+[2020.09.23-23.56.30:868][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.09.23-23.56.30:868][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2020.09.23-23.56.30:891][  0]LogAssetRegistry: Asset discovery search completed in 27.2574 seconds
+[2020.09.23-23.56.30:892][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.09.23-23.56.30:892][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000037 seconds (updated 0 objects)
+[2020.09.23-23.56.30:895][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.09.23-23.56.30:932][  0]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.09.23-23.56.31:906][ 73]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.09.23-23.56.52:906][642]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.09.23-23.56.52:931][642]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.23-23.56.52:931][642]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.23-23.56.52:931][642]PIE: New page: PIE session: FirstPersonExampleMap (Sep 23, 2020, 1:56:52 PM)
+[2020.09.23-23.56.52:932][642]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.09.23-23.56.52:953][642]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021347s)
+[2020.09.23-23.56.52:954][642]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.23-23.56.52:954][642]LogPlayLevel: PIE: World Init took: (0.000873s)
+[2020.09.23-23.56.52:954][642]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022485s)
+[2020.09.23-23.56.52:978][642]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.23-23.56.52:994][642]LogInit: FAudioDevice initialized.
+[2020.09.23-23.56.53:051][642]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.09.23-23.56.53:053][642]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.09.23-18.56.53
+[2020.09.23-23.56.53:054][642]LogWorld: Bringing up level for play took: 0.001477
+[2020.09.23-23.56.53:193][642]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 11 classes and 0 folders.
+[2020.09.23-23.56.53:194][642]PIE: Warning: ConeRBP_C_0.ConoR MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.23-23.56.53:196][642]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.026
+[2020.09.23-23.56.53:196][642]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.23-23.56.53:243][642]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2020.09.23-23.56.56:897][ 59]PIE: Warning: ConeRBP_C_1.ConoR MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.23-23.57.00:505][492]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.23-23.57.00:542][492]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.23-23.58.19:306][184]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.09.23-23.58.19:313][184]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.23-23.58.19:313][184]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.23-23.58.19:313][184]PIE: New page: PIE session: FirstPersonExampleMap (Sep 23, 2020, 1:58:19 PM)
+[2020.09.23-23.58.19:314][184]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.09.23-23.58.19:328][184]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014260s)
+[2020.09.23-23.58.19:328][184]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.23-23.58.19:329][184]LogPlayLevel: PIE: World Init took: (0.000747s)
+[2020.09.23-23.58.19:329][184]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.015318s)
+[2020.09.23-23.58.19:352][184]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.23-23.58.19:368][184]LogInit: FAudioDevice initialized.
+[2020.09.23-23.58.19:414][184]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.09.23-23.58.19:416][184]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.09.23-18.58.19
+[2020.09.23-23.58.19:416][184]LogWorld: Bringing up level for play took: 0.001362
+[2020.09.23-23.58.19:417][184]PIE: Warning: ConeRBP_C_0.ConoR MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.23-23.58.19:420][184]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.25
+[2020.09.23-23.58.19:420][184]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.23-23.58.21:319][406]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.23-23.58.21:360][406]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.23-23.58.22:231][504]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.09.23-23.58.22:239][504]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.23-23.58.22:239][504]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.23-23.58.22:239][504]PIE: New page: PIE session: FirstPersonExampleMap (Sep 23, 2020, 1:58:22 PM)
+[2020.09.23-23.58.22:239][504]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.09.23-23.58.22:254][504]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015101s)
+[2020.09.23-23.58.22:255][504]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.23-23.58.22:255][504]LogPlayLevel: PIE: World Init took: (0.000745s)
+[2020.09.23-23.58.22:256][504]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016171s)
+[2020.09.23-23.58.22:277][504]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.23-23.58.22:293][504]LogInit: FAudioDevice initialized.
+[2020.09.23-23.58.22:343][504]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.09.23-23.58.22:345][504]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.09.23-18.58.22
+[2020.09.23-23.58.22:346][504]LogWorld: Bringing up level for play took: 0.001573
+[2020.09.23-23.58.22:347][504]PIE: Warning: ConeRBP_C_0.ConoR MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.23-23.58.22:350][504]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.821
+[2020.09.23-23.58.22:350][504]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.23-23.58.23:309][613]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.23-23.58.23:351][613]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.23-23.58.24:056][692]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.09.23-23.58.24:064][692]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.23-23.58.24:064][692]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.23-23.58.24:064][692]PIE: New page: PIE session: FirstPersonExampleMap (Sep 23, 2020, 1:58:24 PM)
+[2020.09.23-23.58.24:064][692]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.09.23-23.58.24:078][692]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013796s)
+[2020.09.23-23.58.24:078][692]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.23-23.58.24:079][692]LogPlayLevel: PIE: World Init took: (0.000722s)
+[2020.09.23-23.58.24:079][692]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014803s)
+[2020.09.23-23.58.24:100][692]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.23-23.58.24:116][692]LogInit: FAudioDevice initialized.
+[2020.09.23-23.58.24:175][692]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.09.23-23.58.24:178][692]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.09.23-18.58.24
+[2020.09.23-23.58.24:178][692]LogWorld: Bringing up level for play took: 0.002224
+[2020.09.23-23.58.24:180][692]PIE: Warning: ConeRBP_C_0.ConoR MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.23-23.58.24:184][692]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.013
+[2020.09.23-23.58.24:184][692]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.23-23.58.25:041][788]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.23-23.58.25:079][788]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.23-23.58.35:961][ 85]LogSlate: Took 0.000156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.09.23-23.58.36:105][ 85]LogSavePackage: Save=113.65ms
+[2020.09.23-23.58.36:105][ 85]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/FirstPersonExampleMapB84A56E149DD6A46D5E8879D49199433.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2020.09.23-23.58.36:109][ 85]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2020.09.23-23.58.36:827][ 85]LogSavePackage: Save=693.06ms
+[2020.09.23-23.58.36:827][ 85]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/FirstPersonExampleMap_BuiltData3694C2FA4F516E26B4DF04A5F1C106EA.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2020.09.23-23.58.36:832][ 85]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2020.09.23-23.58.36:833][ 85]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.09.24-00.01.01:639][582]LogSavePackage: Save=114.09ms
+[2020.09.24-00.01.01:639][582]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/FirstPersonExampleMapF875D63044B2E532CDBAAA9861F66353.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2020.09.24-00.01.01:645][582]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2020.09.24-00.01.02:090][582]LogSavePackage: Save=409.73ms
+[2020.09.24-00.01.02:090][582]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/FirstPersonExampleMap_BuiltData7F34C0F847F8FBDDCC2245ADD46A319F.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2020.09.24-00.01.02:093][582]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2020.09.24-00.55.37:346][959]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.09.24-00.55.37:729][959]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-00.55.37:776][959]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.24-00.55.37:856][959]PIE: New page: PIE session: FirstPersonExampleMap (Sep 23, 2020, 2:55:37 PM)
+[2020.09.24-00.55.37:930][959]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.09.24-00.55.38:855][959]LogPlayLevel: PIE: StaticDuplicateObject took: (0.922751s)
+[2020.09.24-00.55.39:144][959]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.24-00.55.39:234][959]LogPlayLevel: PIE: World Init took: (0.379633s)
+[2020.09.24-00.55.39:252][959]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (1.322373s)
+[2020.09.24-00.55.40:050][959]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.24-00.55.40:070][959]LogInit: FAudioDevice initialized.
+[2020.09.24-00.55.40:408][959]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.09.24-00.55.41:005][959]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.09.23-19.55.41
+[2020.09.24-00.55.41:006][959]LogWorld: Bringing up level for play took: 0.464593
+[2020.09.24-00.55.41:291][959]PIE: Warning: ConeRBP_C_0.ConoR MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.24-00.55.41:348][959]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 4.178
+[2020.09.24-00.55.41:508][959]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-00.55.45:690][362]PIE: Warning: ConeRBP_C_1.ConoR MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.24-00.55.49:691][842]PIE: Warning: ConeRBP_C_2.ConoR MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.24-00.55.53:690][322]PIE: Warning: ConeRBP_C_3.ConoR MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.24-00.55.57:691][802]PIE: Warning: ConeRBP_C_4.ConoR MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.24-00.56.01:691][282]PIE: Warning: ConeRBP_C_5.ConoR MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.24-00.56.05:691][762]PIE: Warning: ConeRBP_C_6.ConoR MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.24-00.56.08:285][ 73]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-00.56.08:469][ 73]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-00.56.09:554][174]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.09.24-00.56.09:564][174]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-00.56.09:564][174]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.24-00.56.09:564][174]PIE: New page: PIE session: FirstPersonExampleMap (Sep 23, 2020, 2:56:09 PM)
+[2020.09.24-00.56.09:565][174]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.09.24-00.56.09:581][174]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016075s)
+[2020.09.24-00.56.09:582][174]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.24-00.56.09:582][174]LogPlayLevel: PIE: World Init took: (0.001183s)
+[2020.09.24-00.56.09:582][174]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.017662s)
+[2020.09.24-00.56.09:606][174]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.24-00.56.09:622][174]LogInit: FAudioDevice initialized.
+[2020.09.24-00.56.09:670][174]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.09.24-00.56.09:673][174]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.09.23-19.56.09
+[2020.09.24-00.56.09:673][174]LogWorld: Bringing up level for play took: 0.001614
+[2020.09.24-00.56.09:674][174]PIE: Warning: ConeRBP_C_0.ConoR MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.24-00.56.09:677][174]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.507
+[2020.09.24-00.56.09:677][174]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-00.56.13:548][631]PIE: Warning: ConeRBP_C_1.ConoR MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.24-00.56.17:549][111]PIE: Warning: ConeRBP_C_2.ConoR MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.24-00.56.21:549][591]PIE: Warning: ConeRBP_C_3.ConoR MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.24-00.56.24:933][997]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-00.56.24:974][997]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-00.56.41:100][417]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0616 seconds. Added 116 classes and 0 folders.
+[2020.09.24-00.56.43:993][417]LogSlate: Took 0.045211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.09.24-00.56.44:739][418]LogSlate: Took 0.026189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.09.24-00.58.24:744][556]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall4)
+[2020.09.24-00.59.05:267][326]LogBlueprint: Warning: [ConeYBP] 'ConoR' variable not found. Base class was probably changed. /Game/FirstPersonBP/Blueprints/ConeYBP.ConeYBP
+[2020.09.24-00.59.14:719][443]BlueprintLog: New page: Compile ConeYBP
+[2020.09.24-00.59.15:875][503]LogSavePackage: Save=47.00ms
+[2020.09.24-00.59.15:875][503]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/ConeYBPA035ADB24324A6F3A9BA3A8882E2CC11.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset'
+[2020.09.24-00.59.15:880][503]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset
+[2020.09.24-00.59.27:577][867]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.09.24-00.59.27:596][867]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-00.59.27:596][867]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.24-00.59.27:596][867]PIE: New page: PIE session: FirstPersonExampleMap (Sep 23, 2020, 2:59:27 PM)
+[2020.09.24-00.59.27:596][867]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.09.24-00.59.27:613][867]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015927s)
+[2020.09.24-00.59.27:613][867]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.24-00.59.27:613][867]LogPlayLevel: PIE: World Init took: (0.000767s)
+[2020.09.24-00.59.27:613][867]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016956s)
+[2020.09.24-00.59.27:647][867]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.24-00.59.27:664][867]LogInit: FAudioDevice initialized.
+[2020.09.24-00.59.27:713][867]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.09.24-00.59.27:716][867]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.09.23-19.59.27
+[2020.09.24-00.59.27:716][867]LogWorld: Bringing up level for play took: 0.001492
+[2020.09.24-00.59.27:717][867]PIE: Warning: ConeRBP_C_0.ConoR MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.24-00.59.27:717][867]PIE: Warning: ConeYBP_C_0.ConoA MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.24-00.59.27:720][867]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.549
+[2020.09.24-00.59.27:720][867]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-00.59.31:570][320]PIE: Warning: ConeRBP_C_1.ConoR MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.24-00.59.31:570][320]PIE: Warning: ConeYBP_C_1.ConoA MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.24-00.59.35:570][800]PIE: Warning: ConeRBP_C_2.ConoR MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.24-00.59.35:571][800]PIE: Warning: ConeYBP_C_2.ConoA MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.24-00.59.39:571][280]PIE: Warning: ConeRBP_C_3.ConoR MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.24-00.59.39:571][280]PIE: Warning: ConeYBP_C_3.ConoA MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.24-00.59.40:754][422]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-00.59.40:816][422]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.20.22:173][494]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.025
+[2020.09.24-01.20.22:200][494]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2020.09.24-01.20.22:211][494]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2020.09.24-01.20.22:211][494]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2020.09.24-01.20.22:339][494]LogSavePackage: Save=111.91ms
+[2020.09.24-01.20.22:339][494]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/FirstPersonCharacter_Auto1CA22E33A40FFBBE633F9168A62621B23.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto1.uasset'
+[2020.09.24-01.20.22:342][494]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto1.uasset
+[2020.09.24-01.20.22:342][494]LogFileHelpers: Auto-saving content packages took 0.169
+[2020.09.24-01.26.06:662][637]BlueprintLog: New page: Compile FirstPersonExampleMap
+[2020.09.24-01.30.17:392][698]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.09.24-01.30.17:409][698]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.30.17:409][698]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.24-01.30.17:409][698]PIE: New page: PIE session: FirstPersonExampleMap (Sep 23, 2020, 3:30:17 PM)
+[2020.09.24-01.30.17:409][698]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.09.24-01.30.17:424][698]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014927s)
+[2020.09.24-01.30.17:425][698]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.24-01.30.17:425][698]LogPlayLevel: PIE: World Init took: (0.001212s)
+[2020.09.24-01.30.17:426][698]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016454s)
+[2020.09.24-01.30.17:464][698]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.24-01.30.17:481][698]LogInit: FAudioDevice initialized.
+[2020.09.24-01.30.17:527][698]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.09.24-01.30.17:529][698]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.09.23-20.30.17
+[2020.09.24-01.30.17:529][698]LogWorld: Bringing up level for play took: 0.001565
+[2020.09.24-01.30.17:530][698]PIE: Warning: ConeRBP_C_0.ConoR MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.24-01.30.17:530][698]PIE: Warning: ConeYBP_C_0.ConoA MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.24-01.30.17:533][698]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.363
+[2020.09.24-01.30.17:534][698]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.30.21:387][153]PIE: Warning: ConeRBP_C_1.ConoR MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.24-01.30.21:387][153]PIE: Warning: ConeYBP_C_1.ConoA MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.24-01.30.25:388][633]PIE: Warning: ConeRBP_C_2.ConoR MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.24-01.30.25:388][633]PIE: Warning: ConeYBP_C_2.ConoA MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.24-01.30.29:388][113]PIE: Warning: ConeRBP_C_3.ConoR MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.24-01.30.29:388][113]PIE: Warning: ConeYBP_C_3.ConoA MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.24-01.30.29:714][152]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.30.29:776][152]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.30.41:988][605]BlueprintLog: New page: Compile ConeYBP
+[2020.09.24-01.30.43:638][771]BlueprintLog: New page: Compile ConeRBP
+[2020.09.24-01.30.45:382][948]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.09.24-01.30.45:396][948]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.30.45:396][948]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.24-01.30.45:396][948]PIE: New page: PIE session: FirstPersonExampleMap (Sep 23, 2020, 3:30:45 PM)
+[2020.09.24-01.30.45:397][948]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.09.24-01.30.45:411][948]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014389s)
+[2020.09.24-01.30.45:412][948]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.24-01.30.45:412][948]LogPlayLevel: PIE: World Init took: (0.000830s)
+[2020.09.24-01.30.45:412][948]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.015510s)
+[2020.09.24-01.30.45:445][948]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.24-01.30.45:461][948]LogInit: FAudioDevice initialized.
+[2020.09.24-01.30.45:510][948]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.09.24-01.30.45:512][948]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.09.23-20.30.45
+[2020.09.24-01.30.45:513][948]LogWorld: Bringing up level for play took: 0.001521
+[2020.09.24-01.30.45:517][948]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.347
+[2020.09.24-01.30.45:517][948]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.30.50:039][483]LogScript: Warning: Attempted to access RBulletBP_C_0 via property K2Node_DynamicCast_AsRBullet_BP, but RBulletBP_C_0 is pending kill
+	ConeRBP_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ConeRBP_C_0
+	Function /Game/FirstPersonBP/Blueprints/ConeRBP.ConeRBP_C:ExecuteUbergraph_ConeRBP:00BC
+[2020.09.24-01.30.50:053][483]PIE: Error: Blueprint Runtime Error: Attempted to access RBulletBP_C_0 via property K2Node_DynamicCast_AsRBullet_BP, but RBulletBP_C_0 is pending kill from function: 'ExecuteUbergraph_ConeRBP' from node: DestroyActor in graph: EventGraph in object: ConeRBP with description: Attempted to access RBulletBP_C_0 via property K2Node_DynamicCast_AsRBullet_BP, but RBulletBP_C_0 is pending kill
+[2020.09.24-01.30.57:035][321]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.30.57:080][321]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.31.29:187][152]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2020.09.24-01.31.29:187][152]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2020.09.24-01.31.32:750][577]BlueprintLog: New page: Compile ConeYBP
+[2020.09.24-01.31.38:306][210]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2020.09.24-01.31.38:306][210]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2020.09.24-01.31.42:517][711]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2020.09.24-01.31.42:517][711]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2020.09.24-01.31.43:991][886]BlueprintLog: New page: Compile ConeRBP
+[2020.09.24-01.31.45:867][ 79]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.09.24-01.31.45:881][ 79]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.31.45:881][ 79]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.24-01.31.45:881][ 79]PIE: New page: PIE session: FirstPersonExampleMap (Sep 23, 2020, 3:31:45 PM)
+[2020.09.24-01.31.45:881][ 79]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.09.24-01.31.45:895][ 79]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013976s)
+[2020.09.24-01.31.45:896][ 79]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.24-01.31.45:896][ 79]LogPlayLevel: PIE: World Init took: (0.000805s)
+[2020.09.24-01.31.45:896][ 79]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.015093s)
+[2020.09.24-01.31.45:930][ 79]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.24-01.31.45:947][ 79]LogInit: FAudioDevice initialized.
+[2020.09.24-01.31.45:995][ 79]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.09.24-01.31.45:997][ 79]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.09.23-20.31.45
+[2020.09.24-01.31.45:997][ 79]LogWorld: Bringing up level for play took: 0.001537
+[2020.09.24-01.31.45:998][ 79]PIE: Warning: ConeRBP_C_0.ConoR MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.24-01.31.45:999][ 79]PIE: Warning: ConeYBP_C_0.ConoA MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.24-01.31.46:002][ 79]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.831
+[2020.09.24-01.31.46:002][ 79]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.31.49:863][535]PIE: Warning: ConeRBP_C_1.ConoR MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.24-01.31.49:863][535]PIE: Warning: ConeYBP_C_1.ConoA MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.24-01.31.53:863][ 15]PIE: Warning: ConeRBP_C_2.ConoR MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.24-01.31.53:863][ 15]PIE: Warning: ConeYBP_C_2.ConoA MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.24-01.31.57:863][495]PIE: Warning: ConeRBP_C_3.ConoR MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.24-01.31.57:863][495]PIE: Warning: ConeYBP_C_3.ConoA MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.24-01.32.01:864][975]PIE: Warning: ConeRBP_C_4.ConoR MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.24-01.32.01:864][975]PIE: Warning: ConeYBP_C_4.ConoA MaterialSphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2020.09.24-01.32.04:272][264]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.32.04:320][264]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.32.20:724][218]BlueprintLog: New page: Compile ConeRBP
+[2020.09.24-01.32.22:744][429]BlueprintLog: New page: Compile ConeYBP
+[2020.09.24-01.32.48:729][432]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.09.24-01.32.48:743][432]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.32.48:744][432]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.24-01.32.48:744][432]PIE: New page: PIE session: FirstPersonExampleMap (Sep 23, 2020, 3:32:48 PM)
+[2020.09.24-01.32.48:744][432]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.09.24-01.32.48:757][432]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013585s)
+[2020.09.24-01.32.48:758][432]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.24-01.32.48:758][432]LogPlayLevel: PIE: World Init took: (0.000817s)
+[2020.09.24-01.32.48:759][432]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014712s)
+[2020.09.24-01.32.48:794][432]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.24-01.32.48:810][432]LogInit: FAudioDevice initialized.
+[2020.09.24-01.32.48:859][432]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.09.24-01.32.48:862][432]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.09.23-20.32.48
+[2020.09.24-01.32.48:862][432]LogWorld: Bringing up level for play took: 0.001812
+[2020.09.24-01.32.48:866][432]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.304
+[2020.09.24-01.32.48:867][432]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.33.01:555][944]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.33.01:603][944]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.33.21:522][325]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2020.09.24-01.33.21:522][325]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2020.09.24-01.33.24:436][672]BlueprintLog: New page: Compile ConeYBP
+[2020.09.24-01.33.28:830][168]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.09.24-01.33.28:844][168]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.33.28:844][168]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.24-01.33.28:844][168]PIE: New page: PIE session: FirstPersonExampleMap (Sep 23, 2020, 3:33:28 PM)
+[2020.09.24-01.33.28:844][168]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.09.24-01.33.28:857][168]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012971s)
+[2020.09.24-01.33.28:858][168]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.24-01.33.28:858][168]LogPlayLevel: PIE: World Init took: (0.000734s)
+[2020.09.24-01.33.28:858][168]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.013942s)
+[2020.09.24-01.33.28:892][168]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.24-01.33.28:908][168]LogInit: FAudioDevice initialized.
+[2020.09.24-01.33.28:957][168]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.09.24-01.33.28:959][168]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.09.23-20.33.28
+[2020.09.24-01.33.28:959][168]LogWorld: Bringing up level for play took: 0.001368
+[2020.09.24-01.33.28:964][168]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.207
+[2020.09.24-01.33.28:964][168]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.33.35:301][922]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.33.35:345][922]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.34.06:462][606]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.09.24-01.34.06:520][606]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.34.06:520][606]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.24-01.34.06:520][606]PIE: New page: PIE session: FirstPersonExampleMap (Sep 23, 2020, 3:34:06 PM)
+[2020.09.24-01.34.06:520][606]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.09.24-01.34.06:532][606]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012700s)
+[2020.09.24-01.34.06:532][606]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.24-01.34.06:533][606]LogPlayLevel: PIE: World Init took: (0.000829s)
+[2020.09.24-01.34.06:533][606]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.013811s)
+[2020.09.24-01.34.06:568][606]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.24-01.34.06:584][606]LogInit: FAudioDevice initialized.
+[2020.09.24-01.34.06:633][606]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.09.24-01.34.06:635][606]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.09.23-20.34.06
+[2020.09.24-01.34.06:636][606]LogWorld: Bringing up level for play took: 0.001412
+[2020.09.24-01.34.06:640][606]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.53
+[2020.09.24-01.34.06:641][606]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.34.08:280][796]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_DynamicCast', from offset 17
+[2020.09.24-01.34.08:280][796]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/ConeYBP.ConeYBP_C:BndEvt__ConoA_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature
+	Function /Game/FirstPersonBP/Blueprints/ConeYBP.ConeYBP_C:ExecuteUbergraph_ConeYBP
+
+[2020.09.24-01.35.51:816][751]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.35.51:857][751]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.36.01:610][911]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.36.01:610][911]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.24-01.36.01:610][911]PIE: New page: PIE session: FirstPersonExampleMap (Sep 23, 2020, 3:36:01 PM)
+[2020.09.24-01.36.01:610][911]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.09.24-01.36.01:624][911]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013803s)
+[2020.09.24-01.36.01:625][911]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.24-01.36.01:625][911]LogPlayLevel: PIE: World Init took: (0.000806s)
+[2020.09.24-01.36.01:625][911]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014923s)
+[2020.09.24-01.36.01:660][911]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.24-01.36.01:676][911]LogInit: FAudioDevice initialized.
+[2020.09.24-01.36.01:730][911]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.09.24-01.36.01:732][911]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.09.23-20.36.01
+[2020.09.24-01.36.01:732][911]LogWorld: Bringing up level for play took: 0.001343
+[2020.09.24-01.36.01:733][911]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.563
+[2020.09.24-01.36.01:733][911]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.36.07:068][548]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_DynamicCast', from offset 17
+[2020.09.24-01.36.07:068][548]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/ConeYBP.ConeYBP_C:BndEvt__ConoA_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature
+	Function /Game/FirstPersonBP/Blueprints/ConeYBP.ConeYBP_C:ExecuteUbergraph_ConeYBP
+
+[2020.09.24-01.36.59:864][548]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.36.59:976][548]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.37.03:270][907]LogSavePackage: Save=144.84ms
+[2020.09.24-01.37.03:270][907]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/FirstPersonExampleMap_Auto2448E3D114A9F1A154D82978EC3540571.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2020.09.24-01.37.03:273][907]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap
+[2020.09.24-01.37.03:275][907]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.249
+[2020.09.24-01.37.03:275][907]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.249
+[2020.09.24-01.37.03:277][907]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/ConeRBP] ([1] browsable assets)...
+[2020.09.24-01.37.03:289][907]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/ConeRBP.ConeRBP]
+[2020.09.24-01.37.03:289][907]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/ConeRBP]
+[2020.09.24-01.37.03:321][907]LogSavePackage: Save=20.69ms
+[2020.09.24-01.37.03:321][907]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/ConeRBP_Auto24C3A225B4DDF129217BC0CA981A03B13.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/Autosaves/Game/FirstPersonBP/Blueprints/ConeRBP_Auto2.uasset'
+[2020.09.24-01.37.03:324][907]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/Autosaves/Game/FirstPersonBP/Blueprints/ConeRBP_Auto2.uasset
+[2020.09.24-01.37.03:325][907]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/ConeYBP] ([1] browsable assets)...
+[2020.09.24-01.37.03:334][907]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/ConeYBP.ConeYBP]
+[2020.09.24-01.37.03:334][907]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/ConeYBP]
+[2020.09.24-01.37.03:368][907]LogSavePackage: Save=20.17ms
+[2020.09.24-01.37.03:368][907]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/ConeYBP_Auto2686580C44D80FE2718CE1B8E30B3DA42.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/Autosaves/Game/FirstPersonBP/Blueprints/ConeYBP_Auto2.uasset'
+[2020.09.24-01.37.03:371][907]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/Autosaves/Game/FirstPersonBP/Blueprints/ConeYBP_Auto2.uasset
+[2020.09.24-01.37.03:371][907]LogFileHelpers: Auto-saving content packages took 0.095
+[2020.09.24-01.38.38:226][238]BlueprintLog: New page: Compile ConeYBP
+[2020.09.24-01.38.48:041][381]BlueprintLog: New page: Compile ConeRBP
+[2020.09.24-01.39.06:200][532]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.24-01.39.06:215][532]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.39.06:215][532]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.24-01.39.06:215][532]PIE: New page: PIE session: FirstPersonExampleMap (Sep 23, 2020, 3:39:06 PM)
+[2020.09.24-01.39.06:215][532]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.09.24-01.39.06:230][532]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014293s)
+[2020.09.24-01.39.06:230][532]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.24-01.39.06:231][532]LogPlayLevel: PIE: World Init took: (0.000933s)
+[2020.09.24-01.39.06:231][532]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.015483s)
+[2020.09.24-01.39.06:265][532]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.24-01.39.06:282][532]LogInit: FAudioDevice initialized.
+[2020.09.24-01.39.06:315][532]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.09.24-01.39.06:317][532]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.09.23-20.39.06
+[2020.09.24-01.39.06:318][532]LogWorld: Bringing up level for play took: 0.001247
+[2020.09.24-01.39.06:319][532]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.851
+[2020.09.24-01.39.06:319][532]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.39.11:641][168]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_DynamicCast', from offset 12
+[2020.09.24-01.39.11:641][168]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/ConeYBP.ConeYBP_C:BndEvt__ConoA_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature
+	Function /Game/FirstPersonBP/Blueprints/ConeYBP.ConeYBP_C:ExecuteUbergraph_ConeYBP
+
+[2020.09.24-01.40.22:417][ 25]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.40.22:455][ 25]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.41.58:034][458]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.24-01.41.58:050][458]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.41.58:050][458]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.24-01.41.58:050][458]PIE: New page: PIE session: FirstPersonExampleMap (Sep 23, 2020, 3:41:58 PM)
+[2020.09.24-01.41.58:050][458]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.09.24-01.41.58:065][458]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014840s)
+[2020.09.24-01.41.58:066][458]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.24-01.41.58:066][458]LogPlayLevel: PIE: World Init took: (0.000904s)
+[2020.09.24-01.41.58:066][458]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016079s)
+[2020.09.24-01.41.58:100][458]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.24-01.41.58:116][458]LogInit: FAudioDevice initialized.
+[2020.09.24-01.41.58:151][458]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.09.24-01.41.58:154][458]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.09.23-20.41.58
+[2020.09.24-01.41.58:154][458]LogWorld: Bringing up level for play took: 0.001420
+[2020.09.24-01.41.58:155][458]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.985
+[2020.09.24-01.41.58:155][458]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.42.15:953][591]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.42.15:986][591]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.43.06:208][ 51]LogMaterial: Missing cached shader map for material M_LightStage_Arrows, compiling. 
+[2020.09.24-01.43.06:623][ 51]LogMaterial: Missing cached shader map for material M_LightStage_Skybox_Master, compiling. 
+[2020.09.24-01.43.06:647][ 51]LogMaterial: Missing cached shader map for material M_LightStage_Skybox_Master, compiling. 
+[2020.09.24-01.43.06:683][ 51]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.06:798][ 51]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.06:848][ 51]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.06:853][ 51]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.06:857][ 51]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.06:861][ 51]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.06:863][ 51]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.06:909][ 51]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.06:913][ 51]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.06:916][ 51]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.06:919][ 51]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.06:922][ 51]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.06:949][ 51]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.06:952][ 51]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.06:956][ 51]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.06:956][ 51]LogSavePackage: Save=289.02ms
+[2020.09.24-01.43.06:957][ 51]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/BP_LightStudioDEA1CFAE422C28FCF5328C907FE6D19D.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/StarterContent/Blueprints/BP_LightStudio.uasset'
+[2020.09.24-01.43.06:961][ 51]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.06:963][ 51]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.06:963][ 51]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/StarterContent/Blueprints/BP_LightStudio.uasset
+[2020.09.24-01.43.07:185][ 52]LogMaterial: Missing cached shader map for material M_Lamp, compiling. 
+[2020.09.24-01.43.07:342][ 52]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.07:351][ 52]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.07:356][ 52]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.07:359][ 52]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.07:360][ 52]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.07:363][ 52]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.07:364][ 52]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.07:367][ 52]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.07:370][ 52]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.07:374][ 52]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.07:378][ 52]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.07:380][ 52]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.07:384][ 52]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.07:387][ 52]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.07:389][ 52]LogSavePackage: Save=68.43ms
+[2020.09.24-01.43.07:390][ 52]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.07:390][ 52]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/Blueprint_CeilingLight14BBB38D4219D1025054969CF30D00C5.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset'
+[2020.09.24-01.43.07:395][ 52]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.07:396][ 52]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset
+[2020.09.24-01.43.07:625][ 53]LogMaterial: Missing cached shader map for material M_smoke_subUV, compiling. 
+[2020.09.24-01.43.07:699][ 53]LogMaterial: Missing cached shader map for material M_radial_ramp, compiling. 
+[2020.09.24-01.43.07:748][ 53]LogMaterial: Missing cached shader map for material m_flare_01, compiling. 
+[2020.09.24-01.43.07:778][ 53]LogMaterial: Missing cached shader map for material M_explosion_subUV, compiling. 
+[2020.09.24-01.43.07:803][ 53]LogMaterial: Missing cached shader map for material M_Burst, compiling. 
+[2020.09.24-01.43.08:048][ 53]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:052][ 53]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:055][ 53]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:058][ 53]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:059][ 53]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:061][ 53]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:063][ 53]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:066][ 53]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:068][ 53]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:070][ 53]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:077][ 53]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:079][ 53]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:081][ 53]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:084][ 53]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:085][ 53]LogSavePackage: Save=55.45ms
+[2020.09.24-01.43.08:086][ 53]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:086][ 53]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/Blueprint_Effect_ExplosionBE64BFCB4AF6D6CD8E4EE591F0900E58.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset'
+[2020.09.24-01.43.08:091][ 53]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:092][ 53]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset
+[2020.09.24-01.43.08:276][ 54]LogMaterial: Missing cached shader map for material M_Radial_Gradient, compiling. 
+[2020.09.24-01.43.08:299][ 54]LogMaterial: Missing cached shader map for material M_Fire_SubUV, compiling. 
+[2020.09.24-01.43.08:347][ 54]LogMaterial: Missing cached shader map for material M_Heat_Distortion, compiling. 
+[2020.09.24-01.43.08:416][ 54]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:420][ 54]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:425][ 54]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:428][ 54]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:430][ 54]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:432][ 54]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:434][ 54]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:435][ 54]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:437][ 54]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:445][ 54]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:447][ 54]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:449][ 54]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:452][ 54]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:455][ 54]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:457][ 54]LogSavePackage: Save=58.02ms
+[2020.09.24-01.43.08:458][ 54]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:458][ 54]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/Blueprint_Effect_FireDD513EF34C2AF90A48475D9EA5B2910B.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset'
+[2020.09.24-01.43.08:464][ 54]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:465][ 54]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset
+[2020.09.24-01.43.08:546][ 55]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:550][ 55]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:553][ 55]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:557][ 55]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:560][ 55]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:562][ 55]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:564][ 55]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:566][ 55]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:568][ 55]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:571][ 55]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:579][ 55]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:581][ 55]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:583][ 55]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:584][ 55]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:586][ 55]LogSavePackage: Save=52.73ms
+[2020.09.24-01.43.08:586][ 55]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:586][ 55]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/Blueprint_Effect_Smoke75763F26496C1904A116508D1EBF2C78.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset'
+[2020.09.24-01.43.08:591][ 55]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:592][ 55]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset
+[2020.09.24-01.43.08:650][ 56]LogMaterial: Missing cached shader map for material M_Spark, compiling. 
+[2020.09.24-01.43.08:715][ 56]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:719][ 56]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:723][ 56]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:725][ 56]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:727][ 56]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:729][ 56]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:731][ 56]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:733][ 56]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:735][ 56]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:737][ 56]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:743][ 56]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:746][ 56]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:748][ 56]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:750][ 56]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:751][ 56]LogSavePackage: Save=48.18ms
+[2020.09.24-01.43.08:752][ 56]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:752][ 56]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/Blueprint_Effect_Sparks7B360E1B4CFEB940E43F89B506BA5FB9.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset'
+[2020.09.24-01.43.08:757][ 56]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:758][ 56]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset
+[2020.09.24-01.43.08:844][ 57]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:848][ 57]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:850][ 57]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:852][ 57]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:857][ 57]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:859][ 57]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:860][ 57]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:861][ 57]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:862][ 57]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:864][ 57]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:865][ 57]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:866][ 57]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:869][ 57]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:874][ 57]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:876][ 57]LogSavePackage: Save=47.07ms
+[2020.09.24-01.43.08:876][ 57]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:876][ 57]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/Blueprint_Effect_SteamC469B63D48448304E87EC98EB17A5A45.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset'
+[2020.09.24-01.43.08:881][ 57]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:881][ 57]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset
+[2020.09.24-01.43.08:983][ 58]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:994][ 58]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.08:999][ 58]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.09:001][ 58]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.09:003][ 58]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.09:004][ 58]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.09:011][ 58]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.09:014][ 58]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.09:016][ 58]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.09:018][ 58]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.09:020][ 58]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.09:023][ 58]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.09:027][ 58]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.09:030][ 58]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.09:031][ 58]LogSavePackage: Save=58.21ms
+[2020.09.24-01.43.09:032][ 58]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.09:032][ 58]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/Blueprint_WallSconce0B1DC8D343A2AE4D4958FC92C127C0BB.tmp' to 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset'
+[2020.09.24-01.43.09:038][ 58]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.09.24-01.43.09:041][ 58]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset
+[2020.09.24-01.43.57:204][695]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.24-01.43.57:221][695]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.43.57:222][695]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.24-01.43.57:222][695]PIE: New page: PIE session: FirstPersonExampleMap (Sep 23, 2020, 3:43:57 PM)
+[2020.09.24-01.43.57:222][695]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.09.24-01.43.57:235][695]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013020s)
+[2020.09.24-01.43.57:236][695]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.24-01.43.57:236][695]LogPlayLevel: PIE: World Init took: (0.001395s)
+[2020.09.24-01.43.57:237][695]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014840s)
+[2020.09.24-01.43.57:277][695]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.24-01.43.57:293][695]LogInit: FAudioDevice initialized.
+[2020.09.24-01.43.57:341][695]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.09.24-01.43.57:343][695]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.09.23-20.43.57
+[2020.09.24-01.43.57:343][695]LogWorld: Bringing up level for play took: 0.001438
+[2020.09.24-01.43.57:345][695]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.175
+[2020.09.24-01.43.57:346][695]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.44.01:124][138]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.44.01:170][138]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.44.09:899][181]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.24-01.44.09:914][181]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.44.09:914][181]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.24-01.44.09:914][181]PIE: New page: PIE session: FirstPersonExampleMap (Sep 23, 2020, 3:44:09 PM)
+[2020.09.24-01.44.09:915][181]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.09.24-01.44.09:928][181]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013010s)
+[2020.09.24-01.44.09:928][181]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.24-01.44.09:928][181]LogPlayLevel: PIE: World Init took: (0.000749s)
+[2020.09.24-01.44.09:929][181]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014098s)
+[2020.09.24-01.44.09:964][181]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.24-01.44.09:980][181]LogInit: FAudioDevice initialized.
+[2020.09.24-01.44.10:011][181]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.09.24-01.44.10:013][181]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.09.23-20.44.10
+[2020.09.24-01.44.10:014][181]LogWorld: Bringing up level for play took: 0.001254
+[2020.09.24-01.44.10:015][181]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.844
+[2020.09.24-01.44.10:015][181]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.44.21:448][446]LogEditorViewport: Clicking on Actor (LMB): ConeYBP_C (ConeYBP)
+[2020.09.24-01.44.57:189][576]LogEditorViewport: Clicking on Actor (LMB): ConeYBP_C (ConeYBP1)
+[2020.09.24-01.45.36:885][145]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.09.24-01.45.54:172][170]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.45.54:208][170]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.46.43:582][903]BlueprintLog: New page: Compile FirstPersonExampleMap
+[2020.09.24-01.46.47:259][333]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.24-01.46.47:275][333]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.46.47:275][333]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.24-01.46.47:276][333]PIE: New page: PIE session: FirstPersonExampleMap (Sep 23, 2020, 3:46:47 PM)
+[2020.09.24-01.46.47:276][333]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.09.24-01.46.47:289][333]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012844s)
+[2020.09.24-01.46.47:290][333]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.24-01.46.47:290][333]LogPlayLevel: PIE: World Init took: (0.001304s)
+[2020.09.24-01.46.47:290][333]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014419s)
+[2020.09.24-01.46.47:327][333]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.24-01.46.47:343][333]LogInit: FAudioDevice initialized.
+[2020.09.24-01.46.47:375][333]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.09.24-01.46.47:377][333]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.09.23-20.46.47
+[2020.09.24-01.46.47:378][333]LogWorld: Bringing up level for play took: 0.001310
+[2020.09.24-01.46.47:379][333]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.208
+[2020.09.24-01.46.47:379][333]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.46.55:665][303]LogEditorViewport: Clicking on Actor (LMB): ConeYBP_C (ConeYBP)
+[2020.09.24-01.47.20:870][220]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.09.24-01.48.23:408][684]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.48.23:456][684]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.49.21:583][628]BlueprintLog: New page: Compile YBulletBP
+[2020.09.24-01.49.24:029][886]BlueprintLog: New page: Compile RBulletBP
+[2020.09.24-01.52.26:898][616]BlueprintLog: New page: Compile ConeYBP
+[2020.09.24-01.52.32:517][254]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.24-01.52.32:532][254]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.52.32:532][254]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.24-01.52.32:532][254]PIE: New page: PIE session: FirstPersonExampleMap (Sep 23, 2020, 3:52:32 PM)
+[2020.09.24-01.52.32:533][254]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.09.24-01.52.32:548][254]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015255s)
+[2020.09.24-01.52.32:549][254]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.24-01.52.32:549][254]LogPlayLevel: PIE: World Init took: (0.000900s)
+[2020.09.24-01.52.32:549][254]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016441s)
+[2020.09.24-01.52.32:584][254]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.24-01.52.32:601][254]LogInit: FAudioDevice initialized.
+[2020.09.24-01.52.32:636][254]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.09.24-01.52.32:638][254]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.09.23-20.52.32
+[2020.09.24-01.52.32:639][254]LogWorld: Bringing up level for play took: 0.001286
+[2020.09.24-01.52.32:640][254]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.53
+[2020.09.24-01.52.32:640][254]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.52.41:077][264]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.52.41:128][264]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.53.09:514][659]BlueprintLog: New page: Compile ConeYBP
+[2020.09.24-01.53.12:797][ 21]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.24-01.53.12:811][ 21]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.53.12:812][ 21]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.24-01.53.12:812][ 21]PIE: New page: PIE session: FirstPersonExampleMap (Sep 23, 2020, 3:53:12 PM)
+[2020.09.24-01.53.12:812][ 21]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.09.24-01.53.12:825][ 21]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013435s)
+[2020.09.24-01.53.12:826][ 21]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.24-01.53.12:826][ 21]LogPlayLevel: PIE: World Init took: (0.000779s)
+[2020.09.24-01.53.12:826][ 21]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014492s)
+[2020.09.24-01.53.12:862][ 21]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.24-01.53.12:878][ 21]LogInit: FAudioDevice initialized.
+[2020.09.24-01.53.12:909][ 21]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.09.24-01.53.12:911][ 21]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.09.23-20.53.12
+[2020.09.24-01.53.12:912][ 21]LogWorld: Bringing up level for play took: 0.001286
+[2020.09.24-01.53.12:913][ 21]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.258
+[2020.09.24-01.53.12:913][ 21]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.53.22:750][199]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.53.22:786][199]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.54.36:215][982]BlueprintLog: New page: Compile RBulletBP
+[2020.09.24-01.54.37:425][ 92]BlueprintLog: New page: Compile YBulletBP
+[2020.09.24-01.54.45:095][960]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.24-01.54.45:113][960]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.54.45:113][960]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.24-01.54.45:113][960]PIE: New page: PIE session: FirstPersonExampleMap (Sep 23, 2020, 3:54:45 PM)
+[2020.09.24-01.54.45:113][960]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.09.24-01.54.45:133][960]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019600s)
+[2020.09.24-01.54.45:134][960]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.24-01.54.45:134][960]LogPlayLevel: PIE: World Init took: (0.001154s)
+[2020.09.24-01.54.45:135][960]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.021191s)
+[2020.09.24-01.54.45:172][960]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.24-01.54.45:187][960]LogInit: FAudioDevice initialized.
+[2020.09.24-01.54.45:217][960]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.09.24-01.54.45:219][960]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.09.23-20.54.45
+[2020.09.24-01.54.45:219][960]LogWorld: Bringing up level for play took: 0.001368
+[2020.09.24-01.54.45:220][960]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.05
+[2020.09.24-01.54.45:220][960]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.54.54:984][129]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.54.55:019][129]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.55.14:389][435]BlueprintLog: New page: Compile YBulletBP
+[2020.09.24-01.55.15:961][588]BlueprintLog: New page: Compile RBulletBP
+[2020.09.24-01.55.18:418][841]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.24-01.55.18:434][841]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.55.18:434][841]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.24-01.55.18:434][841]PIE: New page: PIE session: FirstPersonExampleMap (Sep 23, 2020, 3:55:18 PM)
+[2020.09.24-01.55.18:434][841]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.09.24-01.55.18:448][841]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013765s)
+[2020.09.24-01.55.18:449][841]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.24-01.55.18:449][841]LogPlayLevel: PIE: World Init took: (0.000790s)
+[2020.09.24-01.55.18:449][841]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014852s)
+[2020.09.24-01.55.18:484][841]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.24-01.55.18:500][841]LogInit: FAudioDevice initialized.
+[2020.09.24-01.55.18:531][841]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.09.24-01.55.18:533][841]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.09.23-20.55.18
+[2020.09.24-01.55.18:534][841]LogWorld: Bringing up level for play took: 0.001301
+[2020.09.24-01.55.18:535][841]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.635
+[2020.09.24-01.55.18:535][841]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.55.24:500][554]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.55.24:542][554]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.55.29:516][141]BlueprintLog: New page: Compile RBulletBP
+[2020.09.24-01.55.35:363][806]BlueprintLog: New page: Compile YBulletBP
+[2020.09.24-01.55.37:311][  5]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.24-01.55.37:327][  5]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.55.37:327][  5]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.24-01.55.37:327][  5]PIE: New page: PIE session: FirstPersonExampleMap (Sep 23, 2020, 3:55:37 PM)
+[2020.09.24-01.55.37:327][  5]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.09.24-01.55.37:340][  5]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013265s)
+[2020.09.24-01.55.37:340][  5]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.09.24-01.55.37:341][  5]LogPlayLevel: PIE: World Init took: (0.000915s)
+[2020.09.24-01.55.37:341][  5]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014487s)
+[2020.09.24-01.55.37:375][  5]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.09.24-01.55.37:391][  5]LogInit: FAudioDevice initialized.
+[2020.09.24-01.55.37:423][  5]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.09.24-01.55.37:426][  5]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.09.23-20.55.37
+[2020.09.24-01.55.37:426][  5]LogWorld: Bringing up level for play took: 0.001524
+[2020.09.24-01.55.37:427][  5]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.257
+[2020.09.24-01.55.37:427][  5]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.55.42:953][663]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.55.42:991][663]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.09.24-01.56.33:101][ 39]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.09.24-01.56.33:154][ 39]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.09.24-01.56.33:207][ 39]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.09.24-01.56.33:281][ 39]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.09.24-01.56.33:637][ 40]Cmd: QUIT_EDITOR
+[2020.09.24-01.56.34:357][ 40]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.09.24-01.56.34:423][ 40]LogExit: Preparing to exit.
+[2020.09.24-01.56.35:965][ 40]LogExit: Editor shut down
+[2020.09.24-01.56.35:991][ 40]LogExit: Transaction tracking system shut down
+[2020.09.24-01.56.36:244][ 40]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2020.09.24-01.56.36:244][ 40]LogDirectoryWatcher: A directory notification for 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/' was aborted.
+[2020.09.24-01.56.36:244][ 40]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2020.09.24-01.56.36:244][ 40]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2020.09.24-01.56.36:244][ 40]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2020.09.24-01.56.36:244][ 40]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2020.09.24-01.56.36:244][ 40]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2020.09.24-01.56.37:538][ 40]LogExit: Object subsystem successfully closed.
+[2020.09.24-01.56.37:714][ 40]LogD3D11RHI: Shutdown
+[2020.09.24-01.56.37:714][ 40]LogD3D11RHI: CleanupD3DDevice
+[2020.09.24-01.56.37:934][ 40]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.09.24-01.56.41:943][ 40]LogModuleManager: Shutting down and abandoning module BlueprintGraph (552)
+[2020.09.24-01.56.41:943][ 40]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (550)
+[2020.09.24-01.56.41:943][ 40]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
+[2020.09.24-01.56.41:943][ 40]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
+[2020.09.24-01.56.41:943][ 40]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
+[2020.09.24-01.56.42:057][ 40]LogDirectoryWatcher: A directory notification for 'D:/EpicGames/Games/UE_4.18/FeaturePacks/' was aborted.
+[2020.09.24-01.56.42:067][ 40]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
+[2020.09.24-01.56.42:067][ 40]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
+[2020.09.24-01.56.42:067][ 40]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
+[2020.09.24-01.56.42:086][ 40]LogDirectoryWatcher: A directory notification for 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/Collections/' was aborted.
+[2020.09.24-01.56.42:086][ 40]LogDirectoryWatcher: A directory notification for 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Content/Developers/Sebastian/Collections/' was aborted.
+[2020.09.24-01.56.42:086][ 40]LogDirectoryWatcher: A directory notification for 'C:/Users/Sebastian/Desktop/TallerPractico/TallerPractico/TallerPractico/Saved/Collections/' was aborted.
+[2020.09.24-01.56.42:086][ 40]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2020.09.24-01.56.42:120][ 40]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2020.09.24-01.56.42:120][ 40]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2020.09.24-01.56.42:233][ 40]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2020.09.24-01.56.42:260][ 40]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2020.09.24-01.56.42:260][ 40]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2020.09.24-01.56.42:260][ 40]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2020.09.24-01.56.42:260][ 40]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2020.09.24-01.56.42:260][ 40]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2020.09.24-01.56.42:279][ 40]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2020.09.24-01.56.42:279][ 40]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2020.09.24-01.56.42:308][ 40]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2020.09.24-01.56.42:308][ 40]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2020.09.24-01.56.42:331][ 40]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2020.09.24-01.56.42:345][ 40]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2020.09.24-01.56.42:479][ 40]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2020.09.24-01.56.42:479][ 40]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2020.09.24-01.56.42:479][ 40]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2020.09.24-01.56.42:479][ 40]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2020.09.24-01.56.42:479][ 40]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2020.09.24-01.56.42:479][ 40]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2020.09.24-01.56.42:493][ 40]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2020.09.24-01.56.42:493][ 40]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2020.09.24-01.56.42:493][ 40]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2020.09.24-01.56.42:493][ 40]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2020.09.24-01.56.42:493][ 40]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2020.09.24-01.56.42:493][ 40]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2020.09.24-01.56.42:504][ 40]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2020.09.24-01.56.42:504][ 40]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2020.09.24-01.56.42:504][ 40]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2020.09.24-01.56.42:504][ 40]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2020.09.24-01.56.42:504][ 40]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2020.09.24-01.56.42:536][ 40]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2020.09.24-01.56.42:562][ 40]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2020.09.24-01.56.42:572][ 40]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2020.09.24-01.56.42:612][ 40]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2020.09.24-01.56.42:632][ 40]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2020.09.24-01.56.42:658][ 40]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2020.09.24-01.56.42:677][ 40]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2020.09.24-01.56.42:677][ 40]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2020.09.24-01.56.42:677][ 40]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2020.09.24-01.56.43:589][ 40]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2020.09.24-01.56.43:589][ 40]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2020.09.24-01.56.43:589][ 40]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2020.09.24-01.56.43:589][ 40]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2020.09.24-01.56.43:601][ 40]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2020.09.24-01.56.43:615][ 40]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2020.09.24-01.56.43:615][ 40]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2020.09.24-01.56.43:624][ 40]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2020.09.24-01.56.43:624][ 40]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2020.09.24-01.56.43:667][ 40]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2020.09.24-01.56.43:683][ 40]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2020.09.24-01.56.43:683][ 40]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2020.09.24-01.56.43:699][ 40]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2020.09.24-01.56.43:714][ 40]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2020.09.24-01.56.43:733][ 40]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2020.09.24-01.56.43:733][ 40]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2020.09.24-01.56.43:734][ 40]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2020.09.24-01.56.43:740][ 40]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2020.09.24-01.56.43:740][ 40]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2020.09.24-01.56.43:763][ 40]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2020.09.24-01.56.43:819][ 40]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2020.09.24-01.56.43:846][ 40]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2020.09.24-01.56.43:865][ 40]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2020.09.24-01.56.43:891][ 40]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2020.09.24-01.56.43:972][ 40]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2020.09.24-01.56.43:986][ 40]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2020.09.24-01.56.44:018][ 40]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2020.09.24-01.56.44:033][ 40]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2020.09.24-01.56.44:033][ 40]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2020.09.24-01.56.44:033][ 40]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2020.09.24-01.56.44:033][ 40]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2020.09.24-01.56.44:057][ 40]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2020.09.24-01.56.44:057][ 40]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2020.09.24-01.56.44:057][ 40]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2020.09.24-01.56.44:062][ 40]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2020.09.24-01.56.44:062][ 40]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2020.09.24-01.56.44:062][ 40]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2020.09.24-01.56.44:081][ 40]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2020.09.24-01.56.44:142][ 40]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2020.09.24-01.56.44:142][ 40]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2020.09.24-01.56.44:155][ 40]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2020.09.24-01.56.44:155][ 40]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2020.09.24-01.56.44:155][ 40]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2020.09.24-01.56.44:155][ 40]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2020.09.24-01.56.44:155][ 40]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2020.09.24-01.56.44:155][ 40]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2020.09.24-01.56.44:155][ 40]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2020.09.24-01.56.44:155][ 40]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2020.09.24-01.56.44:155][ 40]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2020.09.24-01.56.44:155][ 40]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2020.09.24-01.56.44:184][ 40]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2020.09.24-01.56.44:184][ 40]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2020.09.24-01.56.44:196][ 40]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
+[2020.09.24-01.56.44:196][ 40]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2020.09.24-01.56.44:436][ 40]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2020.09.24-01.56.44:463][ 40]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2020.09.24-01.56.44:463][ 40]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2020.09.24-01.56.44:463][ 40]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2020.09.24-01.56.44:463][ 40]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2020.09.24-01.56.44:463][ 40]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2020.09.24-01.56.44:463][ 40]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2020.09.24-01.56.44:463][ 40]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2020.09.24-01.56.44:463][ 40]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2020.09.24-01.56.44:463][ 40]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2020.09.24-01.56.44:463][ 40]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
+[2020.09.24-01.56.44:463][ 40]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
+[2020.09.24-01.56.44:478][ 40]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
+[2020.09.24-01.56.44:491][ 40]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
+[2020.09.24-01.56.44:491][ 40]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2020.09.24-01.56.44:491][ 40]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2020.09.24-01.56.44:499][ 40]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2020.09.24-01.56.44:499][ 40]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2020.09.24-01.56.44:499][ 40]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2020.09.24-01.56.44:499][ 40]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2020.09.24-01.56.44:499][ 40]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2020.09.24-01.56.44:522][ 40]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2020.09.24-01.56.44:535][ 40]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2020.09.24-01.56.44:546][ 40]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2020.09.24-01.56.44:546][ 40]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2020.09.24-01.56.44:546][ 40]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2020.09.24-01.56.44:561][ 40]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2020.09.24-01.56.44:598][ 40]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2020.09.24-01.56.44:610][ 40]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2020.09.24-01.56.44:610][ 40]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2020.09.24-01.56.44:611][ 40]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2020.09.24-01.56.44:611][ 40]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2020.09.24-01.56.44:611][ 40]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2020.09.24-01.56.44:632][ 40]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2020.09.24-01.56.44:632][ 40]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2020.09.24-01.56.44:633][ 40]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2020.09.24-01.56.44:645][ 40]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2020.09.24-01.56.44:645][ 40]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2020.09.24-01.56.44:720][ 40]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2020.09.24-01.56.44:729][ 40]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2020.09.24-01.56.44:739][ 40]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2020.09.24-01.56.44:739][ 40]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2020.09.24-01.56.44:739][ 40]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2020.09.24-01.56.44:740][ 40]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2020.09.24-01.56.44:740][ 40]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2020.09.24-01.56.44:740][ 40]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2020.09.24-01.56.44:841][ 40]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2020.09.24-01.56.44:942][ 40]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2020.09.24-01.56.44:955][ 40]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2020.09.24-01.56.44:964][ 40]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2020.09.24-01.56.44:965][ 40]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2020.09.24-01.56.44:979][ 40]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2020.09.24-01.56.44:979][ 40]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2020.09.24-01.56.44:981][ 40]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2020.09.24-01.56.44:981][ 40]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2020.09.24-01.56.44:981][ 40]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2020.09.24-01.56.44:993][ 40]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2020.09.24-01.56.45:008][ 40]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2020.09.24-01.56.45:008][ 40]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2020.09.24-01.56.45:008][ 40]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2020.09.24-01.56.45:008][ 40]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2020.09.24-01.56.45:017][ 40]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2020.09.24-01.56.45:017][ 40]LogModuleManager: Shutting down and abandoning module Media (221)
+[2020.09.24-01.56.45:023][ 40]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2020.09.24-01.56.45:023][ 40]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2020.09.24-01.56.45:023][ 40]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2020.09.24-01.56.45:036][ 40]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2020.09.24-01.56.45:049][ 40]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2020.09.24-01.56.45:049][ 40]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2020.09.24-01.56.45:075][ 40]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2020.09.24-01.56.45:090][ 40]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2020.09.24-01.56.45:104][ 40]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2020.09.24-01.56.45:154][ 40]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2020.09.24-01.56.45:154][ 40]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2020.09.24-01.56.45:188][ 40]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2020.09.24-01.56.45:295][ 40]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2020.09.24-01.56.45:295][ 40]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2020.09.24-01.56.45:362][ 40]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2020.09.24-01.56.45:362][ 40]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2020.09.24-01.56.45:400][ 40]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2020.09.24-01.56.45:400][ 40]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2020.09.24-01.56.45:426][ 40]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2020.09.24-01.56.45:426][ 40]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2020.09.24-01.56.45:426][ 40]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2020.09.24-01.56.45:426][ 40]LogModuleManager: Shutting down and abandoning module Core (172)
+[2020.09.24-01.56.45:426][ 40]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2020.09.24-01.56.45:426][ 40]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2020.09.24-01.56.45:432][ 40]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2020.09.24-01.56.45:432][ 40]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2020.09.24-01.56.45:481][ 40]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2020.09.24-01.56.45:518][ 40]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2020.09.24-01.56.45:518][ 40]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2020.09.24-01.56.45:557][ 40]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2020.09.24-01.56.45:560][ 40]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2020.09.24-01.56.45:590][ 40]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2020.09.24-01.56.45:636][ 40]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2020.09.24-01.56.45:659][ 40]LogDerivedDataCache: Shutdown
+[2020.09.24-01.56.45:659][ 40]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2020.09.24-01.56.45:659][ 40]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2020.09.24-01.56.45:674][ 40]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2020.09.24-01.56.45:705][ 40]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2020.09.24-01.56.45:713][ 40]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2020.09.24-01.56.45:713][ 40]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2020.09.24-01.56.45:734][ 40]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2020.09.24-01.56.45:734][ 40]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2020.09.24-01.56.45:734][ 40]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2020.09.24-01.56.45:734][ 40]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2020.09.24-01.56.45:785][ 40]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2020.09.24-01.56.45:785][ 40]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2020.09.24-01.56.45:785][ 40]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2020.09.24-01.56.45:785][ 40]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2020.09.24-01.56.45:785][ 40]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2020.09.24-01.56.45:785][ 40]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2020.09.24-01.56.45:785][ 40]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2020.09.24-01.56.45:785][ 40]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2020.09.24-01.56.45:785][ 40]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2020.09.24-01.56.45:786][ 40]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2020.09.24-01.56.45:786][ 40]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2020.09.24-01.56.45:786][ 40]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2020.09.24-01.56.45:786][ 40]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2020.09.24-01.56.45:786][ 40]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2020.09.24-01.56.45:786][ 40]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2020.09.24-01.56.45:786][ 40]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2020.09.24-01.56.45:786][ 40]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2020.09.24-01.56.45:786][ 40]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2020.09.24-01.56.45:786][ 40]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2020.09.24-01.56.45:786][ 40]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2020.09.24-01.56.45:786][ 40]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2020.09.24-01.56.45:787][ 40]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2020.09.24-01.56.45:787][ 40]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2020.09.24-01.56.45:787][ 40]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2020.09.24-01.56.45:805][ 40]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2020.09.24-01.56.45:833][ 40]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2020.09.24-01.56.45:860][ 40]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2020.09.24-01.56.45:860][ 40]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2020.09.24-01.56.45:887][ 40]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2020.09.24-01.56.45:913][ 40]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2020.09.24-01.56.45:926][ 40]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2020.09.24-01.56.45:927][ 40]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2020.09.24-01.56.45:927][ 40]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2020.09.24-01.56.45:927][ 40]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2020.09.24-01.56.45:927][ 40]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2020.09.24-01.56.45:927][ 40]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2020.09.24-01.56.45:927][ 40]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2020.09.24-01.56.45:927][ 40]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2020.09.24-01.56.45:927][ 40]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2020.09.24-01.56.45:927][ 40]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2020.09.24-01.56.45:927][ 40]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2020.09.24-01.56.45:980][ 40]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2020.09.24-01.56.46:008][ 40]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2020.09.24-01.56.46:008][ 40]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.09.24-01.56.46:023][ 40]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB2B4F190-402D-C2B0-FB37-54B7740B3F34%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=861ca12a42756dbcf3f6918c60501a40%7Cebcb5f2c85894ba5a3a9ac04b9e40510%7C8bbfd533-bc65-493b-a7f3-cbfa877b35c8&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.09.24-01.56.46:053][ 40]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2020.09.24-01.56.46:111][ 40]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2020.09.24-01.56.46:127][ 40]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2020.09.24-01.56.46:177][ 40]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2020.09.24-01.56.46:197][ 40]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2020.09.24-01.56.46:241][ 40]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2020.09.24-01.56.46:241][ 40]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2020.09.24-01.56.46:241][ 40]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2020.09.24-01.56.46:253][ 40]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2020.09.24-01.56.46:285][ 40]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2020.09.24-01.56.46:285][ 40]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2020.09.24-01.56.46:285][ 40]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2020.09.24-01.56.46:285][ 40]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2020.09.24-01.56.46:285][ 40]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2020.09.24-01.56.46:285][ 40]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2020.09.24-01.56.46:285][ 40]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2020.09.24-01.56.46:285][ 40]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2020.09.24-01.56.46:285][ 40]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2020.09.24-01.56.46:285][ 40]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2020.09.24-01.56.46:308][ 40]LogExit: Exiting.
+[2020.09.24-01.56.46:321][ 40]Log file closed, 09/23/20 20:56:46
