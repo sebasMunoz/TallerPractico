@@ -1,4 +1,4 @@
-﻿Log file open, 11/12/20 18:11:40
+﻿Log file open, 11/12/20 23:44:03
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: TallerPractico
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1024124360) SRandInit(-1024124360).
+LogInit: Display: RandInit(-1773352602) SRandInit(-1773352602).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.317868
+LogStats: Stats thread started at 0.321713
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -196,184 +196,946 @@ LogInit: Base directory: D:/EpicGames/Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2020.11.12-23.11.42:774][  0]LogInit: Selected Device Profile: [Windows]
-[2020.11.12-23.11.42:774][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.11.12-23.11.42:795][  0]LogInit: Computer: SEBASTIANMUÑOZV
-[2020.11.12-23.11.42:795][  0]LogInit: User: Sebastian
-[2020.11.12-23.11.42:795][  0]LogInit: CPU Page size=4096, Cores=6
-[2020.11.12-23.11.42:796][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.11.12-23.11.42:796][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2020.11.12-23.11.42:796][  0]LogMemory: Platform Memory Stats for Windows
-[2020.11.12-23.11.42:796][  0]LogMemory: Process Physical Memory: 276.13 MB used, 276.14 MB peak
-[2020.11.12-23.11.42:796][  0]LogMemory: Process Virtual Memory: 270.55 MB used, 270.55 MB peak
-[2020.11.12-23.11.42:796][  0]LogMemory: Physical Memory: 5624.80 MB used,  10701.54 MB free, 16326.34 MB total
-[2020.11.12-23.11.42:796][  0]LogMemory: Virtual Memory: 4769.40 MB used,  10701.54 MB free, 134217728.00 MB total
-[2020.11.12-23.11.43:378][  0]LogInit: Overriding language with editor language configuration option (en).
-[2020.11.12-23.11.43:378][  0]LogInit: Overriding locale with editor locale configuration option (en).
-[2020.11.12-23.11.43:690][  0]LogInit: Setting process to per monitor DPI aware
-[2020.11.12-23.11.44:132][  0]LogD3D11RHI: D3D11 adapters:
-[2020.11.12-23.11.44:224][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060 SUPER' (Feature Level 11_0)
-[2020.11.12-23.11.44:224][  0]LogD3D11RHI:       8031/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2020.11.12-23.11.44:227][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.11.12-23.11.44:228][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.11.12-23.11.44:228][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.11.12-23.11.44:232][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.11.12-23.11.44:232][  0]LogD3D11RHI:     GPU DeviceId: 0x1f06 (for the marketing name, search the web for "GPU Device Id")
-[2020.11.12-23.11.44:232][  0]LogWindows: EnumDisplayDevices:
-[2020.11.12-23.11.44:233][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2060 SUPER' (P:1 D:1)
-[2020.11.12-23.11.44:233][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2060 SUPER' (P:0 D:1)
-[2020.11.12-23.11.44:233][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2060 SUPER' (P:0 D:0)
-[2020.11.12-23.11.44:233][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060 SUPER' (P:0 D:0)
-[2020.11.12-23.11.44:233][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2020.11.12-23.11.44:233][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060 SUPER
-[2020.11.12-23.11.44:233][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2020.11.12-23.11.44:233][  0]LogD3D11RHI:      Driver Date: Unknown
-[2020.11.12-23.11.44:233][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
-[2020.11.12-23.11.44:288][  0]LogD3D11RHI: Async texture creation enabled
-[2020.11.12-23.11.44:299][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.11.12-23.11.44:302][  0]LogShaderCompilers: Guid format shader working directory is -44 characters bigger than the processId version (C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Intermediate/Shaders/WorkingDirectory/4248/).
-[2020.11.12-23.11.44:302][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Sebastian/AppData/Local/Temp/UnrealShaderWorkingDir/4911DF004219876B2723B6A9B5A118C6/'.
-[2020.11.12-23.11.44:302][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.11.12-23.11.45:446][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2020.11.12-23.11.45:608][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2020.11.12-23.11.45:786][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2020.11.12-23.11.45:944][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2020.11.12-23.11.46:104][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2020.11.12-23.11.46:264][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2020.11.12-23.11.46:423][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2020.11.12-23.11.46:583][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2020.11.12-23.11.46:753][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2020.11.12-23.11.46:914][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2020.11.12-23.11.47:077][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2020.11.12-23.11.47:238][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2020.11.12-23.11.47:397][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2020.11.12-23.11.47:554][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2020.11.12-23.11.47:884][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2020.11.12-23.11.47:884][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2020.11.12-23.11.48:052][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.11.12-23.11.48:207][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2020.11.12-23.11.48:464][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2020.11.12-23.11.48:547][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2020.11.12-23.11.48:712][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2020.11.12-23.11.48:878][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2020.11.12-23.11.49:046][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2020.11.12-23.11.49:208][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2020.11.12-23.11.49:208][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.11.12-23.11.50:899][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.11.12-23.11.50:972][  0]LogDerivedDataCache: Loaded boot cache 0.07s 78MB C:/Users/Sebastian/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2020.11.12-23.11.50:973][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Sebastian/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2020.11.12-23.11.50:973][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.11.12-23.11.50:973][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.11.12-23.11.50:974][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.11.12-23.11.50:974][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.11.12-23.11.50:993][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.11.12-23.11.51:006][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Sebastian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.11.12-23.11.51:014][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.11.12-23.11.51:014][  0]LogSlate: Using Freetype 2.6.0
-[2020.11.12-23.11.51:015][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.11.12-23.11.51:015][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.11.12-23.11.51:422][  0]LogInit: Selected Device Profile: [Windows]
-[2020.11.12-23.11.52:335][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2020.11.12-23.11.52:490][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2020.11.12-23.11.52:490][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.11.12-23.11.52:490][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2020.11.12-23.11.52:490][  0]LogMeshReduction: No automatic mesh merging module available
-[2020.11.12-23.11.52:490][  0]LogMeshMerging: No automatic mesh merging module available
-[2020.11.12-23.11.52:522][  0]LogNetVersion: TallerPractico , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 120631222)
-[2020.11.12-23.11.52:798][  0]LogAssetRegistry: FAssetRegistry took 0.0264 seconds to start up
-[2020.11.12-23.11.53:470][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.037149 seconds
-[2020.11.12-23.11.53:474][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2020.11.12-23.11.53:474][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
-[2020.11.12-23.11.53:474][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.11.12-23.11.53:685][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2020.11.12-23.12.00:351][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.11.12-23.12.00:454][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.11.12-23.12.02:555][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2020.11.12-23.12.03:778][  0]SourceControl: Source control is disabled
-[2020.11.12-23.12.03:778][  0]SourceControl: Source control is disabled
-[2020.11.12-23.12.03:950][  0]SourceControl: Source control is disabled
-[2020.11.12-23.12.04:125][  0]SourceControl: Source control is disabled
-[2020.11.12-23.12.06:770][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.11.12-23.12.07:673][  0]LogOcInput: OculusInput pre-init called
-[2020.11.12-23.12.08:550][  0]LogEngine: Initializing Engine...
-[2020.11.12-23.12.08:553][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.11.12-23.12.08:744][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2020.11.12-23.12.08:744][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2020.11.12-23.12.09:211][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.11.12-23.12.09:240][  0]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2020.11.12-23.12.09:268][  0]LogInit: FAudioDevice initialized.
-[2020.11.12-23.12.09:382][  0]LogDerivedDataCache: Saved boot cache 0.11s 78MB C:/Users/Sebastian/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2020.11.12-23.12.09:395][  0]LogInit: Texture streaming: Enabled
-[2020.11.12-23.12.09:779][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.11.12-23.12.10:256][  0]LogInit: Transaction tracking system initialized
-[2020.11.12-23.12.11:437][  0]BlueprintLog: New page: Editor Load
-[2020.11.12-23.12.14:775][  0]LocalizationService: Localization service is disabled
-[2020.11.12-23.12.17:378][  0]LogConsoleResponse: Display: 
-[2020.11.12-23.12.17:599][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.11.12-23.12.17:599][  0]LogCook: Display: Mobile HDR setting 1
-[2020.11.12-23.12.17:599][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2020.11.12-23.12.17:789][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/' took 0.01s
-[2020.11.12-23.12.21:640][  0]SourceControl: Source control is disabled
-[2020.11.12-23.12.21:640][  0]LightingResults: New page: Lighting Build
-[2020.11.12-23.12.21:965][  0]MapCheck: New page: Map Check
-[2020.11.12-23.12.21:965][  0]LightingResults: New page: Lighting Build
-[2020.11.12-23.12.23:913][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2020.11.12-23.12.24:376][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.11.12-23.12.24:459][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.11.12-23.12.24:612][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 151.885ms to complete.
-[2020.11.12-23.12.24:612][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 2.972
-[2020.11.12-23.12.25:722][  0]LogCollectionManager: Loaded 0 collections in 0.001076 seconds
-[2020.11.12-23.12.25:992][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Saved/Collections/' took 0.01s
-[2020.11.12-23.12.25:992][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/Developers/Sebastian/Collections/' took 0.01s
-[2020.11.12-23.12.25:992][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/Collections/' took 0.01s
-[2020.11.12-23.12.25:992][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2020.11.12-23.12.26:000][  0]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 2363 classes and 519 folders.
-[2020.11.12-23.12.26:296][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2020.11.12-23.12.27:668][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.11.12-23.12.28:060][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
-[2020.11.12-23.12.28:432][  0]LogSlate: Took 0.011876 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.11.12-23.12.28:452][  0]LogSlate: Took 0.012034 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.11.12-23.12.28:486][  0]LogSlate: Took 0.014907 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.11.12-23.12.28:958][  0]LogRenderer: Reallocating scene render targets to support 1208x620 Format 10 NumSamples 1 (Frame:1).
-[2020.11.12-23.12.29:609][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2020.11.12-23.12.29:609][  0]LogLoad: (Engine Initialization) Total time: 50.95 seconds
-[2020.11.12-23.12.29:609][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.11.12-23.12.29:609][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2020.11.12-23.12.29:674][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.11.12-23.12.29:865][  1]LogAssetRegistry: Asset discovery search completed in 37.0897 seconds
-[2020.11.12-23.12.29:866][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2020.11.12-23.12.29:866][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
-[2020.11.12-23.17.01:299][726]LogEditorViewport: Clicking on Actor (context menu): FirstPersonCharacter_C (FirstPersonCharacter)
-[2020.11.12-23.17.01:958][727]LogEditorViewport: Clicking on Actor (context menu): FirstPersonCharacter_C (FirstPersonCharacter)
-[2020.11.12-23.17.02:787][819]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall4)
-[2020.11.12-23.17.03:329][848]LogSlate: Took 0.008731 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2020.11.12-23.17.04:919][ 34]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2020.11.12-23.17.05:852][137]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2020.11.12-23.17.08:218][410]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
-[2020.11.12-23.17.09:550][557]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
-[2020.11.12-23.17.11:718][791]LogEditorViewport: Clicking on Actor (context menu): FirstPersonCharacter_C (FirstPersonCharacter)
-[2020.11.12-23.17.15:292][193]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
-[2020.11.12-23.17.16:010][270]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2020.11.12-23.17.17:891][476]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2020.11.12-23.17.18:530][547]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2020.11.12-23.17.20:010][716]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2020.11.12-23.17.20:785][806]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2020.11.12-23.17.27:029][515]Cmd: TRANSACTION UNDO
-[2020.11.12-23.17.27:029][515]LogEditorTransaction: Undo Clicking on Actors (context menu)
-[2020.11.12-23.17.27:038][515]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2020.11.12-23.17.30:219][833]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
-[2020.11.12-23.17.35:323][366]LogSlate: Took 0.008563 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2020.11.12-23.17.40:043][885]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
-[2020.11.12-23.17.40:126][892]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (FP_Gun)
-[2020.11.12-23.17.41:089][988]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (VR_Gun)
-[2020.11.12-23.17.41:812][ 64]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (VR_Gun)
-[2020.11.12-23.17.44:831][399]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (Mesh2P)
-[2020.11.12-23.17.45:580][476]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (FP_Gun)
-[2020.11.12-23.17.46:735][600]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (VR_Gun)
-[2020.11.12-23.17.53:289][334]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2020.11.12-23.17.58:037][873]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
-[2020.11.12-23.18.03:203][445]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2020.11.12-23.18.04:112][542]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
-[2020.11.12-23.18.14:160][698]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2020.11.12-23.18.14:865][698]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
-[2020.11.12-23.18.15:986][698]LogSlate: Took 0.011368 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.11.13-04.44.06:494][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.13-04.44.06:494][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.11.13-04.44.06:504][  0]LogInit: Computer: SEBASTIANMUÑOZV
+[2020.11.13-04.44.06:504][  0]LogInit: User: Sebastian
+[2020.11.13-04.44.06:504][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.11.13-04.44.06:504][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.11.13-04.44.06:504][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.11.13-04.44.06:504][  0]LogMemory: Platform Memory Stats for Windows
+[2020.11.13-04.44.06:504][  0]LogMemory: Process Physical Memory: 274.39 MB used, 274.39 MB peak
+[2020.11.13-04.44.06:504][  0]LogMemory: Process Virtual Memory: 270.33 MB used, 270.33 MB peak
+[2020.11.13-04.44.06:504][  0]LogMemory: Physical Memory: 4207.67 MB used,  12118.67 MB free, 16326.34 MB total
+[2020.11.13-04.44.06:504][  0]LogMemory: Virtual Memory: 4769.40 MB used,  12118.67 MB free, 134217728.00 MB total
+[2020.11.13-04.44.07:100][  0]LogInit: Overriding language with editor language configuration option (en).
+[2020.11.13-04.44.07:100][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2020.11.13-04.44.07:424][  0]LogInit: Setting process to per monitor DPI aware
+[2020.11.13-04.44.07:883][  0]LogD3D11RHI: D3D11 adapters:
+[2020.11.13-04.44.07:974][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060 SUPER' (Feature Level 11_0)
+[2020.11.13-04.44.07:974][  0]LogD3D11RHI:       8031/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.11.13-04.44.07:977][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.11.13-04.44.07:977][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.11.13-04.44.07:977][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.11.13-04.44.07:982][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.11.13-04.44.07:982][  0]LogD3D11RHI:     GPU DeviceId: 0x1f06 (for the marketing name, search the web for "GPU Device Id")
+[2020.11.13-04.44.07:982][  0]LogWindows: EnumDisplayDevices:
+[2020.11.13-04.44.07:982][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2060 SUPER' (P:1 D:1)
+[2020.11.13-04.44.07:982][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2060 SUPER' (P:0 D:1)
+[2020.11.13-04.44.07:983][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2060 SUPER' (P:0 D:0)
+[2020.11.13-04.44.07:983][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060 SUPER' (P:0 D:0)
+[2020.11.13-04.44.07:983][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.11.13-04.44.07:983][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060 SUPER
+[2020.11.13-04.44.07:983][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.11.13-04.44.07:983][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.11.13-04.44.07:983][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
+[2020.11.13-04.44.08:040][  0]LogD3D11RHI: Async texture creation enabled
+[2020.11.13-04.44.08:051][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.11.13-04.44.08:054][  0]LogShaderCompilers: Guid format shader working directory is -45 characters bigger than the processId version (C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Intermediate/Shaders/WorkingDirectory/10964/).
+[2020.11.13-04.44.08:054][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Sebastian/AppData/Local/Temp/UnrealShaderWorkingDir/2EABE4EF4ACA113D8435FE8D66FD9C15/'.
+[2020.11.13-04.44.08:054][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.11.13-04.44.09:247][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2020.11.13-04.44.09:408][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2020.11.13-04.44.09:571][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2020.11.13-04.44.09:732][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2020.11.13-04.44.09:893][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2020.11.13-04.44.10:069][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2020.11.13-04.44.10:233][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.11.13-04.44.10:394][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2020.11.13-04.44.10:548][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2020.11.13-04.44.10:712][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2020.11.13-04.44.10:873][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2020.11.13-04.44.11:034][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2020.11.13-04.44.11:195][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2020.11.13-04.44.11:370][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2020.11.13-04.44.11:725][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2020.11.13-04.44.11:725][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2020.11.13-04.44.11:903][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.11.13-04.44.12:055][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2020.11.13-04.44.12:307][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.11.13-04.44.12:386][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.11.13-04.44.12:554][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2020.11.13-04.44.12:719][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.11.13-04.44.12:884][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2020.11.13-04.44.13:040][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2020.11.13-04.44.13:040][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.11.13-04.44.14:811][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.11.13-04.44.14:890][  0]LogDerivedDataCache: Loaded boot cache 0.08s 78MB C:/Users/Sebastian/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2020.11.13-04.44.14:890][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Sebastian/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2020.11.13-04.44.14:890][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.11.13-04.44.14:890][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.11.13-04.44.14:890][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.13-04.44.14:890][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.11.13-04.44.14:902][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.11.13-04.44.14:930][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Sebastian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.11.13-04.44.14:939][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.11.13-04.44.14:940][  0]LogSlate: Using Freetype 2.6.0
+[2020.11.13-04.44.14:940][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.11.13-04.44.14:941][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.11.13-04.44.15:350][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.13-04.44.16:238][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.11.13-04.44.16:400][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.11.13-04.44.16:401][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.11.13-04.44.16:401][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2020.11.13-04.44.16:401][  0]LogMeshReduction: No automatic mesh merging module available
+[2020.11.13-04.44.16:401][  0]LogMeshMerging: No automatic mesh merging module available
+[2020.11.13-04.44.16:434][  0]LogNetVersion: TallerPractico , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 120631222)
+[2020.11.13-04.44.16:721][  0]LogAssetRegistry: FAssetRegistry took 0.0261 seconds to start up
+[2020.11.13-04.44.20:589][  0]LogAssetRegistry: Error: Failed to open file for write C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Intermediate/AssetRegistryCache/2657c409.bin
+[2020.11.13-04.44.20:634][  0]LogAssetRegistry: Error: Failed to open file for write C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Intermediate/AssetRegistryCache/866581fd.bin
+[2020.11.13-04.44.20:658][  0]LogAssetRegistry: Error: Failed to open file for write C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Intermediate/AssetRegistryCache/f0d5030c.bin
+[2020.11.13-04.44.20:668][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.112697 seconds
+[2020.11.13-04.44.20:690][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2020.11.13-04.44.20:690][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2020.11.13-04.44.20:690][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.11.13-04.44.20:949][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2020.11.13-04.44.50:630][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.11.13-04.44.50:763][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.11.13-04.44.54:209][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2020.11.13-04.44.56:003][  0]SourceControl: Source control is disabled
+[2020.11.13-04.44.56:015][  0]SourceControl: Source control is disabled
+[2020.11.13-04.44.56:302][  0]SourceControl: Source control is disabled
+[2020.11.13-04.44.56:531][  0]SourceControl: Source control is disabled
+[2020.11.13-04.44.59:929][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.11.13-04.45.00:940][  0]LogOcInput: OculusInput pre-init called
+[2020.11.13-04.45.02:387][  0]LogEngine: Initializing Engine...
+[2020.11.13-04.45.02:432][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.13-04.45.03:288][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.11.13-04.45.03:289][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.11.13-04.45.04:068][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.11.13-04.45.04:297][  0]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.13-04.45.04:373][  0]LogInit: FAudioDevice initialized.
+[2020.11.13-04.45.04:487][  0]LogDerivedDataCache: Saved boot cache 0.12s 78MB C:/Users/Sebastian/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2020.11.13-04.45.04:501][  0]LogInit: Texture streaming: Enabled
+[2020.11.13-04.45.04:930][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.11.13-04.45.06:090][  0]LogInit: Transaction tracking system initialized
+[2020.11.13-04.45.08:393][  0]BlueprintLog: New page: Editor Load
+[2020.11.13-04.45.14:159][  0]LocalizationService: Localization service is disabled
+[2020.11.13-04.45.17:791][  0]LogConsoleResponse: Display: 
+[2020.11.13-04.45.21:866][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/' took 0.01s
+[2020.11.13-04.45.21:866][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.11.13-04.45.21:867][  0]LogCook: Display: Mobile HDR setting 1
+[2020.11.13-04.45.21:878][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2020.11.13-04.45.28:030][  0]SourceControl: Source control is disabled
+[2020.11.13-04.45.28:075][  0]LightingResults: New page: Lighting Build
+[2020.11.13-04.45.28:422][  0]MapCheck: New page: Map Check
+[2020.11.13-04.45.28:422][  0]LightingResults: New page: Lighting Build
+[2020.11.13-04.45.30:306][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.11.13-04.45.30:799][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.13-04.45.30:906][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.13-04.45.31:030][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 123.457ms to complete.
+[2020.11.13-04.45.31:030][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 2.970
+[2020.11.13-04.45.32:099][  0]LogCollectionManager: Loaded 0 collections in 0.001122 seconds
+[2020.11.13-04.45.32:384][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Saved/Collections/' took 0.01s
+[2020.11.13-04.45.32:384][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/Developers/Sebastian/Collections/' took 0.01s
+[2020.11.13-04.45.32:384][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/Collections/' took 0.01s
+[2020.11.13-04.45.32:384][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2020.11.13-04.45.32:398][  0]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 2363 classes and 519 folders.
+[2020.11.13-04.45.32:718][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.11.13-04.45.33:717][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.11.13-04.45.33:923][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2020.11.13-04.45.34:255][  0]LogSlate: Took 0.012200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.11.13-04.45.34:283][  0]LogSlate: Took 0.013411 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.11.13-04.45.34:317][  0]LogSlate: Took 0.015244 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.11.13-04.45.34:718][  0]LogRenderer: Reallocating scene render targets to support 1208x620 Format 10 NumSamples 1 (Frame:1).
+[2020.11.13-04.45.34:987][  0]LogSlate: Took 0.010103 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.11.13-04.45.35:365][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2020.11.13-04.45.35:365][  0]LogLoad: (Engine Initialization) Total time: 93.21 seconds
+[2020.11.13-04.45.35:365][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.11.13-04.45.35:365][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2020.11.13-04.45.35:481][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.11.13-04.45.35:653][  1]LogAssetRegistry: Asset discovery search completed in 78.9548 seconds
+[2020.11.13-04.45.35:654][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.11.13-04.45.35:654][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000046 seconds (updated 0 objects)
+[2020.11.13-04.45.41:497][661]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.13-04.45.41:577][661]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.11.13-04.45.41:593][661]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.13-04.45.41:624][661]PIE: New page: PIE session: FirstPersonExampleMap (Nov 12, 2020, 6:45:41 PM)
+[2020.11.13-04.45.41:624][661]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.11.13-04.45.41:684][661]LogPlayLevel: PIE: StaticDuplicateObject took: (0.060048s)
+[2020.11.13-04.45.41:685][661]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.11.13-04.45.41:685][661]LogPlayLevel: PIE: World Init took: (0.000747s)
+[2020.11.13-04.45.41:686][661]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.061292s)
+[2020.11.13-04.45.41:741][661]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.13-04.45.41:808][661]LogInit: FAudioDevice initialized.
+[2020.11.13-04.45.41:881][661]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.11.13-04.45.41:908][661]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.11.12-23.45.41
+[2020.11.13-04.45.41:908][661]LogWorld: Bringing up level for play took: 0.013690
+[2020.11.13-04.45.42:120][661]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2020.11.13-04.45.42:160][661]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_0.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-04.45.42:160][661]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_0.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-04.45.42:161][661]PIE: Warning: ConeRBP_C_0.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.11.13-04.45.42:161][661]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_0.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-04.45.42:161][661]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_0.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-04.45.42:161][661]PIE: Warning: ConeYBP_C_0.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.11.13-04.45.42:161][661]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.056
+[2020.11.13-04.45.42:161][661]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.11.13-04.45.42:887][732]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 59
+[2020.11.13-04.45.43:887][852]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 58
+[2020.11.13-04.45.44:889][972]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 57
+[2020.11.13-04.45.45:889][ 92]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_1.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-04.45.45:889][ 92]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_1.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-04.45.45:889][ 92]PIE: Warning: ConeRBP_C_1.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.11.13-04.45.45:889][ 92]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_1.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-04.45.45:889][ 92]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_1.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-04.45.45:890][ 92]PIE: Warning: ConeYBP_C_1.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.11.13-04.45.45:890][ 92]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 56
+[2020.11.13-04.45.46:889][212]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 55
+[2020.11.13-04.45.47:865][329]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.11.13-04.45.47:932][329]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.11.13-04.49.26:031][396]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.11.13-04.49.26:634][396]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2020.11.13-04.49.27:449][396]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.11.13-04.49.27:717][396]LogSlate: Took 0.016627 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.11.13-04.51.07:704][878]LogSlate: Took 0.011570 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.11.13-04.51.56:222][611]BlueprintLog: New page: Compile ConeRBP
+[2020.11.13-04.51.57:068][651]LogSavePackage: Save=48.98ms
+[2020.11.13-04.51.57:068][651]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Saved/ConeRBPD4B1B4FC45544AB94BFB46A2B10A7338.tmp' to 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeRBP.uasset'
+[2020.11.13-04.51.57:069][651]LogFileManager: Warning: DeleteFile was unable to delete 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeRBP.uasset', retrying in .5s...
+[2020.11.13-04.51.57:571][651]LogFileManager: Error: Error deleting file 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeRBP.uasset'.
+[2020.11.13-04.51.57:571][651]LogSavePackage: Error: Error saving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeRBP.uasset'
+[2020.11.13-04.51.57:571][651]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeRBP.uasset
+[2020.11.13-04.52.08:153][651]EditorErrors: New page: Save Output
+[2020.11.13-04.52.08:153][651]EditorErrors: Warning: Error saving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeRBP.uasset'
+[2020.11.13-04.55.23:850][819]LogSlate: Took 0.021825 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.11.13-04.55.27:156][211]BlueprintLog: New page: Compile ConeYBP
+[2020.11.13-05.00.02:059][ 57]BlueprintLog: New page: Compile ConeYBP
+[2020.11.13-05.00.03:094][144]LogSavePackage: Save=28.94ms
+[2020.11.13-05.00.03:094][144]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Saved/ConeYBP94E8D95243C7C2D9CC90DE9AB8C3CE7A.tmp' to 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset'
+[2020.11.13-05.00.03:095][144]LogFileManager: Warning: DeleteFile was unable to delete 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset', retrying in .5s...
+[2020.11.13-05.00.03:597][144]LogFileManager: Error: Error deleting file 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset'.
+[2020.11.13-05.00.03:597][144]LogSavePackage: Error: Error saving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset'
+[2020.11.13-05.00.03:598][144]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset
+[2020.11.13-05.00.05:720][144]LogSavePackage: Save=22.79ms
+[2020.11.13-05.00.05:720][144]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Saved/ConeYBP9867895948CFC43A303997B2DB5DD24F.tmp' to 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset'
+[2020.11.13-05.00.05:722][144]LogFileManager: Warning: DeleteFile was unable to delete 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset', retrying in .5s...
+[2020.11.13-05.00.06:222][144]LogFileManager: Error: Error deleting file 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset'.
+[2020.11.13-05.00.06:222][144]LogSavePackage: Error: Error saving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset'
+[2020.11.13-05.00.06:223][144]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset
+[2020.11.13-05.00.21:086][144]LogSavePackage: Save=23.27ms
+[2020.11.13-05.00.21:086][144]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Saved/ConeYBP11CD069E4924CAEC0189CBA83DF4EFC5.tmp' to 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset'
+[2020.11.13-05.00.21:087][144]LogFileManager: Warning: DeleteFile was unable to delete 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset', retrying in .5s...
+[2020.11.13-05.00.21:589][144]LogFileManager: Error: Error deleting file 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset'.
+[2020.11.13-05.00.21:589][144]LogSavePackage: Error: Error saving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset'
+[2020.11.13-05.00.21:589][144]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset
+[2020.11.13-05.00.22:051][144]LogSavePackage: Save=22.55ms
+[2020.11.13-05.00.22:051][144]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Saved/ConeYBP8FBA27F34F6692726CE03EBD06DC53D1.tmp' to 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset'
+[2020.11.13-05.00.22:052][144]LogFileManager: Warning: DeleteFile was unable to delete 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset', retrying in .5s...
+[2020.11.13-05.00.22:552][144]LogFileManager: Error: Error deleting file 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset'.
+[2020.11.13-05.00.22:552][144]LogSavePackage: Error: Error saving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset'
+[2020.11.13-05.00.22:553][144]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset
+[2020.11.13-05.00.23:480][144]EditorErrors: New page: Save Output
+[2020.11.13-05.00.23:480][144]EditorErrors: Warning: Error saving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset'
+[2020.11.13-05.00.23:480][144]EditorErrors: Warning: Error saving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset'
+[2020.11.13-05.00.23:480][144]EditorErrors: Warning: Error saving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset'
+[2020.11.13-05.00.23:480][144]EditorErrors: Warning: Error saving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset'
+[2020.11.13-05.00.26:550][504]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.018
+[2020.11.13-05.00.26:563][504]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/ConeRBP] ([1] browsable assets)...
+[2020.11.13-05.00.26:563][504]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/ConeRBP]
+[2020.11.13-05.00.26:594][504]LogSavePackage: Save=19.10ms
+[2020.11.13-05.00.26:594][504]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Saved/ConeRBP_Auto1CFF1B32B4130CB3CE73F8784995424A8.tmp' to 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Saved/Autosaves/Game/FirstPersonBP/Blueprints/ConeRBP_Auto1.uasset'
+[2020.11.13-05.00.26:601][504]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Saved/Autosaves/Game/FirstPersonBP/Blueprints/ConeRBP_Auto1.uasset
+[2020.11.13-05.00.26:603][504]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/ConeYBP] ([1] browsable assets)...
+[2020.11.13-05.00.26:603][504]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/ConeYBP]
+[2020.11.13-05.00.26:637][504]LogSavePackage: Save=22.25ms
+[2020.11.13-05.00.26:637][504]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Saved/ConeYBP_Auto11C41E6E445B4C09EFB6B95BF1AA87A4D.tmp' to 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Saved/Autosaves/Game/FirstPersonBP/Blueprints/ConeYBP_Auto1.uasset'
+[2020.11.13-05.00.26:640][504]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Saved/Autosaves/Game/FirstPersonBP/Blueprints/ConeYBP_Auto1.uasset
+[2020.11.13-05.00.26:640][504]LogFileHelpers: Auto-saving content packages took 0.089
+[2020.11.13-05.01.22:763][311]LogLinker: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerCharacter'
+[2020.11.13-05.01.22:763][311]LogLinker: Can't find file '/Game/SideScrollerBP/Blueprints/SideScrollerCharacter'
+[2020.11.13-05.01.22:763][311]LogProperty: Warning: ClassProperty /Script/BlueprintGraph.K2Node_DynamicCast:TargetType: unresolved reference to 'BlueprintGeneratedClass'"/Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C"''
+[2020.11.13-05.01.22:764][311]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'"/Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C"',MemberName="CoinsAcumulados",MemberGuid=9E6B4274478117435C4807B1F5E4DBCF)'
+[2020.11.13-05.01.22:773][311]LogBlueprint: Warning: [TimerPoints] 'CoinsAcumulados' variable not found. Base class was probably changed. /Game/TimerPoints.TimerPoints
+[2020.11.13-05.02.51:839][904]BlueprintLog: New page: Compile TimerPoints
+[2020.11.13-05.02.51:849][904]LogBlueprint: Warning: [Compiler TimerPoints] 'Cone YBP' does not inherit from 'Character' ( Cast To ConeYBP  would always fail).
+[2020.11.13-05.02.51:871][904]LogBlueprint: Warning: [Compiler TimerPoints] [1129.71] Compile of TimerPoints successful, but with 1 Warning(s) [in 31 ms] (/Game/TimerPoints.TimerPoints)
+[2020.11.13-05.04.34:227][ 83]BlueprintLog: New page: Compile TimerPoints
+[2020.11.13-05.04.34:237][ 83]LogBlueprint: Warning: [Compiler TimerPoints] 'Cone YBP' does not inherit from 'Player Controller' ( Cast To ConeYBP  would always fail).
+[2020.11.13-05.04.34:259][ 83]LogBlueprint: Warning: [Compiler TimerPoints] [1232.10] Compile of TimerPoints successful, but with 1 Warning(s) [in 32 ms] (/Game/TimerPoints.TimerPoints)
+[2020.11.13-05.04.43:464][182]BlueprintLog: New page: Compile TimerPoints
+[2020.11.13-05.04.43:474][182]LogBlueprint: Error: [Compiler TimerPoints] The type of  Object  is undetermined.  Connect something to  Cast To ConeYBP  to imply a specific type.
+[2020.11.13-05.04.43:475][182]LogBlueprint: Error: [Compiler TimerPoints] The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2020.11.13-05.04.43:496][182]LogBlueprint: Warning: [Compiler TimerPoints] [1241.34] Compile of TimerPoints failed. 2 Fatal Issue(s) 0 Warning(s) [in 31 ms] (/Game/TimerPoints.TimerPoints)
+[2020.11.13-05.06.10:421][508]LogEditorTransaction: Undo Create Pin Link
+[2020.11.13-05.06.10:824][556]LogEditorTransaction: Undo Add Node
+[2020.11.13-05.06.11:247][605]LogEditorTransaction: Undo Delete current selection
+[2020.11.13-05.06.11:755][664]LogEditorTransaction: Undo Promote to Local Variable
+[2020.11.13-05.06.12:130][707]LogEditorTransaction: Undo Delete current selection
+[2020.11.13-05.06.12:559][757]LogEditorTransaction: Undo Create Pin Link
+[2020.11.13-05.06.12:959][805]LogEditorTransaction: Undo Move Node
+[2020.11.13-05.06.13:330][848]LogEditorTransaction: Undo Create Pin Link
+[2020.11.13-05.06.13:647][886]LogEditorTransaction: Undo Create Pin Link
+[2020.11.13-05.06.14:005][929]LogEditorTransaction: Undo Create Pin Link
+[2020.11.13-05.06.14:376][972]LogEditorTransaction: Undo Add Node
+[2020.11.13-05.06.14:805][ 22]LogEditorTransaction: Undo Delete current selection
+[2020.11.13-05.07.05:390][927]BlueprintLog: New page: Compile TimerPoints
+[2020.11.13-05.07.05:400][927]LogBlueprint: Error: [Compiler TimerPoints] This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2020.11.13-05.07.05:425][927]LogBlueprint: Warning: [Compiler TimerPoints] [1383.27] Compile of TimerPoints failed. 1 Fatal Issue(s) 0 Warning(s) [in 34 ms] (/Game/TimerPoints.TimerPoints)
+[2020.11.13-05.08.00:975][673]BlueprintLog: New page: Compile ConeYBP
+[2020.11.13-05.08.01:637][713]LogSavePackage: Save=29.64ms
+[2020.11.13-05.08.01:637][713]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Saved/ConeYBP08C05A4B492FDC8C0BDC69B9A2B5F5A1.tmp' to 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset'
+[2020.11.13-05.08.01:638][713]LogFileManager: Warning: DeleteFile was unable to delete 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset', retrying in .5s...
+[2020.11.13-05.08.02:139][713]LogFileManager: Error: Error deleting file 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset'.
+[2020.11.13-05.08.02:139][713]LogSavePackage: Error: Error saving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset'
+[2020.11.13-05.08.02:141][713]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset
+[2020.11.13-05.08.03:679][713]EditorErrors: New page: Save Output
+[2020.11.13-05.08.03:679][713]EditorErrors: Warning: Error saving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset'
+[2020.11.13-05.08.47:803][884]BlueprintLog: New page: Compile ConeYBP
+[2020.11.13-05.08.49:621][ 67]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.13-05.08.49:641][ 67]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.11.13-05.08.49:641][ 67]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.11.13-05.08.49:647][ 67]LogPlayLevel: [PlayLevel] Compiling TimerPoints before play...
+[2020.11.13-05.08.49:651][ 67]LogBlueprint: Error: [Compiler TimerPoints] The type of  Object  is undetermined.  Connect something to  Cast To ConeYBP  to imply a specific type.
+[2020.11.13-05.08.49:651][ 67]LogBlueprint: Error: [Compiler TimerPoints] The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2020.11.13-05.08.49:652][ 67]LogBlueprint: Warning: [Compiler TimerPoints] [1487.49] Compile of TimerPoints failed. 2 Fatal Issue(s) 0 Warning(s) [in 8 ms] (/Game/TimerPoints.TimerPoints)
+[2020.11.13-05.08.49:742][ 67]LogPlayLevel: PlayLevel: Blueprint regeneration took 100 ms (1 blueprints)
+[2020.11.13-05.08.49:742][ 67]BlueprintLog: Blueprint TimerPoints failed to compile
+[2020.11.13-05.09.01:431][884]BlueprintLog: New page: Compile TimerPoints
+[2020.11.13-05.09.03:985][181]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.13-05.09.04:000][181]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.11.13-05.09.04:000][181]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.13-05.09.04:000][181]PIE: New page: PIE session: FirstPersonExampleMap (Nov 12, 2020, 7:09:04 PM)
+[2020.11.13-05.09.04:000][181]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.11.13-05.09.04:013][181]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013615s)
+[2020.11.13-05.09.04:014][181]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.11.13-05.09.04:014][181]LogPlayLevel: PIE: World Init took: (0.001311s)
+[2020.11.13-05.09.04:015][181]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.015546s)
+[2020.11.13-05.09.04:064][181]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.13-05.09.04:086][181]LogInit: FAudioDevice initialized.
+[2020.11.13-05.09.04:121][181]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.11.13-05.09.04:124][181]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.11.13-00.09.04
+[2020.11.13-05.09.04:124][181]LogWorld: Bringing up level for play took: 0.001629
+[2020.11.13-05.09.04:125][181]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_0.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.09.04:126][181]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_0.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.09.04:126][181]PIE: Warning: ConeRBP_C_0.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.11.13-05.09.04:126][181]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_0.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.09.04:126][181]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_0.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.09.04:126][181]PIE: Warning: ConeYBP_C_0.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.11.13-05.09.04:126][181]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.091
+[2020.11.13-05.09.04:126][181]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.11.13-05.09.04:982][280]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 59
+[2020.11.13-05.09.05:921][392]LogBlueprintUserMessages: [ConeYBP_C_0] Ama +
+[2020.11.13-05.09.05:988][400]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 58
+[2020.11.13-05.09.06:987][520]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 57
+[2020.11.13-05.09.07:980][639]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_1.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.09.07:980][639]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_1.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.09.07:981][639]PIE: Warning: ConeRBP_C_1.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.11.13-05.09.07:981][639]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_1.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.09.07:981][639]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_1.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.09.07:981][639]PIE: Warning: ConeYBP_C_1.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.11.13-05.09.07:988][640]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 56
+[2020.11.13-05.09.08:988][760]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 55
+[2020.11.13-05.09.09:418][811]LogBlueprintUserMessages: [RBulletBP_C_0] Muro
+[2020.11.13-05.09.09:990][880]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 54
+[2020.11.13-05.09.10:698][965]LogBlueprintUserMessages: [RBulletBP_C_1] Muro
+[2020.11.13-05.09.10:990][  0]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 53
+[2020.11.13-05.09.11:898][109]LogBlueprintUserMessages: [YBulletBP_C_1] Muro
+[2020.11.13-05.09.11:982][119]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_2.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.09.11:982][119]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_2.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.09.11:982][119]PIE: Warning: ConeRBP_C_2.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.11.13-05.09.11:983][119]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_2.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.09.11:983][119]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_2.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.09.11:983][119]PIE: Warning: ConeYBP_C_2.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.11.13-05.09.11:990][120]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 52
+[2020.11.13-05.09.12:990][240]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 51
+[2020.11.13-05.09.13:990][360]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 50
+[2020.11.13-05.09.14:991][480]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 49
+[2020.11.13-05.09.15:983][599]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_3.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.09.15:983][599]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_3.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.09.15:983][599]PIE: Warning: ConeRBP_C_3.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.11.13-05.09.15:983][599]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_3.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.09.15:983][599]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_3.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.09.15:983][599]PIE: Warning: ConeYBP_C_3.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.11.13-05.09.15:991][600]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 48
+[2020.11.13-05.09.16:990][720]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 47
+[2020.11.13-05.09.17:990][840]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 46
+[2020.11.13-05.09.18:249][871]LogBlueprintUserMessages: [ConeYBP_C_2] Ama +
+[2020.11.13-05.09.18:991][960]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 45
+[2020.11.13-05.09.19:983][ 79]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_4.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.09.19:983][ 79]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_4.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.09.19:983][ 79]PIE: Warning: ConeRBP_C_4.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.11.13-05.09.19:983][ 79]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_4.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.09.19:983][ 79]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_4.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.09.19:983][ 79]PIE: Warning: ConeYBP_C_4.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.11.13-05.09.19:991][ 80]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 44
+[2020.11.13-05.09.20:716][167]LogBlueprintUserMessages: [ConeYBP_C_3] Ama +
+[2020.11.13-05.09.20:991][200]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 43
+[2020.11.13-05.09.21:991][320]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 42
+[2020.11.13-05.09.22:592][392]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.11.13-05.09.22:629][392]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.11.13-05.09.56:202][404]BlueprintLog: New page: Compile ConeYBP
+[2020.11.13-05.09.56:215][404]LogBlueprint: Error: [Compiler ConeYBP] Failed to resolve term  Value  passed into  Target
+[2020.11.13-05.09.56:333][404]LogBlueprint: Warning: [Compiler ConeYBP] [1554.18] Compile of ConeYBP failed. 1 Fatal Issue(s) 0 Warning(s) [in 131 ms] (/Game/FirstPersonBP/Blueprints/ConeYBP.ConeYBP)
+[2020.11.13-05.10.59:777][576]LogEditorTransaction: Undo Move Node
+[2020.11.13-05.11.00:703][686]LogEditorTransaction: Undo Add Node
+[2020.11.13-05.11.01:423][772]LogEditorTransaction: Undo Delete current selection
+[2020.11.13-05.11.03:588][ 31]LogProperty: Warning: ClassProperty /Script/BlueprintGraph.K2Node_DynamicCast:TargetType: unresolved reference to 'BlueprintGeneratedClass'"/Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C"''
+[2020.11.13-05.11.03:588][ 31]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'"/Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C"',MemberName="CoinsAcumulados",MemberGuid=9E6B4274478117435C4807B1F5E4DBCF)'
+[2020.11.13-05.11.03:590][ 31]LogBlueprint: Warning: [TimerPoints] 'CoinsAcumulados' variable not found. Base class was probably changed. /Game/TimerPoints.TimerPoints
+[2020.11.13-05.12.03:861][ 59]BlueprintLog: New page: Compile TimerPoints
+[2020.11.13-05.12.03:871][ 59]LogBlueprint: Warning: [Compiler TimerPoints] 'Cone YBP' does not inherit from 'Static Mesh Component' ( Cast To ConeYBP  would always fail).
+[2020.11.13-05.12.03:872][ 59]LogBlueprint: Error: [Compiler TimerPoints] This blueprint (self) is not a ConeYBP_C, therefore ' Target ' must have a connection.
+[2020.11.13-05.12.03:872][ 59]LogBlueprint: Error: [Compiler TimerPoints] Variable node  Get ConoA  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2020.11.13-05.12.03:893][ 59]LogBlueprint: Warning: [Compiler TimerPoints] [1681.74] Compile of TimerPoints failed. 2 Fatal Issue(s) 1 Warning(s) [in 31 ms] (/Game/TimerPoints.TimerPoints)
+[2020.11.13-05.12.53:843][898]BlueprintLog: New page: Compile TimerPoints
+[2020.11.13-05.12.53:853][898]LogBlueprint: Error: [Compiler TimerPoints] This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2020.11.13-05.12.53:874][898]LogBlueprint: Warning: [Compiler TimerPoints] [1731.72] Compile of TimerPoints failed. 1 Fatal Issue(s) 0 Warning(s) [in 31 ms] (/Game/TimerPoints.TimerPoints)
+[2020.11.13-05.13.49:865][477]BlueprintLog: New page: Compile TimerPoints
+[2020.11.13-05.13.49:876][477]LogBlueprint: Warning: [Compiler TimerPoints] 'Cone YBP' does not inherit from 'Actor Component' ( Cast To ConeYBP  would always fail).
+[2020.11.13-05.13.49:876][477]LogBlueprint: Error: [Compiler TimerPoints] This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2020.11.13-05.13.49:876][477]LogBlueprint: Error: [Compiler TimerPoints] The current value (ActorComponent) of the ' Component Class ' pin is invalid: String NewDefaultValue 'ActorComponent' specified on class pin 'ComponentClass'
+[2020.11.13-05.13.49:897][477]LogBlueprint: Warning: [Compiler TimerPoints] [1787.74] Compile of TimerPoints failed. 2 Fatal Issue(s) 1 Warning(s) [in 31 ms] (/Game/TimerPoints.TimerPoints)
+[2020.11.13-05.14.11:594][ 59]BlueprintLog: New page: Compile TimerPoints
+[2020.11.13-05.14.11:606][ 59]LogBlueprint: Error: [Compiler TimerPoints] This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2020.11.13-05.14.11:627][ 59]LogBlueprint: Warning: [Compiler TimerPoints] [1809.47] Compile of TimerPoints failed. 1 Fatal Issue(s) 0 Warning(s) [in 32 ms] (/Game/TimerPoints.TimerPoints)
+[2020.11.13-05.14.33:896][703]BlueprintLog: New page: Compile TimerPoints
+[2020.11.13-05.14.33:906][703]LogBlueprint: Error: [Compiler TimerPoints] The type of  Object  is undetermined.  Connect something to  Cast To ConeYBP  to imply a specific type.
+[2020.11.13-05.14.33:906][703]LogBlueprint: Error: [Compiler TimerPoints] The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2020.11.13-05.14.33:926][703]LogBlueprint: Warning: [Compiler TimerPoints] [1831.77] Compile of TimerPoints failed. 2 Fatal Issue(s) 0 Warning(s) [in 30 ms] (/Game/TimerPoints.TimerPoints)
+[2020.11.13-05.15.01:394][263]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.018
+[2020.11.13-05.15.01:397][263]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/ConeYBP] ([1] browsable assets)...
+[2020.11.13-05.15.01:416][263]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/ConeYBP.ConeYBP]
+[2020.11.13-05.15.01:416][263]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/ConeYBP]
+[2020.11.13-05.15.01:457][263]LogSavePackage: Save=28.04ms
+[2020.11.13-05.15.01:457][263]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Saved/ConeYBP_Auto2F5EFD8D848BC1E08BEBD1DBEFFBA4D22.tmp' to 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Saved/Autosaves/Game/FirstPersonBP/Blueprints/ConeYBP_Auto2.uasset'
+[2020.11.13-05.15.01:464][263]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Saved/Autosaves/Game/FirstPersonBP/Blueprints/ConeYBP_Auto2.uasset
+[2020.11.13-05.15.01:465][263]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TimerPoints] ([1] browsable assets)...
+[2020.11.13-05.15.01:465][263]OBJ SavePackage: Finished generating thumbnails for package [/Game/TimerPoints]
+[2020.11.13-05.15.01:503][263]LogSavePackage: Save=24.49ms
+[2020.11.13-05.15.01:503][263]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Saved/TimerPoints_Auto2F73694FC4CEFB30F93ED1088A7AA516B.tmp' to 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Saved/Autosaves/Game/TimerPoints_Auto2.uasset'
+[2020.11.13-05.15.01:506][263]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Saved/Autosaves/Game/TimerPoints_Auto2.uasset
+[2020.11.13-05.15.01:506][263]LogFileHelpers: Auto-saving content packages took 0.110
+[2020.11.13-05.21.21:754][ 62]BlueprintLog: New page: Compile ConeYBP
+[2020.11.13-05.21.25:244][450]BlueprintLog: New page: Compile TimerPoints
+[2020.11.13-05.21.52:788][746]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.13-05.21.52:809][746]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.11.13-05.21.52:809][746]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.13-05.21.52:809][746]PIE: New page: PIE session: FirstPersonExampleMap (Nov 12, 2020, 7:21:52 PM)
+[2020.11.13-05.21.52:809][746]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.11.13-05.21.52:825][746]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015397s)
+[2020.11.13-05.21.52:825][746]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.11.13-05.21.52:826][746]LogPlayLevel: PIE: World Init took: (0.000885s)
+[2020.11.13-05.21.52:826][746]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016586s)
+[2020.11.13-05.21.52:879][746]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.13-05.21.52:900][746]LogInit: FAudioDevice initialized.
+[2020.11.13-05.21.52:931][746]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.11.13-05.21.52:933][746]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.11.13-00.21.52
+[2020.11.13-05.21.52:934][746]LogWorld: Bringing up level for play took: 0.001793
+[2020.11.13-05.21.52:935][746]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_0.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.21.52:935][746]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_0.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.21.52:935][746]PIE: Warning: ConeRBP_C_0.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.11.13-05.21.52:935][746]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_0.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.21.52:935][746]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_0.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.21.52:935][746]PIE: Warning: ConeYBP_C_0.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.11.13-05.21.52:936][746]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.719
+[2020.11.13-05.21.52:936][746]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.11.13-05.21.53:784][845]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 59
+[2020.11.13-05.21.54:783][965]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 58
+[2020.11.13-05.21.55:784][ 85]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 57
+[2020.11.13-05.21.56:784][205]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_1.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.21.56:784][205]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_1.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.21.56:784][205]PIE: Warning: ConeRBP_C_1.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.11.13-05.21.56:784][205]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_1.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.21.56:784][205]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_1.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.21.56:784][205]PIE: Warning: ConeYBP_C_1.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.11.13-05.21.56:785][205]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 56
+[2020.11.13-05.21.57:784][325]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 55
+[2020.11.13-05.21.58:668][431]LogBlueprintUserMessages: [ConeYBP_C_0] suma +++
+[2020.11.13-05.21.58:784][445]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 54
+[2020.11.13-05.21.59:784][565]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 53
+[2020.11.13-05.22.00:785][685]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_2.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.22.00:786][685]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_2.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.22.00:786][685]PIE: Warning: ConeRBP_C_2.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.11.13-05.22.00:786][685]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_2.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.22.00:786][685]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_2.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.22.00:786][685]PIE: Warning: ConeYBP_C_2.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.11.13-05.22.00:786][685]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 52
+[2020.11.13-05.22.01:784][805]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 51
+[2020.11.13-05.22.02:426][882]LogBlueprintUserMessages: [ConeYBP_C_1] suma +++
+[2020.11.13-05.22.02:785][925]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 50
+[2020.11.13-05.22.03:785][ 45]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 49
+[2020.11.13-05.22.04:785][165]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_3.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.22.04:785][165]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_3.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.22.04:785][165]PIE: Warning: ConeRBP_C_3.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.11.13-05.22.04:785][165]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_3.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.22.04:785][165]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_3.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.22.04:786][165]PIE: Warning: ConeYBP_C_3.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.11.13-05.22.04:786][165]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 48
+[2020.11.13-05.22.04:835][171]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.11.13-05.22.04:872][171]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.11.13-05.24.19:921][323]BlueprintLog: New page: Compile ConeYBP
+[2020.11.13-05.25.08:570][681]BlueprintLog: New page: Compile FirstPersonCharacter
+[2020.11.13-05.25.17:559][554]BlueprintLog: New page: Compile FirstPersonCharacter
+[2020.11.13-05.28.45:511][120]BlueprintLog: New page: Compile ConeYBP
+[2020.11.13-05.28.45:520][120]LogBlueprint: Warning: [Compiler ConeYBP] 'First Person Character' does not inherit from 'Player Controller' ( Cast To FirstPersonCharacter  would always fail).
+[2020.11.13-05.28.45:760][120]LogBlueprint: Warning: [Compiler ConeYBP] [2683.60] Compile of ConeYBP successful, but with 1 Warning(s) [in 249 ms] (/Game/FirstPersonBP/Blueprints/ConeYBP.ConeYBP)
+[2020.11.13-05.28.46:110][150]LogSavePackage: Save=29.47ms
+[2020.11.13-05.28.46:110][150]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Saved/ConeYBP7FC22FDC4687BD81ED5E73B6327AFBDD.tmp' to 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset'
+[2020.11.13-05.28.46:111][150]LogFileManager: Warning: DeleteFile was unable to delete 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset', retrying in .5s...
+[2020.11.13-05.28.46:612][150]LogFileManager: Error: Error deleting file 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset'.
+[2020.11.13-05.28.46:612][150]LogSavePackage: Error: Error saving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset'
+[2020.11.13-05.28.46:614][150]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset
+[2020.11.13-05.28.48:091][150]EditorErrors: New page: Save Output
+[2020.11.13-05.28.48:091][150]EditorErrors: Warning: Error saving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset'
+[2020.11.13-05.29.19:197][673]BlueprintLog: New page: Compile ConeYBP
+[2020.11.13-05.29.20:115][741]LogSavePackage: Save=29.38ms
+[2020.11.13-05.29.20:115][741]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Saved/ConeYBPD84C93BC429CB237A7C913AC3B374A9C.tmp' to 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset'
+[2020.11.13-05.29.20:117][741]LogFileManager: Warning: DeleteFile was unable to delete 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset', retrying in .5s...
+[2020.11.13-05.29.20:617][741]LogFileManager: Error: Error deleting file 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset'.
+[2020.11.13-05.29.20:617][741]LogSavePackage: Error: Error saving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset'
+[2020.11.13-05.29.20:619][741]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset
+[2020.11.13-05.29.50:667][741]EditorErrors: New page: Save Output
+[2020.11.13-05.29.50:667][741]EditorErrors: Warning: Error saving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset'
+[2020.11.13-05.29.55:667][101]LogSavePackage: Save=171.96ms
+[2020.11.13-05.29.55:667][101]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Saved/FirstPersonExampleMap_Auto32405963B4BAD8781AE4D17AB26F974FA.tmp' to 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto3.umap'
+[2020.11.13-05.29.55:670][101]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto3.umap
+[2020.11.13-05.29.55:674][101]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.240
+[2020.11.13-05.29.55:674][101]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.240
+[2020.11.13-05.29.55:677][101]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2020.11.13-05.29.55:686][101]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2020.11.13-05.29.55:686][101]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2020.11.13-05.29.55:800][101]LogSavePackage: Save=100.40ms
+[2020.11.13-05.29.55:800][101]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Saved/FirstPersonCharacter_Auto3F64E6EE541A79B03ACC4289AF55BB871.tmp' to 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto3.uasset'
+[2020.11.13-05.29.55:803][101]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto3.uasset
+[2020.11.13-05.29.55:805][101]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/ConeYBP] ([1] browsable assets)...
+[2020.11.13-05.29.55:805][101]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/ConeYBP]
+[2020.11.13-05.29.55:838][101]LogSavePackage: Save=23.43ms
+[2020.11.13-05.29.55:838][101]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Saved/ConeYBP_Auto3EF3933C0420E5F5D320B12A13D22B374.tmp' to 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Saved/Autosaves/Game/FirstPersonBP/Blueprints/ConeYBP_Auto3.uasset'
+[2020.11.13-05.29.55:842][101]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Saved/Autosaves/Game/FirstPersonBP/Blueprints/ConeYBP_Auto3.uasset
+[2020.11.13-05.29.55:843][101]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TimerPoints] ([1] browsable assets)...
+[2020.11.13-05.29.55:843][101]OBJ SavePackage: Finished generating thumbnails for package [/Game/TimerPoints]
+[2020.11.13-05.29.55:879][101]LogSavePackage: Save=23.28ms
+[2020.11.13-05.29.55:879][101]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Saved/TimerPoints_Auto3D4FC660A4F74C7B80970C3A8CBD0D764.tmp' to 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Saved/Autosaves/Game/TimerPoints_Auto3.uasset'
+[2020.11.13-05.29.55:881][101]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Saved/Autosaves/Game/TimerPoints_Auto3.uasset
+[2020.11.13-05.29.55:881][101]LogFileHelpers: Auto-saving content packages took 0.207
+[2020.11.13-05.30.37:946][ 22]BlueprintLog: New page: Compile ConeYBP
+[2020.11.13-05.30.59:146][507]BlueprintLog: New page: Compile TimerPoints
+[2020.11.13-05.30.59:153][507]LogBlueprint: Warning: [Compiler TimerPoints] 'First Person Character' does not inherit from 'Player Controller' ( Cast To FirstPersonCharacter  would always fail).
+[2020.11.13-05.30.59:176][507]LogBlueprint: Warning: [Compiler TimerPoints] [2817.02] Compile of TimerPoints successful, but with 1 Warning(s) [in 30 ms] (/Game/TimerPoints.TimerPoints)
+[2020.11.13-05.31.25:109][593]BlueprintLog: New page: Compile TimerPoints
+[2020.11.13-05.31.25:743][663]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TimerPoints" FILE="C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/TimerPoints.uasset" SILENT=true
+[2020.11.13-05.31.25:781][663]LogSavePackage: Save=26.77ms
+[2020.11.13-05.31.25:781][663]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Saved/TimerPointsF3A24843454B945931D904B14BDA820B.tmp' to 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/TimerPoints.uasset'
+[2020.11.13-05.31.25:782][663]LogFileManager: Warning: DeleteFile was unable to delete 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/TimerPoints.uasset', retrying in .5s...
+[2020.11.13-05.31.26:284][663]LogFileManager: Error: Error deleting file 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/TimerPoints.uasset'.
+[2020.11.13-05.31.26:284][663]LogSavePackage: Error: Error saving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/TimerPoints.uasset'
+[2020.11.13-05.31.26:286][663]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/TimerPoints.uasset
+[2020.11.13-05.31.32:081][663]EditorErrors: New page: Save Output
+[2020.11.13-05.31.32:081][663]EditorErrors: Warning: Error saving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/TimerPoints.uasset'
+[2020.11.13-05.31.42:302][776]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.13-05.31.42:355][776]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.11.13-05.31.42:355][776]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.13-05.31.42:355][776]PIE: New page: PIE session: FirstPersonExampleMap (Nov 12, 2020, 7:31:42 PM)
+[2020.11.13-05.31.42:355][776]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.11.13-05.31.42:379][776]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023516s)
+[2020.11.13-05.31.42:380][776]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.11.13-05.31.42:380][776]LogPlayLevel: PIE: World Init took: (0.000929s)
+[2020.11.13-05.31.42:380][776]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.024720s)
+[2020.11.13-05.31.42:444][776]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.11.13-05.31.42:466][776]LogInit: FAudioDevice initialized.
+[2020.11.13-05.31.42:501][776]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.11.13-05.31.42:503][776]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.11.13-00.31.42
+[2020.11.13-05.31.42:503][776]LogWorld: Bringing up level for play took: 0.001589
+[2020.11.13-05.31.42:504][776]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_0.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.31.42:505][776]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_0.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.31.42:505][776]PIE: Warning: ConeRBP_C_0.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.11.13-05.31.42:505][776]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_0.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.31.42:505][776]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_0.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.31.42:505][776]PIE: Warning: ConeYBP_C_0.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.11.13-05.31.42:505][776]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.288
+[2020.11.13-05.31.42:505][776]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.11.13-05.31.43:295][868]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 59
+[2020.11.13-05.31.44:295][988]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 58
+[2020.11.13-05.31.45:295][108]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 57
+[2020.11.13-05.31.46:295][228]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_1.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.31.46:295][228]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_1.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.31.46:295][228]PIE: Warning: ConeRBP_C_1.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.11.13-05.31.46:296][228]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_1.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.31.46:296][228]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_1.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.31.46:296][228]PIE: Warning: ConeYBP_C_1.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.11.13-05.31.46:296][228]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 56
+[2020.11.13-05.31.47:295][348]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 55
+[2020.11.13-05.31.48:296][468]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 54
+[2020.11.13-05.31.49:295][588]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 53
+[2020.11.13-05.31.49:303][589]LogBlueprintUserMessages: [YBulletBP_C_2] Muro
+[2020.11.13-05.31.50:162][692]LogBlueprintUserMessages: [RBulletBP_C_0] Muro
+[2020.11.13-05.31.50:296][708]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_2.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.31.50:296][708]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_2.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.31.50:297][708]PIE: Warning: ConeRBP_C_2.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.11.13-05.31.50:297][708]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_2.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.31.50:297][708]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_2.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.31.50:297][708]PIE: Warning: ConeYBP_C_2.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.11.13-05.31.50:297][708]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 52
+[2020.11.13-05.31.51:295][828]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 51
+[2020.11.13-05.31.52:296][948]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 50
+[2020.11.13-05.31.53:296][ 68]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 49
+[2020.11.13-05.31.54:296][188]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_3.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.31.54:296][188]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_3.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.31.54:296][188]PIE: Warning: ConeRBP_C_3.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.11.13-05.31.54:297][188]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_3.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.31.54:297][188]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_3.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.31.54:297][188]PIE: Warning: ConeYBP_C_3.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.11.13-05.31.54:297][188]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 48
+[2020.11.13-05.31.55:296][308]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 47
+[2020.11.13-05.31.56:296][428]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 46
+[2020.11.13-05.31.57:163][532]LogBlueprintUserMessages: [YBulletBP_C_4] Muro
+[2020.11.13-05.31.57:296][548]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 45
+[2020.11.13-05.31.58:297][668]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_4.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.31.58:297][668]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_4.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.31.58:297][668]PIE: Warning: ConeRBP_C_4.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.11.13-05.31.58:297][668]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_4.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.31.58:297][668]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_4.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.31.58:297][668]PIE: Warning: ConeYBP_C_4.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.11.13-05.31.58:297][668]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 44
+[2020.11.13-05.31.59:296][788]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 43
+[2020.11.13-05.32.00:296][908]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 42
+[2020.11.13-05.32.01:296][ 28]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 41
+[2020.11.13-05.32.02:297][148]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_5.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.32.02:297][148]PIE: Warning: Invalid Simulate Options: Body (ConeRBP_C_5.ConoR MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.32.02:297][148]PIE: Warning: ConeRBP_C_5.ConoR MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.11.13-05.32.02:298][148]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_5.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.32.02:298][148]PIE: Warning: Invalid Simulate Options: Body (ConeYBP_C_5.ConoA MaterialSphere) is set to simulate physics but Collision Enabled is incompatible
+[2020.11.13-05.32.02:298][148]PIE: Warning: ConeYBP_C_5.ConoA MaterialSphere has to have 'CollisionEnabled' set to 'Query and Physics' or 'Physics only' if you'd like to AddImpulse. 
+[2020.11.13-05.32.02:298][148]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 40
+[2020.11.13-05.32.03:280][266]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.11.13-05.32.03:320][266]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.11.13-05.32.12:102][823]LogSavePackage: Save=19.44ms
+[2020.11.13-05.32.12:102][823]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Saved/ConeRBP85D34B494FF866467407B98BFDBED4E9.tmp' to 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeRBP.uasset'
+[2020.11.13-05.32.12:104][823]LogFileManager: Warning: DeleteFile was unable to delete 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeRBP.uasset', retrying in .5s...
+[2020.11.13-05.32.12:604][823]LogFileManager: Error: Error deleting file 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeRBP.uasset'.
+[2020.11.13-05.32.12:604][823]LogSavePackage: Error: Error saving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeRBP.uasset'
+[2020.11.13-05.32.12:606][823]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeRBP.uasset
+[2020.11.13-05.32.14:071][823]LogSavePackage: Save=31.84ms
+[2020.11.13-05.32.14:071][823]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Saved/ConeYBPB00D2CCB41375BD64FCA789291A4B56D.tmp' to 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset'
+[2020.11.13-05.32.14:073][823]LogFileManager: Warning: DeleteFile was unable to delete 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset', retrying in .5s...
+[2020.11.13-05.32.14:574][823]LogFileManager: Error: Error deleting file 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset'.
+[2020.11.13-05.32.14:574][823]LogSavePackage: Error: Error saving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset'
+[2020.11.13-05.32.14:576][823]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset
+[2020.11.13-05.32.15:204][823]LogSavePackage: Save=93.89ms
+[2020.11.13-05.32.15:204][823]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Saved/FirstPersonCharacter7894B1494B17A895786C75B8364A11CF.tmp' to 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2020.11.13-05.32.15:205][823]LogFileManager: Warning: DeleteFile was unable to delete 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset', retrying in .5s...
+[2020.11.13-05.32.15:707][823]LogFileManager: Error: Error deleting file 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'.
+[2020.11.13-05.32.15:707][823]LogSavePackage: Error: Error saving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2020.11.13-05.32.15:725][823]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2020.11.13-05.32.15:727][823]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.11.13-05.32.16:509][823]LogSavePackage: Save=156.37ms
+[2020.11.13-05.32.16:509][823]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Saved/FirstPersonExampleMap125202EF42483D03756518AA907ECED8.tmp' to 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2020.11.13-05.32.16:510][823]LogFileManager: Warning: DeleteFile was unable to delete 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap', retrying in .5s...
+[2020.11.13-05.32.17:010][823]LogFileManager: Error: Error deleting file 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'.
+[2020.11.13-05.32.17:010][823]LogSavePackage: Error: Error saving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2020.11.13-05.32.17:012][823]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2020.11.13-05.32.17:015][823]EditorErrors: New page: Save Output
+[2020.11.13-05.32.17:015][823]EditorErrors: Warning: Error saving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2020.11.13-05.32.17:030][823]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.809
+[2020.11.13-05.32.17:699][823]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TimerPoints" FILE="C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/TimerPoints.uasset" SILENT=true
+[2020.11.13-05.32.17:737][823]LogSavePackage: Save=25.78ms
+[2020.11.13-05.32.17:737][823]LogSavePackage: Moving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Saved/TimerPoints9A064C464A3807EA71A21D92FE3795FB.tmp' to 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/TimerPoints.uasset'
+[2020.11.13-05.32.17:738][823]LogFileManager: Warning: DeleteFile was unable to delete 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/TimerPoints.uasset', retrying in .5s...
+[2020.11.13-05.32.18:239][823]LogFileManager: Error: Error deleting file 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/TimerPoints.uasset'.
+[2020.11.13-05.32.18:239][823]LogSavePackage: Error: Error saving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/TimerPoints.uasset'
+[2020.11.13-05.32.18:241][823]LogSavePackage: Display: Finished SavePackage C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/TimerPoints.uasset
+[2020.11.13-05.32.18:953][823]EditorErrors: New page: Save Output
+[2020.11.13-05.32.18:953][823]EditorErrors: Warning: Error saving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeRBP.uasset'
+[2020.11.13-05.32.18:953][823]EditorErrors: Warning: Error saving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/ConeYBP.uasset'
+[2020.11.13-05.32.18:953][823]EditorErrors: Warning: Error saving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2020.11.13-05.32.18:953][823]EditorErrors: Warning: Error saving 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/TimerPoints.uasset'
+[2020.11.13-05.32.20:107][823]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.11.13-05.32.20:160][823]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.11.13-05.32.20:437][824]Cmd: QUIT_EDITOR
+[2020.11.13-05.32.20:994][824]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.13-05.32.21:023][824]LogExit: Preparing to exit.
+[2020.11.13-05.32.21:379][824]LogExit: Editor shut down
+[2020.11.13-05.32.21:383][824]LogExit: Transaction tracking system shut down
+[2020.11.13-05.32.21:688][824]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2020.11.13-05.32.21:688][824]LogDirectoryWatcher: A directory notification for 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/' was aborted.
+[2020.11.13-05.32.21:688][824]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2020.11.13-05.32.21:688][824]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2020.11.13-05.32.21:688][824]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2020.11.13-05.32.21:688][824]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2020.11.13-05.32.21:688][824]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2020.11.13-05.32.22:121][824]LogExit: Object subsystem successfully closed.
+[2020.11.13-05.32.22:251][824]LogD3D11RHI: Shutdown
+[2020.11.13-05.32.22:251][824]LogD3D11RHI: CleanupD3DDevice
+[2020.11.13-05.32.22:253][824]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.11.13-05.32.22:561][824]LogModuleManager: Shutting down and abandoning module SequencerWidgets (554)
+[2020.11.13-05.32.22:561][824]LogModuleManager: Shutting down and abandoning module BlueprintGraph (552)
+[2020.11.13-05.32.22:561][824]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (550)
+[2020.11.13-05.32.22:561][824]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
+[2020.11.13-05.32.22:561][824]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
+[2020.11.13-05.32.22:602][824]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
+[2020.11.13-05.32.22:611][824]LogDirectoryWatcher: A directory notification for 'D:/EpicGames/Games/UE_4.18/FeaturePacks/' was aborted.
+[2020.11.13-05.32.22:618][824]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
+[2020.11.13-05.32.22:618][824]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
+[2020.11.13-05.32.22:618][824]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
+[2020.11.13-05.32.22:618][824]LogDirectoryWatcher: A directory notification for 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/Collections/' was aborted.
+[2020.11.13-05.32.22:618][824]LogDirectoryWatcher: A directory notification for 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Content/Developers/Sebastian/Collections/' was aborted.
+[2020.11.13-05.32.22:618][824]LogDirectoryWatcher: A directory notification for 'C:/Users/Sebastian/Desktop/PlanVa Entretenimiento/TallerPractico/TallerPractico/TallerPractico/Saved/Collections/' was aborted.
+[2020.11.13-05.32.22:619][824]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2020.11.13-05.32.22:619][824]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2020.11.13-05.32.22:619][824]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2020.11.13-05.32.22:639][824]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2020.11.13-05.32.22:639][824]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2020.11.13-05.32.22:639][824]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2020.11.13-05.32.22:639][824]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2020.11.13-05.32.22:639][824]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2020.11.13-05.32.22:639][824]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2020.11.13-05.32.22:639][824]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2020.11.13-05.32.22:639][824]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2020.11.13-05.32.22:639][824]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2020.11.13-05.32.22:639][824]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2020.11.13-05.32.22:639][824]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2020.11.13-05.32.22:639][824]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2020.11.13-05.32.22:652][824]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2020.11.13-05.32.22:652][824]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2020.11.13-05.32.22:652][824]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2020.11.13-05.32.22:652][824]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2020.11.13-05.32.22:652][824]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2020.11.13-05.32.22:652][824]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2020.11.13-05.32.22:652][824]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2020.11.13-05.32.22:653][824]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2020.11.13-05.32.22:653][824]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2020.11.13-05.32.22:653][824]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2020.11.13-05.32.22:653][824]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2020.11.13-05.32.22:653][824]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2020.11.13-05.32.22:659][824]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2020.11.13-05.32.22:659][824]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2020.11.13-05.32.22:659][824]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2020.11.13-05.32.22:659][824]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2020.11.13-05.32.22:659][824]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2020.11.13-05.32.22:659][824]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2020.11.13-05.32.22:659][824]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2020.11.13-05.32.22:660][824]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2020.11.13-05.32.22:660][824]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2020.11.13-05.32.22:672][824]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2020.11.13-05.32.22:682][824]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2020.11.13-05.32.22:682][824]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2020.11.13-05.32.22:682][824]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2020.11.13-05.32.22:682][824]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2020.11.13-05.32.23:631][824]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2020.11.13-05.32.23:631][824]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2020.11.13-05.32.23:631][824]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2020.11.13-05.32.23:631][824]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2020.11.13-05.32.23:631][824]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2020.11.13-05.32.23:642][824]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2020.11.13-05.32.23:642][824]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2020.11.13-05.32.23:642][824]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2020.11.13-05.32.23:642][824]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2020.11.13-05.32.23:648][824]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2020.11.13-05.32.23:648][824]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2020.11.13-05.32.23:648][824]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2020.11.13-05.32.23:648][824]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2020.11.13-05.32.23:648][824]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2020.11.13-05.32.23:648][824]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2020.11.13-05.32.23:648][824]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2020.11.13-05.32.23:648][824]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2020.11.13-05.32.23:648][824]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2020.11.13-05.32.23:648][824]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2020.11.13-05.32.23:657][824]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2020.11.13-05.32.23:668][824]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2020.11.13-05.32.23:668][824]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2020.11.13-05.32.23:683][824]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2020.11.13-05.32.23:683][824]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2020.11.13-05.32.23:737][824]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2020.11.13-05.32.23:747][824]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2020.11.13-05.32.23:763][824]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2020.11.13-05.32.23:769][824]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2020.11.13-05.32.23:769][824]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2020.11.13-05.32.23:769][824]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2020.11.13-05.32.23:769][824]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2020.11.13-05.32.23:793][824]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2020.11.13-05.32.23:793][824]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2020.11.13-05.32.23:793][824]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2020.11.13-05.32.23:800][824]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2020.11.13-05.32.23:800][824]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2020.11.13-05.32.23:800][824]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2020.11.13-05.32.23:809][824]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2020.11.13-05.32.23:824][824]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2020.11.13-05.32.23:824][824]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2020.11.13-05.32.23:833][824]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2020.11.13-05.32.23:833][824]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2020.11.13-05.32.23:833][824]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2020.11.13-05.32.23:833][824]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2020.11.13-05.32.23:833][824]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2020.11.13-05.32.23:833][824]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2020.11.13-05.32.23:833][824]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2020.11.13-05.32.23:833][824]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2020.11.13-05.32.23:833][824]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2020.11.13-05.32.23:833][824]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2020.11.13-05.32.23:833][824]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2020.11.13-05.32.23:833][824]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2020.11.13-05.32.23:833][824]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
+[2020.11.13-05.32.23:833][824]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2020.11.13-05.32.23:943][824]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2020.11.13-05.32.23:943][824]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2020.11.13-05.32.23:943][824]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2020.11.13-05.32.23:943][824]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2020.11.13-05.32.23:953][824]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2020.11.13-05.32.23:953][824]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2020.11.13-05.32.23:953][824]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2020.11.13-05.32.23:953][824]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2020.11.13-05.32.23:953][824]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2020.11.13-05.32.23:953][824]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2020.11.13-05.32.23:953][824]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
+[2020.11.13-05.32.23:953][824]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
+[2020.11.13-05.32.23:961][824]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
+[2020.11.13-05.32.23:962][824]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
+[2020.11.13-05.32.23:962][824]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2020.11.13-05.32.23:962][824]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2020.11.13-05.32.23:969][824]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2020.11.13-05.32.23:969][824]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2020.11.13-05.32.23:969][824]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2020.11.13-05.32.23:969][824]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2020.11.13-05.32.23:969][824]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2020.11.13-05.32.23:969][824]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2020.11.13-05.32.23:969][824]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2020.11.13-05.32.23:969][824]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2020.11.13-05.32.23:969][824]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2020.11.13-05.32.23:969][824]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2020.11.13-05.32.23:969][824]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2020.11.13-05.32.23:984][824]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2020.11.13-05.32.23:984][824]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2020.11.13-05.32.23:984][824]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2020.11.13-05.32.23:984][824]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2020.11.13-05.32.23:984][824]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2020.11.13-05.32.23:984][824]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2020.11.13-05.32.23:995][824]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2020.11.13-05.32.23:995][824]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2020.11.13-05.32.23:996][824]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2020.11.13-05.32.23:996][824]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2020.11.13-05.32.23:996][824]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2020.11.13-05.32.23:997][824]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2020.11.13-05.32.23:997][824]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2020.11.13-05.32.23:997][824]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2020.11.13-05.32.23:997][824]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2020.11.13-05.32.23:997][824]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2020.11.13-05.32.23:997][824]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2020.11.13-05.32.23:997][824]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2020.11.13-05.32.23:997][824]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2020.11.13-05.32.24:098][824]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2020.11.13-05.32.24:199][824]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2020.11.13-05.32.24:199][824]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2020.11.13-05.32.24:199][824]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2020.11.13-05.32.24:199][824]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2020.11.13-05.32.24:199][824]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2020.11.13-05.32.24:199][824]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2020.11.13-05.32.24:200][824]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2020.11.13-05.32.24:200][824]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2020.11.13-05.32.24:200][824]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2020.11.13-05.32.24:213][824]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2020.11.13-05.32.24:223][824]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2020.11.13-05.32.24:223][824]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2020.11.13-05.32.24:223][824]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2020.11.13-05.32.24:223][824]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2020.11.13-05.32.24:235][824]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2020.11.13-05.32.24:235][824]LogModuleManager: Shutting down and abandoning module Media (221)
+[2020.11.13-05.32.24:242][824]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2020.11.13-05.32.24:242][824]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2020.11.13-05.32.24:242][824]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2020.11.13-05.32.24:253][824]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2020.11.13-05.32.24:254][824]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2020.11.13-05.32.24:254][824]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2020.11.13-05.32.24:267][824]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2020.11.13-05.32.24:267][824]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2020.11.13-05.32.24:267][824]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2020.11.13-05.32.24:267][824]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2020.11.13-05.32.24:267][824]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2020.11.13-05.32.24:267][824]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2020.11.13-05.32.24:267][824]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2020.11.13-05.32.24:267][824]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2020.11.13-05.32.24:280][824]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2020.11.13-05.32.24:280][824]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2020.11.13-05.32.24:284][824]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2020.11.13-05.32.24:284][824]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2020.11.13-05.32.24:284][824]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2020.11.13-05.32.24:284][824]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2020.11.13-05.32.24:284][824]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2020.11.13-05.32.24:284][824]LogModuleManager: Shutting down and abandoning module Core (172)
+[2020.11.13-05.32.24:284][824]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2020.11.13-05.32.24:295][824]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2020.11.13-05.32.24:295][824]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2020.11.13-05.32.24:295][824]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2020.11.13-05.32.24:311][824]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2020.11.13-05.32.24:311][824]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2020.11.13-05.32.24:311][824]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2020.11.13-05.32.24:327][824]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2020.11.13-05.32.24:327][824]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2020.11.13-05.32.24:327][824]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2020.11.13-05.32.24:327][824]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2020.11.13-05.32.24:397][824]LogDerivedDataCache: Shutdown
+[2020.11.13-05.32.24:398][824]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2020.11.13-05.32.24:398][824]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2020.11.13-05.32.24:398][824]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2020.11.13-05.32.24:408][824]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2020.11.13-05.32.24:417][824]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2020.11.13-05.32.24:417][824]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2020.11.13-05.32.24:417][824]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2020.11.13-05.32.24:417][824]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2020.11.13-05.32.24:417][824]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2020.11.13-05.32.24:417][824]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2020.11.13-05.32.24:417][824]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2020.11.13-05.32.24:417][824]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2020.11.13-05.32.24:417][824]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2020.11.13-05.32.24:417][824]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2020.11.13-05.32.24:417][824]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2020.11.13-05.32.24:417][824]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2020.11.13-05.32.24:417][824]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2020.11.13-05.32.24:418][824]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2020.11.13-05.32.24:418][824]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2020.11.13-05.32.24:418][824]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2020.11.13-05.32.24:418][824]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2020.11.13-05.32.24:418][824]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2020.11.13-05.32.24:418][824]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2020.11.13-05.32.24:418][824]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2020.11.13-05.32.24:418][824]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2020.11.13-05.32.24:418][824]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2020.11.13-05.32.24:418][824]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2020.11.13-05.32.24:418][824]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2020.11.13-05.32.24:418][824]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2020.11.13-05.32.24:418][824]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2020.11.13-05.32.24:418][824]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2020.11.13-05.32.24:418][824]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2020.11.13-05.32.24:418][824]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2020.11.13-05.32.24:418][824]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2020.11.13-05.32.24:418][824]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2020.11.13-05.32.24:418][824]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2020.11.13-05.32.24:418][824]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2020.11.13-05.32.24:418][824]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2020.11.13-05.32.24:418][824]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2020.11.13-05.32.24:418][824]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2020.11.13-05.32.24:418][824]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2020.11.13-05.32.24:418][824]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2020.11.13-05.32.24:418][824]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2020.11.13-05.32.24:418][824]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2020.11.13-05.32.24:418][824]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2020.11.13-05.32.24:418][824]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2020.11.13-05.32.24:429][824]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2020.11.13-05.32.24:429][824]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2020.11.13-05.32.24:429][824]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2020.11.13-05.32.24:429][824]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2020.11.13-05.32.24:429][824]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2020.11.13-05.32.24:451][824]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2020.11.13-05.32.24:451][824]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2020.11.13-05.32.24:451][824]LogHttp: Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2020.11.13-05.32.24:460][824]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA85C830D-48B0-AD87-4B09-09B876D29A3D%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=861ca12a42756dbcf3f6918c60501a40%7Cebcb5f2c85894ba5a3a9ac04b9e40510%7C8bbfd533-bc65-493b-a7f3-cbfa877b35c8&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.11.13-05.32.24:460][824]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA85C830D-48B0-AD87-4B09-09B876D29A3D%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=861ca12a42756dbcf3f6918c60501a40%7Cebcb5f2c85894ba5a3a9ac04b9e40510%7C8bbfd533-bc65-493b-a7f3-cbfa877b35c8&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.11.13-05.32.24:476][824]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2020.11.13-05.32.24:481][824]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2020.11.13-05.32.24:489][824]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2020.11.13-05.32.24:489][824]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2020.11.13-05.32.24:489][824]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2020.11.13-05.32.24:503][824]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2020.11.13-05.32.24:503][824]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2020.11.13-05.32.24:503][824]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2020.11.13-05.32.24:513][824]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2020.11.13-05.32.24:514][824]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2020.11.13-05.32.24:514][824]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2020.11.13-05.32.24:514][824]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2020.11.13-05.32.24:514][824]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2020.11.13-05.32.24:514][824]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2020.11.13-05.32.24:514][824]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2020.11.13-05.32.24:514][824]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2020.11.13-05.32.24:514][824]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2020.11.13-05.32.24:515][824]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2020.11.13-05.32.24:531][824]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2020.11.13-05.32.24:553][824]LogExit: Exiting.
+[2020.11.13-05.32.24:561][824]Log file closed, 11/13/20 00:32:24
