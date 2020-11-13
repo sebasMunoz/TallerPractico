@@ -10,3 +10,7 @@ ConeRBP y ConeYBP (originalmente eran conos XD): Se reconoce el objeto con el qu
 FirstPersonCharacter: En este blueprint se implementó la selección de los colores de las balas con los numeros 1 y 2, y que el disparo fuera con espacio; también se le implementó un delay entre los disparos.
 		      
 FirstPersonExampleMap (Level Blueprint): Se implementa el spawn aleatorio de los objetos desde 4 puntos diferentes en el mapa y que se siga generando cada 4 segundos.
+
+El modelado que se uso fue descargado de mixamo junto con las animaciones.
+Se creo un instance para poner el Game Over
+Reload es el anim montage y se reproduce dentro del personaje al presionar 1 y 2.
