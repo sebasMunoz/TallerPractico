@@ -14,3 +14,4 @@ FirstPersonExampleMap (Level Blueprint): Se implementa el spawn aleatorio de los
 El modelado que se uso fue descargado de mixamo junto con las animaciones X Bot.
 Se creo un instance para poner el Game Over
 Todos las particulas son las basicas de unreal con valores modificados.
+Disparo con espacio, Ctrl para saltar, cambiar balas con 1 y 2.
